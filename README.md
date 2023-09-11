@@ -13,7 +13,7 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 8. Belajar Fundamental Front-End Web Development
 9. Menjadi Front-End Web Developer Expert
 10. Meniti Karier sebagai Software Developer
-11. Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)
+11. Cloud Practitioner Essentials (Belajar Dasar AWS Cloud) / GCP (Google Cloud Platform)
 12. Architecting on AWS (Membangun Arsitektur Cloud di AWS)
 13. Belajar Implementasi CI/CD
 14. Belajar Membangun Arsitektur Microservices
