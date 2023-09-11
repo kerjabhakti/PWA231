@@ -21,7 +21,7 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 # Langkah yang harus dilakukan
 1. lakukan fork repository ke akun github masing-masing
 2. Lakukan Git Clone ke komputer
-3. Jika mengirimkan tugas maka lakukan Push and Pull sesuai kebutuhan
+3. Jika mengirimkan tugas maka lakukan Commit, Push and Pull sesuai kebutuhan
 4. Jangan lupa sinkronisasikan repo fork ke repo utama
    
 # Tools git scm
