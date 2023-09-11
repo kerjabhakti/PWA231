@@ -18,8 +18,7 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 13. Belajar Implementasi CI/CD
 14. Belajar Membangun Arsitektur Microservices
 
-# Tools
-# git scm
+# Tools git scm
 Download git-scm dari https://git-scm.com/downloads
 
 ## Get SSH Key 
