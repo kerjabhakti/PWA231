@@ -43,6 +43,7 @@ to get ssh key in your computer, and put in your github or gitlab ssh key settin
 ```sh
 cat ~/.ssh/id_rsa.pub
 ```
+OK
 
 ## Pilih Setting
 ![image](https://github.com/kerjabhakti/PWA231/assets/15622730/a4c22f86-9ad1-4b24-9d97-77629036e070)
