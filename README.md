@@ -2,6 +2,12 @@
 Kelas 1A Tahun 2023 Semester 1 (Ganjil) <br>
 Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dimana mahasiswa akan mendapatkan materi perkuliahan dan pengumpulan tugas pada repo ini
 
+# Deskripsi Perkuliahan dan Penilaian
+## Penilaian 
+| A = 4 | AB = 3,5 | B = 3 | BC = 2,5 |C = 2 |D = 1 | E = 0|
+| -------- | -------- | -------- | -------- |-------- |-------- |-------- |
+| 85 - 100 | 78 - 84,99 | 70 - 77,99 | 65 - 69,99 | 60 - 64,99 | 41 - 59,99 | <40,99|
+
 # Progress - Rencana Pembelajaran Semester (RPS) 
 1. Pengenalan ke Logika Pemrograman (Programming Logic 101)
 2. Memulai Dasar Pemrograman untuk Menjadi Pengembang Software
