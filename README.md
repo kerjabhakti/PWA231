@@ -2,6 +2,9 @@
 Kelas 1A Tahun 2023 Semester 1 (Ganjil) <br>
 Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dimana mahasiswa akan mendapatkan materi perkuliahan dan pengumpulan tugas pada repo ini
 
+## Modul kuliah bisa dilihat disini
+## (Kampus Digital Masa Gitu) [https://www.roniandarsyah.com/]
+
 # Deskripsi Perkuliahan dan Penilaian
 ## Penilaian 
 | A = 4 | AB = 3,5 | B = 3 | BC = 2,5 |C = 2 |D = 1 | E = 0|
