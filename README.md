@@ -23,6 +23,7 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 12. Architecting on AWS (Membangun Arsitektur Cloud di AWS/GCP)
 13. Belajar Implementasi CI/CD
 14. Belajar Membangun Arsitektur Microservices
+Selamat Belajar
 
 # Langkah yang harus dilakukan
 1. lakukan fork repository ke akun github masing-masing
