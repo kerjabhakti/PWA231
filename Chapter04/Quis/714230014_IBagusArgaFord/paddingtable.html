@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding dan table</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        table {
+            background-color: #005033;
+            color: #746c61;
+        }
+        td {
+            padding: 8px;
+        }
+        tr {border-bottom: 1px solid #ddd;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        tr:nth-child(even) {
+            background-color: #d4bebe;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>kolom 1, baris 1</td>
+            <td>kolom 2, baris 2</td>
+        </tr>
+        <tr>
+            <td>kolom 1, baris 2</td>
+            <td>kolom 2, baris 2</td>
+        </tr>
+        <tr>
+            <td>kolom 1, baris 3</td>
+            <td>kolom 2, baris 3</td>
+        </tr>
+    </table>
+</body>
+</html>
