@@ -1,0 +1,107 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --judul: #112D4E;
+    --pilih:black;
+    --buy: #3F72AF ;
+    --hover: #FF2E63;
+    --bg: #F9F7F7 ;
+}
+
+header {
+    background-color: var(--bg);
+    color: var(--pilih);
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+}
+nav ul li {
+    float: right;
+}
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    background: var(--buy);
+    font-size: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    background: var(--hover);
+    transition: .5s ease-in-out;
+    transition-delay: .2s;
+
+}
+
+
+h1 {
+    margin: 0;
+}
+
+/* untuk menu makanan */
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-item {
+    flex: 1;
+    max-width: calc(33.33% - 20px);
+    margin: 0 10px 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+.menu-item:hover {
+    transform: scale(1.05);
+}
+.menu-item h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.menu-item p {
+    margin: 0;
+    color: var(--pilih);
+}
+
+.menu-item .buy {
+    background-color: var(--buy);
+    color: rgb(37, 22, 22);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.menu-item .buy:hover {
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    background: var(--hover);
+    text-decoration: dotted;
+}
