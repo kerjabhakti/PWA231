@@ -137,3 +137,9 @@ a.tbl-pesan:hover {
     transition: .5s ease-in-out;
     transition-delay: .3s;
 }
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
