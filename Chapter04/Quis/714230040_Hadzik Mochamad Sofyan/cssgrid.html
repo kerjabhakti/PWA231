@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0; padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .item {
+            width: 300px;
+            height: 200px;
+            box-shadow: 1px 1px 5px #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            font-size: 2rem;
+            font-weight: bold;
+            background: royalblue;
+            color: #fff;
+        }
+
+        .special {
+            background: red;
+        }
+
+        #unique {
+            background: green;
+        }
+    </style>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="boxshadow.html">Box Shadow</a></li>
+            <li><a href="paddingtable.html">Table</a></li>
+            <li><a href="cssgrid.html">Grid</a></li>
+            <li><a href="cssborder.html">Border</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+    <div class="wrapper">
+        <div class="item">
+            item 1
+        </div>
+        
+        <div class="item">
+            item 2
+        </div>
+
+        <div class="item special">
+            item 3 (Special)
+        </div>
+
+        <div class="item">
+            item 4
+        </div>
+
+        <div class="item">
+            item 5
+        </div>
+
+        <div class="item" id="unique">
+            item 6 (Unique)
+        </div>
+    </div>
+</body>
+</html>
