@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="widht=device-widht, initial-scale=1.0" />
+    <title>input</title>
+</head>
+<body>
+  <hi>pendaftaran workshop desain grafi</hi>
+  <form action="submit.php" method="post">
+    <label for="name">nama lengkap</label>
+    <input type="text" id="name" name="name" required />
+    <br />
+    <label for="email"></label>
+    <label type="email" id="email" name="email" required > 
+    <br />
+    <label for="experience">pengalaman</label>
+    <input type="radio" id="beginner" name="experience" value="beginner" />
+    <label for="beginner">pemula</label>
+    <input
+     type="radio"
+     id="intermediate"
+     name="exprience"
+     value="interediate"
+    />
+    <label for="intermediate">menengah</label>
+    <input type="radio" id="advance" name="exprience" value="advanced" />
+    <label for="advance">mahir</label>
+     
+    <label for="commment">harapan dari workshop</label> <br />
+    <textarea id="comment"> name="comment" rows="4" cols="50"</textarea>
+
+<input type="sumbit" value="daftar" />
+</form>
+</body>
+</html>
