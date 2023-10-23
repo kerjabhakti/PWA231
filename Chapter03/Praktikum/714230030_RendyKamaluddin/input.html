@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widh=device-width, initial-scale=1.0"/>
+        <title>Input</title>
+    </head>
+    <body>
+        <h1>Pendaftan tournamen online</h1>
+        <form action="submit.php" method="post">
+            <label for="name">Nama lengkap</label>
+            <input type="text" id="name" name="name" required/>
+            <br />
+            <label for="UID">UID</label>
+            <input type="UID" id="UID" name="UID" required/>
+            <br />
+            <label for="experience">Rank Tertinggi:</label>
+            <input type="radio" id="beginner" name="experience" value="beginner" />
+            <label for="beginner">epic</label>
+            <input type="radio" id="intermediate" name="experience" value="intermediate" />
+            <label for="beginner">legend</label>
+            <input type="radio" id="intermediate" name="experience" value="intermediate" />
+            <label form="beginner">mythic </label> <br> <br>
+        <label for="comment" >Nama team beserta pemain:</label> <br />
+        <textarea name="comment" id="comment" cols="50" rows="4"></textarea>
+        <input type="submit" value="Daftar" />
+
+        </form>
+    </body>
+</html>

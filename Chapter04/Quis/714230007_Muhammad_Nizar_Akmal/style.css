@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+            justify-content: center;
+            background-color: blueviolet;
+        }
+        
+        nav a {
+            text-decoration: center;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .konten {
+            flex: 70%;
+            position: relative;
+            left: 200px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            margin: 20px auto;
+            text-align: center;
+            padding: 10px;
+            justify-content: center;
+        }
