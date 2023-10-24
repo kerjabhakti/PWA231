@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box dan Shawdow</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: violet;
+            background-size: cover;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        .container {
+            position: relative;
+            width: 350px;
+            height: 200px;
+            background-color: aqua;
+            margin: 100px auto;
+            box-shadow: 5px 5px 15px;
+        }
+
+        .box {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            background-color: black;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: transform 0.5s;
+        }
+
+        .box:hover {
+            transform: translate(-50%, -50%) rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Position dan Box Shadow</h1>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

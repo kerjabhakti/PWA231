@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Tampilan Website Responsif</title>
+        <style>
+            body {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: olivedrab;
+            }
+
+            header{
+                background-color: aquamarine;
+                color: blue;
+                text-align: center;
+                padding: 30px;
+            }
+
+            nav {
+                display: flex;
+                justify-content: center;
+                background-color: palegreen;
+            }
+
+            nav a {
+                text-decoration: none;
+                color: gold;
+                padding: 15px 30px;
+            }
+
+            .container {
+                max-width: 1300px;
+                margin: 25px auto;
+                padding: 25px;
+                background-color: azure;
+                border-radius: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+
+            .main-content {
+                flex: 80%;
+            }
+
+            .sidebar {
+                flex: 40%;
+            }
+
+            footer {
+                background-color: palegoldenrod;
+                color: gold;
+                text-align: center;
+                padding: 15px;
+            }
+
+            @media (max-width: 768px){
+                .container{
+                    flex-direction: column;
+                }
+                .main-content,
+                .sidebar {
+                    width: 150%;
+                }
+            }
+        </style> 
+    </head>
+    <body>
+        <header>
+            <h1>Selamat Datang di Website Kami</h1>
+        </header>
+        <nav>
+            <a href="#">Beranda</a>
+            <a href="#">Tentang Kami</a>
+            <a href="#">Layanan Kami</a>
+            <a href="#">Kontak Kami</a>
+        </nav>
+        <div class="container">
+            <div class="main-content">
+            <h2>Selamat Datang</h2>
+            <p>
+                Ini adalah tampilan website yang keren. Anda dapat menambahkan lebih banyak konten menarik disini
+            </p>
+        </div>
+        <div class="sidebar">
+            <h3>Side Bar</h3>
+            <ul>
+                <li>Barang 1</li>
+                <li>Barang 2</li>
+                <li>Barang 3</li>
+            </ul> 
+        </div>
+    </body>
+</html>
