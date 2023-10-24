@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS  Internal</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: blue;
+        }
+        header {
+            background-color: aqua;
+            color: grey;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: green;
+        }
+        
+        nav a {
+            text-decoration: center;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .konten {
+            flex: 70%;
+            position: relative;
+            left: 200px;
+        }
+
+        .sidebar {
+            flex: 40%;
+            position: absolute;
+            left: px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            margin: 20px auto;
+            text-align: center;
+            padding: 10px;
+            justify-content: center;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .konten,
+            .sidebar {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Website Sekolah</h1>
+    </header>
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Tentang Kami</a>
+        <a href="#">Layanan</a>
+        <a href="#">Kontak</a>
+    </nav>
+    <div class="container">
+        <div class="konten">
+            <h2>Pengenalan CSS</h2>
+            <p>
+                Ini contoh website responsif. Untuk segala kekurangan mohon dimaklumkan karena yang sempurna hanyalah milik Tuhan.
+            </p>
+        </div>
+        <div class="sidebar">
+            <h3>Bar samping</h3>
+            <ul>
+                <li><a href="paddingtable.html">padding</a></li>
+                <li><a href="cssborder.html">css border</a></li>
+                <li><a href="boxshadow.html">box shadow</a></li>
+            </ul>
+        </div>
+        <footer>
+            <p>@2023 Contoh Web Interaktif Copyright All right reserved</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid dan Selector</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .item{
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            background-color: purple;
+            color: white;
+            padding: 20px;
+            font-size: 18px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid black;
+        }
+        .spesial{
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            color: white;
+            padding: 20px;
+            font-size: 20px;
+            background-color: red;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid black;
+        }
+        #uniqe{
+            background-color: darkcyan;
+        }
+        .container p {
+            font-size: arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Css Grid dan Selector</h1>
+    <div class="container">
+        <div class="item">Baju</div> 
+        <div class="item">Celana</div>
+        <div class="spesial">Hodie (Spesial)</div>
+        <div class="item">Topi</div>
+        <div class="item">Ikat pinggang</div>
+        <div class="item" id="uniqe">Sepatu (Uniqe)</div>
+    </div>
+    <p>contoh text dalam class "container"</p>
+    <p>contoh text luar class "container" </p>
+</body>
+</html>
