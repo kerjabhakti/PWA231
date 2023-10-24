@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Input</title>
+</head>
+<body>
+    <h1>Open recruitment staff </h1>
+    <form action="submit.php" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required/>
+        <br/>
+        <label for="email">Email</label>
+        <input type="email" id="name" name="email" required/>
+        <br/>
+        <label for="experience">Experience:</label>
+        <input type="radio" id="beginner" name="experience" value="beginner"/>
+        <label for="beginner">Beginner</label>  
+        <input
+         type="radio"
+         id="intermediate"
+         name="experience"
+         value="intermediate" 
+     />
+     <label for="intermediate">Intermediate level</label>
+     <input type="radio" id="advanced" name="experience" value="advanced"/>
+     <label for="advanced">advanced level</label>
+
+     <br>
+     <label for="comment">expectations from the staff:</label><br/>
+     <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+
+
+     <br>
+     <input type="submit" value="register here">
+    </form>
+</body>
