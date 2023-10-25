@@ -34,10 +34,73 @@ npx tailwindcss init
   </head>
   <body>
 ```
-
-
-
-
-
+## Kodingan membuat class container
+```
+ <!-- Membuat class container dan ukurannya disini -->
+    <!-- Menambahkan background Images -->
+    <!-- Menambah posisi gambar agar ketengah -->
+    <!-- Mengatur posisi ukurannya -->
+    <div
+      class="container min-h-screen bg-[url('images/image.png')] bg-center bg-cover px-28 py-5 relative"
+    >
+      <!-- membuat class name flex pada nav-->
+      <nav class="flex items-center">
+        <img
+          src="images/logo.png"
+          alt="logonyaini"
+          class="w-40 cursor-pointer"
+        />
+```
+## Atur Posisi Logo
+```
+      <ul class="flex-1 text-center">
+```
+## Atur margin setelah inline-block dan padding setelah text-white
+```
+        <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Home</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">About</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Features</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Contact</a>
+          </li>
+        </ul>
+        <img src="images/cart.png" alt="keranjang" class="w-8 cursor-pointer" />
+      </nav>
+```
+## Membuat text dan jarak
+```
+<div class="text-white mt-48">
+        <h1 class="text-6xl font-semibold leading-normal">
+          Belajar Ngoding Cepat<br>
+           <span class="font-light">Tailwindcss 20 Menit</span>
+        </h1>
+        <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam recusandae deleniti, <br>necessitatibus quisquam accusantium voluptas maxime, incidunt voluptatibus architecto <br>excepturi placeat numquam. Consequuntur sed assumenda eum. Culpa, esse minima,<br> eum dicta ea non officia dignissimos neque fugiat quaerat voluptatibus autem!
+        </p>
+```
+## Hover
+```
+<div class="mt-10">
+          <a
+            href="#"
+            class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+            >Mari Belajar</a
+          >
+          <a href="#">Download Modulnya <span class="text-lg inline-block rotate-90">&#10148</span></a>
+        </div>
+```
+## Tambah Gambar
+```
+</div>
+      <img src="images/programmer.png" class="w-full xl:w-1/2 xl:absolute bottom-0 right-20 alt="">
+    </div>
+```
+# Hasil Akhir
 ![image](https://github.com/kerjabhakti/PWA231/assets/15622730/d4e48e7e-6ee0-4eb0-ba14-6405d5a187fa)
 
