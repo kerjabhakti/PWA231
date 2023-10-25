@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pendaftaran Himatif</h1>
+    <form action="" method="post">
+        <label for="name">Nama Lengkap:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        
+        <label for="experience">Pengalaman:</label>
+        <input type="radio" name="experience" id="beginner" value="beginner">
+        <label for="beginner">Pemula</label>
+        <input 
+            type="radio" 
+            name="experience" 
+            id="intermediate" 
+            value="intermediate">
+        <label for="intermediate">Menengah</label>
+        <input type="radio" name="advanced" id="experience" value="advanced">
+        <label for="advanced">Mahir</label>
+        <br>
+        <label for="comment">Harapan di Himatif:</label>
+        <br>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="Daftar">
+    </form>
+</body>
+</html>
