@@ -1,0 +1,212 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbar {
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.navbar-brand {
+	font-size: 2rem;
+	font-family: "Lobster", cursive;
+}
+
+.nav-link {
+	font-size: 1rem;
+	font-family: "Rubik", sans-serif;
+	font-weight: 700;
+	color: balck;
+}
+
+.nav-link:hover {
+	color: black;
+}
+
+.nav-link::after {
+	content: "";
+	display: block;
+	padding-bottom: 0.2rem;
+	border-bottom: 0.1rem solid rgb(224, 7, 71);
+	transform: scaleX(0);
+	transition: 0.2s linear;
+}
+
+.nav-link:hover::after {
+	transform: scaleX(0.5);
+}
+
+.icon-account,
+.icon-cart {
+	font-size: 1rem;
+	font-family: "Rubik", sans-serif;
+}
+
+.btn-sign-up {
+	height: 40px;
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+	padding: 12px 24px;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	display: flex;
+	margin-right: 5px;
+	font-weight: 700;
+	background-color: rgba(250, 92, 139, 0.15);
+	color: rgb(224, 7, 71);
+}
+
+.btn-login {
+	height: 40px;
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+	padding: 12px 24px;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	display: flex;
+	font-weight: 700;
+	background-color: rgb(224, 7, 71);
+	color: white;
+}
+
+/* End Navbar */
+
+/* Breadcrumb */
+
+.breadcrumb {
+	margin-top: 50px;
+}
+
+.breadcrumb .container ol li a {
+	text-decoration: none;
+	color: rgb(224, 7, 71);
+}
+
+/* End Breadcrumb */
+
+/* Product */
+
+.product .container img {
+	width: 450px;
+	height: 450px;
+}
+
+.product .container h2 {
+	font-weight: 700;
+}
+
+.product .container .fa-star,
+.product .container .fa-star-half-stroke {
+	color: rgb(242, 211, 10);
+}
+
+.product .container h4 {
+	font-weight: 700;
+}
+
+.product .container h6 {
+	display: inline-block;
+}
+
+.product .container .truck-icon,
+.product .container .note-icon {
+	color: rgb(224, 7, 71);
+}
+
+.product .container .btn-1 {
+	font-family: "Poppins", sans-serif;
+	height: 45px;
+	width: 30%;
+	border: none;
+	outline: none;
+	background-color: rgb(224, 7, 71);
+	color: white;
+	font-weight: 700;
+	border-radius: 60px;
+}
+
+.product .container .btn-1:hover {
+	background-color: rgb(223, 35, 91);
+}
+
+.product .container .btn-2 {
+	font-family: "Poppins", sans-serif;
+	height: 45px;
+	width: 30%;
+	border: none;
+	outline: none;
+	background-color: rgba(250, 92, 139, 0.15);
+	color: rgb(224, 7, 71);
+	font-weight: 700;
+	border-radius: 60px;
+	border: 1px solid rgb(75, 73, 73);
+}
+
+.product .container .btn-2:hover {
+	background-color: rgba(150, 18, 60, 0.15);
+}
+
+/* End Product */
+
+/* Detail Produk */
+.detail-product .container h4 {
+	font-weight: 700;
+}
+
+.detail-product .container p {
+	text-align: justify;
+}
+/* End Detail Produk */
+
+/* Footer */
+footer {
+	background-color: rgb(224, 7, 71);
+	padding: 15px 0;
+}
+
+footer .container .socials {
+	padding: 7px 0;
+	margin-bottom: 7px;
+}
+
+footer .container .socials a {
+	color: #fff;
+	margin: 8px;
+}
+
+footer .container .socials a .fa-instagram,
+footer .container .socials a .fa-facebook,
+footer .container .socials a .fa-twitter {
+	font-size: 23px;
+}
+
+footer .container .socials i {
+	font-size: 15px;
+}
+
+footer .container .socials a:hover,
+footer .container .links a:hover {
+	color: black;
+}
+
+footer .container .links {
+	margin-bottom: 10px;
+}
+
+footer .container .links a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 13px;
+	font-weight: 500;
+}
+
+footer .container .credit p {
+	color: #fff;
+}
+
+/* End Footer */
