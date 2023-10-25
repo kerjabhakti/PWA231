@@ -20,6 +20,7 @@ npx tailwindcss init
 1. Buat File HTML standar
 2. Buat File Style.css
 3. Siapkan dokumen asetnya (File Gambar) Bebas
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/d958bc2a-df67-468f-922d-0ed7648c9dd8)
 
 ```
 <!DOCTYPE html>
@@ -34,6 +35,14 @@ npx tailwindcss init
   </head>
   <body>
 ```
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/4ff52287-f051-4bda-b00d-9d53dba3a56b)
+
+## Instal Extension Tailwind
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/f040db65-9847-4159-9952-fd70734b4020)
+
+## Background Position
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/926cb138-760f-423e-84e6-693ce88d4c22)
+
 ## Kodingan membuat class container
 ```
  <!-- Membuat class container dan ukurannya disini -->
@@ -51,6 +60,10 @@ npx tailwindcss init
           class="w-40 cursor-pointer"
         />
 ```
+
+## Margin dan Padding
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/7c41e8ca-1fd9-4895-afe0-dc6dd7a6c51b)
+
 ## Atur Posisi Logo
 ```
       <ul class="flex-1 text-center">
@@ -101,6 +114,9 @@ npx tailwindcss init
       <img src="images/programmer.png" class="w-full xl:w-1/2 xl:absolute bottom-0 right-20 alt="">
     </div>
 ```
+## Responsive Website
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/ca2b8dae-1737-4933-ad0f-36931c9bc496)
+
 # Hasil Akhir
 ![image](https://github.com/kerjabhakti/PWA231/assets/15622730/d4e48e7e-6ee0-4eb0-ba14-6405d5a187fa)
 
