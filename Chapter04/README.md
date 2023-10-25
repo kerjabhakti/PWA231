@@ -53,3 +53,49 @@ Yang akan dipelajari terdiri dari :
 </html>
 
 ```
+
+# Membuat UI Sederhana
+``` html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Menghubungkan file CSS eksternal -->
+    <title>Website Responsif</title>
+  </head>
+  <body>
+    <header>
+      <h1>Selamat Datang di Website Kami</h1>
+      <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Tentang Kami</a>
+        <a href="#">Layanan</a>
+        <a href="#">Kontak</a>
+      </nav>
+    </header>
+    <main>
+      <section class="content">
+        <h2>Tentang Kami</h2>
+        <p>
+          Kami adalah perusahaan yang berfokus pada pengembangan web dan
+          teknologi.
+        </p>
+      </section>
+      <section class="content">
+        <h2>Layanan Kami</h2>
+        <ul>
+          <li>Desain Web</li>
+          <li>Pengembangan Aplikasi</li>
+          <li>Optimisasi SEO</li>
+        </ul>
+      </section>
+    </main>
+    <footer>&copy; 2023 Website Responsif. Hak Cipta Dilindungi.</footer>
+  </body>
+</html>
+```
+
+hasilnya
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/116e121d-b693-4c58-8c0b-bc4b5fd8e98d)
