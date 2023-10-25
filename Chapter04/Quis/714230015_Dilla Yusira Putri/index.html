@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        <title>Tampilan Website Responsif</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: rgb(231, 91, 166);
+            }
+            header {
+                background-color: burlywood;
+                color: white;
+                text-align: center;
+                padding: 30px;
+            }
+            nav {
+                display: flex;
+                justify-content: center;
+                background-color: rgb(207, 164, 129);
+            }
+            nav a {
+                text-decoration: none;
+                color: rgb(255, 162, 0);
+                padding: 20px 30px;
+            }
+            .container {
+                max-width: 1300px;
+                margin: 30px auto;
+                padding: 30px;
+                background-color: brown;
+                border-radius: 6px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .main-content {
+                flex: 70%;
+            }
+            .sidebar {
+                flex: 40%;
+            }
+            footer {
+                background-color: rgb(255, 234, 9);
+                color: rgb(237, 84, 7);
+                text-align: center;
+                padding: 20px;
+            }
+            @media (max-width: 768px) {
+                .container {
+                    flex-direction: column;
+                }
+                .main-content,
+                .sidebar {
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <hi1>Welcome to Dilla`s Website</hi1>
+        </header>
+        <nav>
+            <a href="#">Beranda</a>
+            <a href="#">Seputar Trend</a>
+            <a href="#">Kontak</a>
+            <a href="#">Media Sosial</a>
+        </nav>
+        <div class="container">
+            <div class="main-content">
+                <h2>This is my website</h2>
+                <p>
+                    Website ini masih dalam pengembangan dikarenakan saya baru belajar
+                </p>
+            </div>
+            <div class="sidebar">
+                <h3>Bar Samping</h3>
+                <ul>
+                    <li>Nomor 1</li>
+                    <li>Nomor 2</li>
+                    <li>Nomor 3</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
