@@ -16,6 +16,27 @@ Install tailwindcss via npm, and create your tailwind.config.js file.
 npm install -D tailwindcss
 npx tailwindcss init
 ```
+# Langkah Membuat Halaman Website Sederhana menggunakan HTML dan Tailwind CSS
+1. Buat File HTML standar
+2. Buat File Style.css
+3. Siapkan dokumen asetnya (File Gambar) Bebas
+
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membuat Website dengan Tailwind</title>
+    <!-- Jangan lupa tambahkan koneksi HTML ke CSS/Tailwind  -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+```
+
+
+
 
 
 ![image](https://github.com/kerjabhakti/PWA231/assets/15622730/d4e48e7e-6ee0-4eb0-ba14-6405d5a187fa)
