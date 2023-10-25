@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk ke Forum Game</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .video-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        video {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(22, 9, 29, 0.349);
+            pointer-events: none;
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+            padding: 20px 0;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            background-color: #007BFF;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: 500;
+            margin: 5px 10px;
+            transition: background-color 0.3s;
+            position: relative;
+        }
+
+        nav a:hover{
+            background-color: #0056b3;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(22, 9, 29, 0.349);
+            border-radius: 5px;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+        }
+
+        nav a:hover::after {
+            opacity: 1;
+        }
+
+        .login-container {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ffffffa1;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .login-container h2 {
+            font-size: 24px;
+        }
+
+        .login-container form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .login-container label, .login-container input {
+            margin: 10px 0;
+        }
+
+        .login-container button {
+            background-color: #007BFF;
+            color: #ffffff;
+            padding: 10px 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .login-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-bg">
+        <video autoplay loop muted>
+            <source src="https://v.ftcdn.net/01/25/34/36/700_F_125343611_0kPrCarU7KU5cdEClVMkkJDTyEPJr9Ji_ST.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="overlay"></div>
+
+    <header>
+        <h1>Masuk ke Forum Game</h1>
+    </header>
+
+    <nav>
+        <a href="BERANDA.html">Beranda</a>
+        <a href="MASUK.html">Masuk</a>
+        <a href="RESGISTRASI.html">Registrasi</a>
+        <a href="KONTAK.html">Kontak</a>
+    </nav>
+
+    <div class="login-container">
+        <h2>Silahkan Masuk</h2>
+        <form action="SubmitMasuk.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Masuk</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Forum Game. All rights reserved</p>
+    </footer>
+</body>
+</html>
