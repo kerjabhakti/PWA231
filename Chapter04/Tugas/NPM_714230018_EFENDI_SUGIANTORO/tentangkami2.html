@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan Efendi - Tentang Kami</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        
+        nav a:hover {
+            background-color: #555;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+        
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        h2 {
+            animation: colorChange 3s infinite;
+        }
+        
+        @keyframes colorChange {
+            0% {
+                color: #333;
+            }
+            50% {
+                color: #ff5500;
+            }
+            100% {
+                color: #333;
+            }
+        }
+        
+        form {
+            margin: 20px 0;
+        }
+        
+        label {
+            display: block;
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="submit"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        
+        textarea {
+            height: 100px;
+        }
+        
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Perpustakaan Efendi - Tentang Kami</h1>
+        <nav>
+            <a href="index2.html">Beranda</a>
+            <a href="katalog2.html">Koleksi Buku</a>
+            <a href="pencarian2.html">Pencarian</a>
+            <a href="tentangkami2.html">Tentang</a>
+            <a href="komen.html">Komentar</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Tentang Kami</h2>
+        <p>Kami adalah Perpustakaan Efendi, yang bertujuan untuk menyediakan koleksi buku berkualitas bagi semua pengunjung kami. Dengan berbagai genre dan topik, kami berkomitmen untuk memenuhi kebutuhan literasi Anda.</p>
+
+        <h2>Tim Kami</h2>
+        <table>
+            <tr>
+                <th>Nama</th>
+                <th>Jabatan</th>
+            </tr>
+            <tr>
+                <td>Efendi.S</td>
+                <td>Owner</td>
+            </tr>
+            <tr>
+                <td>Eko.M</td>
+                <td>Pengurus Pustakawan</td>
+            </tr>
+        </table>
+
+        <h2>Hubungi Kami</h2>
+        <form>
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Masukkan alamat email Anda" required>
+
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" placeholder="Tulis pesan Anda di sini" required></textarea>
+
+            <input type="submit" value="Kirim Pesan">
+        </form>
+    </div>
+</body>
+
+</html>
