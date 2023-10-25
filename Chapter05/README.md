@@ -18,4 +18,5 @@ npx tailwindcss init
 ```
 
 
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/d4e48e7e-6ee0-4eb0-ba14-6405d5a187fa)
 
