@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>CSS grid dan selector</title>
+        <style>
+            .container{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 10px;
+            }
+            .item{
+                background-color: blue;
+                color: black;
+                padding: 19px;
+                text-align: center;
+                font-size: 19px;
+            }
+            .special{
+                background-color: aqua;
+            }
+            #unique{
+                background-color: aquamarine;
+            }
+            .container p{
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS grid dan selector</h1>
+        <div class="container">
+            <div class="item">item1</div>
+            <div class="item">item2</div>
+            <div class="item special">item3(special)</div>
+            <div class="item">item4</div>
+            <div class="item">item5</div>
+            <div class="item"id="unique">item(unique)</div>
+        </div>
+        <p>ini adalah contoh kalimat dalam class "box"</p>
+        <p>ini adalah contoh kalimat di luar class "box"</p>
+    </body>
+</html>     
