@@ -1,0 +1,27 @@
+section.cover {
+    background-image: url(https://images.samsung.com/is/image/samsung/assets/hk_en/news/the-fifth-samsung-experience-store-lands-in-central/pc_Samsung-Experience-Store-in-Central-2.jpg?$1156_N_JPG$);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+    padding-top: 120px;
+}
+section.cover::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    opacity: 75%;
+    background-color: black
+}
+
+section.cover div.container  {
+    z-index: 1;
+    position: relative;
+}
+
+footer a {
+    text-decoration: none;
+}
