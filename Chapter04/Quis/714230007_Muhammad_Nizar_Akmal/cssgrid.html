@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .item {
+            background-color: aqua;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            font-size: 12px;
+        }
+        .spes {
+            background-color: orange;
+        }
+        #unique {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Css grid</h1>
+    <div class="container">
+        <div class="item">i1</div>
+        <div class="item">i2</div>
+        <div class="item spes">i3 (spesial)</div>
+        <div class="item">i4</div>
+        <div class="item">i5</div>
+        <div class="item" id="unique">i6 (Unique)</div>
+    </div>
+    <p>Ini adalah contoh teks dalam class container</p>
+    <p>ini adalah contoh teks di luar class container</p>
+</body>
+</html>
