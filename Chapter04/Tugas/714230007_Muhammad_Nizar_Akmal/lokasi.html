@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <script>
+        function k() {
+            var e = document.getElementById("kirim");
+            e.style.display = "none" === e.style.display ? "block" : "none";
+        }
+    </script>
+    <title>Lokasi</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Selamat Datang di Dream Garage
+        </h1>
+        <p>Cari Mobil Impian Harga Ramah? Dream Garage Tempatnya</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="kategori.html">Kategori</a>
+        <a href="lokasi.html">Lokasi</a>
+        <a href="bookmark.html">Bookmark</a>
+    </nav>
+    <div class="conta">
+        <div class="inputt">
+            <input type="text" name="kota" id="kota">
+            <button onclick="k()">Kirim!</button>
+        </div>
+        <div id="kirim" style="display: none; text-align: center;">
+            <h3>Maaf! Belum ada yang memasang iklan di wilayah ini</h3>
+        </div>
+    </div>
+<footer>
+    <p>
+        Copyright Muhammad Nizar Akmal
+    </p>
+</footer>
+</body>
+</html>
