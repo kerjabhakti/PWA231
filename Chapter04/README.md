@@ -8,7 +8,7 @@ Yang akan dipelajari terdiri dari :
 6. CSS Position, Box Shadow, Animation, Background Image
 7. Latihan Tutorial Dasar untuk Pemula
 
-`` html
+``` html
 <!DOCTYPE html>
 <html lang="en">
   <head>
