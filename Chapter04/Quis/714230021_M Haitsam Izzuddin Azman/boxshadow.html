@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+        <title>Posisi CSS, Box Shadow, dan Animasi Nu Aing</title>
+        <style>
+            body {
+                margin: 150px;
+                padding: 150px;
+                background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?auto=format&fit=crop&q=80&w=2071&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+                background-size: cover;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .container {
+                position: relative;
+                width: 300px;
+                height: 200px;
+                background-color: aqua;
+                margin: 100px auto;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            }
+            .box {
+                position: center;
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                margin: 200px 150px;
+                padding: 25px;
+                top: 50%;
+                bottom: 100%;
+                transform: translate(-50%, -50%);
+                transition: transform 0.5s;
+            }
+            .box-shadow {
+                position:relative;
+                -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+            }
+            .box:hover {
+                transform: translate(-50%, -50%) rotate(45deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box"></div>
+        </div>
+    </body>
+</html>

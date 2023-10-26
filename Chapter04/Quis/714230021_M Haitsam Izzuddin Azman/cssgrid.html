@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+        <title>CSS Grid and Selector Nu Aing</title>
+        <style>
+            .flex-container {
+                display: flex;
+                height: 500px;
+                flex-wrap: wrap;
+                align-content: flex-start;
+                overflow: scroll;  
+                background-color: DodgerBlue;
+            }
+
+            .flex-container > div {
+                width: 100px;
+                margin: 10px;
+                text-align: center;
+                line-height: 60px;
+                font-family: 'Times New Roman', Times, serif;
+                
+                
+            }
+            .item {
+                background-color: greenyellow;
+                color: black;
+                padding: 10px;
+                text-align: center;
+                font-size: 20px;
+            }
+            .special {
+                background-color: rebeccapurple;
+            }
+            #unique {
+                background-color: seagreen;
+            }
+
+        .container {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>CSS Grid and Selector Nu Aing</h1>
+        <div class="flex-container">
+            <div class="item">Nu Aing 01</div>
+            <div class="item">Nu Aing 02</div>
+            <div class="item special">Nu Aing 03 (Special)</div>
+            <div class="item">Nu Aing 04</div>
+            <div class="item">Nu Aing 05</div>
+            <div class="item" id="unique">Nu Aing 06 (Unique)</div>
+        </div>
+        <p>Jadi euy ieu Flex Container Nu Aing 01</p>
+        <p>Jadi euy ieu Flex Container Nu Aing 02</p>
+    </body>
+</html>
