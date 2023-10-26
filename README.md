@@ -15,6 +15,8 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | Nama | NPM | Tugas 1 | Tugas 2|
 | -------- | -------- | -------- | -------- |
 | 714230003 | Resqi Aulia Gita Utami | | |
+| 714230005  | Reva Andini Busra| | |
+| 714230007  | Muhammad Nizar Akmal | | |
 
 # Progress - Rencana Pembelajaran Semester (RPS) 
 1. Pengenalan ke Logika Pemrograman (Programming Logic 101)
