@@ -11,6 +11,13 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | -------- | -------- | -------- | -------- |-------- |-------- |-------- |
 | 85 - 100 | 78 - 84,99 | 70 - 77,99 | 65 - 69,99 | 60 - 64,99 | 41 - 59,99 | <40,99|
 
+# Data Nilai
+| Nama | NPM | Tugas 1 | Tugas 2|
+| -------- | -------- | -------- | -------- |
+| 714230003 | Resqi Aulia Gita Utami | | |
+| 714230005  | Reva Andini Busra| | |
+| 714230007  | Muhammad Nizar Akmal | | |
+
 # Progress - Rencana Pembelajaran Semester (RPS) 
 1. Pengenalan ke Logika Pemrograman (Programming Logic 101)
 2. Memulai Dasar Pemrograman untuk Menjadi Pengembang Software
