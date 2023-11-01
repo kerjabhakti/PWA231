@@ -1,0 +1,244 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbar {
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.navbar-brand {
+	font-size: 2rem;
+	font-family: "Lobster", cursive;
+}
+
+.nav-link {
+	font-size: 1rem;
+	font-family: "Rubik", sans-serif;
+	font-weight: 700;
+	color: balck;
+}
+
+.nav-link:hover {
+	color: black;
+}
+
+.nav-link::after {
+	content: "";
+	display: block;
+	padding-bottom: 0.2rem;
+	border-bottom: 0.1rem solid rgb(224, 7, 71);
+	transform: scaleX(0);
+	transition: 0.2s linear;
+}
+
+.nav-link:hover::after {
+	transform: scaleX(0.5);
+}
+
+.icon-account,
+.icon-cart {
+	font-size: 1rem;
+	font-family: "Rubik", sans-serif;
+}
+
+.btn-sign-up {
+	height: 40px;
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+	padding: 12px 24px;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	display: flex;
+	margin-right: 5px;
+	font-weight: 700;
+	background-color: rgba(250, 92, 139, 0.15);
+	color: rgb(224, 7, 71);
+}
+
+.btn-login {
+	height: 40px;
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+	padding: 12px 24px;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	display: flex;
+	font-weight: 700;
+	background-color: rgb(224, 7, 71);
+	color: white;
+}
+
+/* End Navbar */
+
+/* Breadcrumb */
+
+.breadcrumb {
+	margin-top: 50px;
+}
+
+.breadcrumb .container ol li a {
+	text-decoration: none;
+	color: rgb(224, 7, 71);
+}
+
+/* End Breadcrumb */
+
+/* Biodata */
+
+.biodata {
+	font-family: "Rubik", sans-serif;
+}
+
+.biodata .container .foto-section {
+	background-color: rgb(224, 7, 71);
+	border-radius: 5px 5px 0 0;
+	padding: 10px;
+	margin-left: 40px;
+}
+
+.biodata .container .foto-section img {
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	justify-content: center;
+	border: 5px solid rgb(255, 157, 217);
+}
+
+.biodata .container .foto-section h1 {
+	margin: 15px 0 5px 0;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.biodata .container .foto-section p {
+	font-size: 15px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.biodata .container .foto-section i {
+	color: #fff;
+}
+
+.biodata .container .quote-section {
+	background-color: rgb(224, 7, 71);
+	border-radius: 5px 5px 0 0;
+	margin-left: 20px;
+}
+
+.biodata .container .quote-section h1 {
+	font-size: 30px;
+	text-align: center;
+	padding: 40px;
+	margin-top: 60px;
+	color: #fff;
+	font-family: "Lora", serif;
+}
+
+.biodata .container .socials-section {
+	background-color: rgb(224, 7, 71);
+	border-radius: 0 0 5px 5px;
+	padding: 10px;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+.biodata .container .socials-section a {
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+	padding-top: 12px;
+}
+
+.biodata .container .socials-section td p {
+	text-align: right;
+	font-size: 14px;
+	color: #fff;
+	padding-top: 12px;
+}
+
+.biodata .container .bio-section-left {
+	background-color: rgb(224, 7, 71);
+	border-radius: 0 0 0 5px;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-top: 12px;
+}
+
+.biodata .container .bio-section-left td p {
+	color: #fff;
+	font-size: 14px;
+	padding-top: 12px;
+}
+
+.biodata .container .bio-section-right {
+	background-color: rgb(224, 7, 71);
+	border-radius: 0 0 5px 0;
+	padding-top: 12px;
+	margin-left: -1px;
+	margin-top: 20px;
+}
+
+.biodata .container .bio-section-right td p {
+	color: #fff;
+	font-size: 14px;
+	padding-top: 12px;
+}
+
+/* End  Biodata */
+
+/* Footer */
+footer {
+	background-color: rgb(224, 7, 71);
+	padding: 15px 0;
+}
+
+footer .container .socials {
+	padding: 7px 0;
+	margin-bottom: 7px;
+}
+
+footer .container .socials a {
+	color: #fff;
+	margin: 8px;
+}
+
+footer .container .socials a .fa-instagram,
+footer .container .socials a .fa-facebook,
+footer .container .socials a .fa-twitter {
+	font-size: 23px;
+}
+
+footer .container .socials i {
+	font-size: 15px;
+}
+
+footer .container .socials a:hover,
+footer .container .links a:hover {
+	color: black;
+}
+
+footer .container .links {
+	margin-bottom: 10px;
+}
+
+footer .container .links a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 13px;
+	font-weight: 500;
+}
+
+footer .container .credit p {
+	color: #fff;
+}
+
+/* End Footer */
