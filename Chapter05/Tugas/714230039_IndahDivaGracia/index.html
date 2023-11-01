@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membuat Website dengan Tailwind</title>
+    <!-- Jangan lupa tambahkan koneksi HTML ke CSS/Tailwind  -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Membuat class container dan ukurannya disini -->
+    <!-- Menambahkan background Images -->
+    <!-- Menambah posisi gambar agar ketengah -->
+    <!-- Mengatur posisi ukurannya -->
+    <div
+      class="container min-h-screen bg-[url('images/background.png')] bg-center bg-cover px-28 py-5 relative"
+    >
+      <!-- membuat class name flex pada nav-->
+      <nav class="flex items-center">
+        <img
+          src="images/logo.png"
+          alt="logosepatu"
+          class="w-40 cursor-pointer"
+        />
+
+        <!-- Atur posisi logo kiri, 
+            menu tengan dan 
+            card icon di sebelah kanan  -->
+        <ul class="flex-1 text-center">
+          <!-- atur warna text agar jadi putih dan tanpa underline-->
+          <!-- ATur posisi text menjadi sejajar -->
+          <!-- Atur margin setelah inline-block dan padding setelah text-white-->
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Home</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">About</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Features</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Contact</a>
+          </li>
+        </ul>
+        <img src="images/cart.png" alt="keranjang" class="w-8 cursor-pointer" />
+      </nav>
+
+      <!-- Membuat Text  -->
+      <!-- Rubah text menjadi putih -->
+      <!-- Atur jarak text atas bawah dan ukuran text judul h1 -->
+      <div class="text-white mt-48">
+        <h1 class="text-6xl font-semibold leading-normal">
+          belanja sepatu cepat<br>
+           <span class="font-light">sepatu dengan kualitas tinggi</span>
+        </h1>
+        <p>
+         sepatu ini di ciptakan dengan kenyaman tinggi <br>di ciptakan dengan kualitastinggi,dengan warna dari pewarna alami,dan bahan bahan premium
+        </p>
+
+        <div class="mt-10">
+          <a
+            href="#"
+            class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+            >Mari Beli</a
+          >
+          <a href="#">Download Modulnya <span class="text-lg inline-block rotate-90">&#10148</span></a>
+        </div>
+
+      </div>
+     
+    </div>
+  </body>
+</html>
