@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+<style>
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:10px;
+    }
+    .item {
+        background-color: blue;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size:18px
+    }
+    .itemspesial {
+        background-color: silver;
+        padding: 20px;
+
+    }
+    #unique {
+        background-color: greenyellow;
+    }
+    .container p {
+        font-style: italic;
+    }
+</style>
+</head>
+<body>
+    <h1>Rekomendasi game</h1>
+    <div class="container">
+        <div class="item">DIABLO IV</div>
+        <div class="item">VALORANT</div>
+        <div class="itemspesial">MOBILE LEGEND (SPESIAL) </div>
+        <div class="item">FREE FIRE</div>
+        <div class="item">GENSHIN</div>
+        <div class="item" id="unique">DOTA 2 (UNIQUE) </div>
+    </div>
+    <p>contoh teks dalam conteiners.</p>
+    <p>contoh teks diluar conteiner.</p>
+</body>
+</html>

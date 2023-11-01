@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tampilan web renponsif</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        header {
+            background-color: rgb(21, 104, 220);
+            color: white;
+            text-align: center;
+            padding: 20px;        
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: green;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .main-content {
+            flex: 70%;
+        }
+        .sidebar {
+            flex: 30%;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .main-content,
+            .sidebar {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat datang di website saya</h1>
+    </header>
+    <nav>
+        <a href="#">beranda</a>
+        <a href="#">tentang kami</a>
+        <a href="#">Layanan</a>
+        <a href="#">Kontak</a>
+    </nav>
+    <div class="container">
+        <h2>selmat datang di website saya</h2>
+        <p>ini merupakan tampilan sederhana dari web responsif</p>
+    </div>
+    <div class="sidebar">
+        <h3>pilih salah satu</h3>
+        <ul>
+            <li>valorant</li>
+            <li>dota 2</li>
+            <li>pb</li>
+        </ul>
+    </div>
+</body>
+</html>
