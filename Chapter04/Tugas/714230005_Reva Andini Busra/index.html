@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>skin care </title>
+
+		<!-- Warna Background Produk -->
+		<!-- #f1efef -->
+
+		<!-- instalasi bootstrap css -->
+		<link href="css/bootstrap.css" rel="stylesheet" />
+
+		<!-- link css native -->
+		<link rel="stylesheet" href="css/style.css" />
+
+		<!-- bootstrap icon -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+
+		<!-- fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600&family=Rubik&display=swap"
+			rel="stylesheet" />
+
+		<!-- font awesome icons -->
+		<script
+			src="https://kit.fontawesome.com/65c823886a.js"
+			crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<!-- Navbar -->
+
+		<nav class="navbar navbar-expand-lg bg-light fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<i class="fa-solid fa-store"></i>
+				Skincare</a
+				>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#home">HOME</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#categories">CATEGORIES</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#products">PRODUCTS</a>
+						</li>
+
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#our-team">OUR TEAM</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#contact">CONTACT</a>
+						</li>
+					</ul>
+
+					<button class="btn-sign-up">Sign Up</button>
+					<button class="btn-login">Login</button>
+				</div>
+			</div>
+		</nav>
+
+		<!-- End Navbar -->
+
+		<!-- Banner -->
+
+		<section class="banner d-flex" id="home">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 text-center">
+						<h1>Radiant Skin, Naturally Yours</h1>
+						<a href="#categories"><button class="btn1">Buy Now</button></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- End Banner -->
+
+		<!-- Categories -->
+		<section class="categories d-flex" id="categories">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center mt-5">
+						<h2>Skincare Packets</h2>
+						<p>Shop Our Top Categories</p>
+					</div>
+				</div>
+
+				<div class="row text-center mt-3">
+					<div class="col-lg-2">
+						<div class="card border-0 no-bg">
+							<a href="#">
+								<img
+									src="assets/FOTO SKINCARE/fash wash.jpg"
+									class="img-fluid"
+									alt="Category 1" />
+							</a>
+							<div class="card-body">
+								<h6 class="card-text">face wash</h6>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="card border-0">
+							<a href="#">
+								<img
+									src="assets/FOTO SKINCARE/serum.jpg"
+									class="img-fluid"
+									alt="Category 2" />
+							</a>
+							<div class="card-body">
+								<h6 class="card-text">Serum</h6>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="card border-0">
+							<a href="#">
+								<img
+									src="assets/FOTO SKINCARE/moisturizer.jpg"
+									class="img-fluid"
+									alt="Category 3" />
+							</a>
+							<div class="card-body">
+								<h6 class="card-text">moisturizer</h6>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="card border-0">
+							<a href="#">
+								<img
+									src="assets/FOTO SKINCARE/krim siang.jpg"
+									class="img-fluid"
+									alt="Category 4" />
+							</a>
+							<div class="card-body">
+								<h6 class="card-text">Afternoon Cream</h6>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="card border-0">
+							<a href="#">
+								<img
+									src="assets/FOTO SKINCARE/krim malam.jpg"
+									class="img-fluid"
+									alt="Category 5" />
+							</a>
+							<div class="card-body">
+								<h6 class="card-text">Night cream</h6>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="card border-0">
+							<a href="#">
+								<img
+									src="assets/FOTO SKINCARE/retinol.jpg"
+									class="img-fluid"
+									alt="Category 6" />
+							</a>
+							<div class="card-body">
+								<h6 class="card-text">Retinol</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Categories -->
+
+		<!-- Search Bar -->
+
+		<section class="d-flex">
+			<div class="container">
+				<form class="d-flex justify-content-center mt-5" role="search">
+					<input class="search-bar p-2" placeholder="Search Toys..." />
+					<button class="btn2" type="submit">Search</button>
+				</form>
+			</div>
+		</section>
+
+		<!-- Search Bar End -->
+
+		<!-- Products -->
+		<section class="products d-flex" id="products">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center mt-5">
+						<h2>All Products</h2>
+						<p class="products-text">We Sell The Best Products</p>
+					</div>
+				</div>
+				<div class="row text-center mt-3">
+					<div class="col-lg-3">
+						<div class="card border-0">
+							<a href="product_1.html" target="_blank">
+								<img
+									src="assets/FOTO SKINCARE/fash wash.jpg"
+									class="img-fluid"
+									alt="Product 1" />
+							</a>
+							<div class="card-body">
+								<h6 class="card-text">Face Wash</h6>
+								<div class="product-detail">
+									<p>Rp. 80.000</p>
+									<i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i>
+								</div>
+								<button class="btn-product text-center mt-2">
+									Add to Cart
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="card border-0">
+							<a href="product_2.html" target="_blank">
+								<img
+									src="assets/FOTO SKINCARE/serum.jpg"
+									class="img-fluid"
+									alt="Product 2" />
+							</a>
+							<div class="card-body">
+								<h6 class="card-text">Serum</h6>
+								<div class="product-detail">
+									<p>Rp. 85.000</p>
+									<i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star-half-stroke"></i>
+								</div>
+								<button class="btn-product text-center mt-2">
+									Add to Cart
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="card border-0">
+							<a href="product_3.html" target="_blank">
+								<img
+									src="assets/FOTO SKINCARE/moisturizer.jpg"
+									class="img-fluid"
+									alt="Product 3" />
+							</a>
+							<div class="card-body">
+								<h6 class="card-text">Moisturizer</h6>
+								<div class="product-detail">
+									<p>Rp. 70.000</p>
+									<i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i>
+								</div>
+								<button class="btn-product text-center mt-2">
+									Add to Cart
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="card border-0">
+							<a href="product_4.html" target="_blank">
+								<img
+									src="assets/FOTO SKINCARE/krim siang.jpg"
+									class="img-fluid"
+									alt="Product 4" />
+							</a>
+							<div class="card-body">
+								<h6 class="card-text">Afternoon cream</h6>
+								<div class="product-detail">
+									<p>Rp. 63.000</p>
+									<i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i>
+								</div>
+								<button class="btn-product text-center mt-2">
+									Add to Cart
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row text-center mt-4">
+					<div class="col-lg-3">
+						<div class="card border-0">
+							<a href="product_5.html" target="_blank">
+								<img
+									src="assets/FOTO SKINCARE/krim malam.jpg"
+									class="img-fluid"
+									alt="Product 5" />
+							</a>
+							<div class="card-body">
+								<h6 class="card-text">Night Ceam</h6>
+								<div class="product-detail">
+									<p>Rp. 70.000</p>
+									<i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star-half-stroke"></i>
+								</div>
+								<button class="btn-product text-center mt-2">
+									Add to Cart
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="card border-0">
+							<a href="product_6.html" target="_blank">
+								<img
+									src="assets/FOTO SKINCARE/retinol.jpg"
+									class="img-fluid"
+									alt="Product 6" />
+							</a>
+							<div class="card-body">
+								<h6 class="card-text">Retinol</h6>
+								<div class="product-detail">
+									<p>Rp. 70.000</p>
+									<i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star"></i
+									><i class="fa-solid fa-star-half-stroke"></i>
+								</div>
+								<button class="btn-product text-center mt-2">
+									Add to Cart
+								</button>
+							</div>
+						</div>
+					</div>
+					
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Products -->
+
+		<!-- Our Team -->
+
+		<section class="our-team d-flex" id="our-team">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center mt-5">
+						<h2>Our Team</h2>
+						<p class="our-team-text">People Who Contributed To This Website</p>
+					</div>
+				</div>
+
+				<div class="row text-center mt-3">
+					<div class="col-lg-3">
+						<div class="card border-0">
+							<a href="biodata_ariel.html" target="_blank">
+								<img
+									src="assets/gita.jpg"
+									class="img-fluid rounded-circle"
+									alt="" />
+							</a>
+							<div class="card-body">
+								<h6 class="card-text">gita utami</h6>
+								<p class="nim"></p>
+
+								<a href="biodata_ariel.html" target="_blank"
+									><button class="btn-our-team text-center mt-2">
+										About Me
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="card border-0">
+							<a href="biodata_indah.html" target="_blank">
+								<img
+									src="assets/WhatsApp Image 2023-10-25 at 00.20.58_b07e91b6.jpg"
+									class="img-fluid rounded-circle"
+									alt="" />
+							</a>
+							<div class="card-body">
+								<h6 class="card-text">rosma</h6>
+								<p class="nim"></p>
+								<a href="biodata_indah.html" target="_blank"
+									><button class="btn-our-team text-center mt-2">
+										About Me
+									</button></a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="card border-0">
+							<a href="biodata_mista.html" target="_blank">
+								<img
+									src="assets/Indah.jpg"
+									class="img-fluid rounded-circle"
+									alt="" />
+							</a>
+							<div class="card-body">
+								<h6 class="card-text">indah</h6>
+								<p class="nim"></p>
+								<a href="biodata_mista.html" target="_blank"
+									><button class="btn-our-team text-center mt-2">
+										About Me
+									</button></a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="card border-0">
+							<a href="biodata_bambang.html" target="_blank">
+								<img
+									src="assets/GUE.jpg"
+									class="img-fluid rounded-circle"
+									alt="" />
+							</a>
+							<div class="card-body">
+								<h6 class="card-text">REVANDINI</h6>
+								<p class="nim"></p>
+								<a href="biodata_bambang.html" target="_blank"
+									><button class="btn-our-team text-center mt-2">
+										About Me
+									</button></a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- End Our Team -->
+
+		<!-- Contact -->
+		<section class="contact d-flex" id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center mt-5">
+						<h2>Contact</h2>
+						<p class="contact-text">
+							Contact Our Office If You Need Assistance
+						</p>
+					</div>
+				</div>
+
+				<div class="row mt-3 map-row">
+					<div class="col-lg-6">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.49762946032!2d106.11750561408988!3d-6.063418761193576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f5266ffa4779%3A0x57576e7cdf676af!2sPoliteknik%20Piksi%20Input%20Serang!5e0!3m2!1sid!2sid!4v1674305995558!5m2!1sid!2sid"
+							allowfullscreen=""
+							loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"
+							class="map"></iframe>
+					</div>
+
+					<div class="col-lg-6 pt-5 pb-5 pe-5">
+						<form class="text-center">
+							<div class="mb-3">
+								<label for="username" class="form-label">Username</label>
+								<input
+									type="text"
+									class="form-control"
+									id="username"
+									autocomplete="off" />
+							</div>
+							<div class="mb-3">
+								<label for="email" class="form-label">Email</label>
+								<input
+									type="text"
+									class="form-control"
+									id="email"
+									autocomplete="off" />
+							</div>
+							<div class="mb-3">
+								<label for="phone" class="form-label">Phone</label>
+								<input
+									type="text"
+									class="form-control"
+									id="phone"
+									autocomplete="off" />
+							</div>
+							<a href="#"><button class="btn-contact">Submit</button></a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Contact -->
+
+		<!-- Footer -->
+		<footer class="d-flex text-center mt-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 socials">
+						<a
+							href="https://www.instagram.com/ariell_ard29/?next=%2F&hl=id"
+							target="_blank"
+							><i class="fa-brands fa-instagram"></i
+						></a>
+						<a href="https://www.facebook.com/arielariadi29/" target="_blank"
+							><i class="fa-brands fa-facebook"></i
+						></a>
+						<a href="https://twitter.com/Ariel_Ariadi29" target="_blank"
+							><i class="fa-brands fa-twitter"></i
+						></a>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-12 links">
+						<a href="#home">Home</a>
+						<a href="#categories">Categories</a>
+						<a href="#products">Products</a>
+						<a href="#our-team">Our Team</a>
+						<a href="#contact">Contact</a>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col lg-12 credit">
+						<p>&copy 2023 | Created By REVA</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer -->
+
+		<!-- instalasi bootstrap js -->
+		<script src="js/bootstrap.js"></script>
+
+		<!-- instalasi popper js -->
+		<script src="js/popper.min.js"></script>
+	</body>
+</html>
