@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(maps_copy.jpg);
+    background-size: 120%;
+    background-position: center;
+}
+
+header {
+    background-image: url(https://wallpapercave.com/wp/wp9119139.jpg);
+    background-size: 70%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px 400px 40px 400px;
+    margin: 0 auto;
+}
+
+header h1, header p {
+    background-color: rgba(39, 39, 39, 0.671);
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    top: 0;
+    position: sticky;
+    background-color: #26243a;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+    }
+
+    nav a {
+        text-decoration: none;
+        text-decoration: center;
+        color: aliceblue;
+        background-color: rgba(126, 126, 126, 0.637);
+        padding: 20px 40px;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 5px;
+        transition: transform 0.2s;
+    }
+
+    nav a:hover {
+        color: #26243a;
+        background-color: rgb(56, 56, 56);
+        transform: scale(0.8);
+    }
+    .container {
+        max-width: 1500px;
+        background-color: rgba(0, 0, 0, 0.699);
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .container img {
+        width: 300px;
+        height: 200px;
+        margin-right: 10px;
+        transition: transform 0.2s;
+    }
+
+    .container img:hover {
+        transform: scale(0.8);
+    }
+
+    .container h2, .container p {
+        margin: 0;
+    }
+    .container a {
+        text-decoration: none;
+        color: white;
+    }
+    .isi {
+        transition: transform 0.2s;
+    }
+    .isi:hover {
+        transform: scale(0.8);
+    }
+    .container h2 {
+        padding-top: 90px;
+    }
+    .container p {
+        padding-bottom: 90px;
+    }
+
+    .conta {
+        max-width: 1500px;
+        padding-bottom: 50px;
+        display: flex;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.644);
+        justify-content: center;
+    }
+.contain {
+    max-width: 1500px;
+        background-color: rgba(0, 0, 0, 0.699);
+        padding: 20px;
+        display: flex;
+        align-items: center;
+}
+input[type=text] {
+    padding: 20px;
+    margin: 30px 0 100px;
+}
+h3 {
+    color: white;
+}
+.contain img {
+    width: 100px;
+}
+.contain h2, .contain p {
+    margin: 0;
+}
+.ju {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.judul {
+    text-decoration: underline;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    width: 20%;
+}
+.kot {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.kotak {
+    background-color: blue;
+    width: 20%;
+}
+    footer {
+    background-image: url(https://wallpapercave.com/wp/wp9119139.jpg);
+    background-size: 120%;
+    color: rgb(229, 255, 0);
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+}
