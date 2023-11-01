@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background: #0a0a0a;
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 5px #000;
+    background: #000;
+    z-index: 100;
+}
+
+.navigation .selection {
+    display: flex;
+    align-items: center;
+}
+
+.navigation p {
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+.navigation .selection ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navigation .selection ul li a {
+    padding: 10px 20px;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation .selection .btn {
+    display: flex;
+}
+
+.navigation .selection .btn a:nth-child(1) {
+    padding: 5px 30px;
+    text-decoration: none;
+    color: #fff;
+    /* border-radius: 4px; */
+    border: 1px solid #fff;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    transition: 500ms;
+}
+
+.navigation .selection .btn a:nth-child(2) {
+    padding: 5px 30px;
+    text-decoration: none;
+    background: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    /* border-radius: 4px; */
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    transition: 500ms;
+}
+
+.navigation .selection .btn a:nth-child(1):hover {
+    border: 1px solid #000;
+    font-weight: 600;
+}
+
+.navigation .selection .btn a:nth-child(2):hover {
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    font-weight: 600;
+} 
+
+.introduce {
+    width: 100%;
+    height: 100vh;
+    background: #0a0a0a;
+}
+
+.introduce .wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 65px;
+}
+
+/* .introduce img {
+    position: absolute;
+    z-index: 1;
+    left: -360px;
+    width: 60%;
+    height: 100%;
+} */
+
+/* .introduce .box {
+    border: 1px solid #fff;
+} */
+
+.introduce .box:nth-child(1){
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.introduce .box:nth-child(1) .text {
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.introduce .box:nth-child(1) .text span {
+    color: #fff;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.introduce .box:nth-child(1) .text h1 {
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.introduce .box:nth-child(1) .text p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.introduce .box:nth-child(2) {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;   
+}
+
+.introduce .box:nth-child(2) a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background: #05c46b;
+    border-radius: 4px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background: #f5f5f5;
+    color: #2b2e4a;
+}
+
+.footer .container .about {
+    width: 400px;
+}
+
+.footer .container h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+}
+
+.footer .container .listing {
+    display: flex;
+}
+
+.footer .container .listing ul {
+    padding: 0 20px;
+}
+
+.footer .container .listing ul h4 {
+    font-family: 'Raleway', sans-serif;
+    padding: 0 0 10px 0;
+}
+
+.footer .container .listing ul li {
+    list-style: none;
+}
+
+.footer .container .media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .container .media ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.footer p.copyright {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 11px;
+    background: #f5f5f5;
+}
+
+.items {
+    width: 100%;
+    height: 100vh;
+    background: #0a0a0a;
+}
+
+.items .cards {
+    padding: 75px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* style .card-song */
+.items .cards .card-song {
+    width: 195px;
+    height: 195px;
+    background: #fff;
+    box-shadow: 1px 1px 5px #000;
+    border-radius: 4px;
+    margin: 5px 20px 50px 0;
+}
+
+.items .cards .card-song img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px
+}
+
+.items .cards .card-song .text {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.items .cards .card-song .text h5 {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* style card-artist */
+.items .cards .card-artist {
+    width: 195px;
+    height: 250px;
+    background: #fff;
+    box-shadow: 1px 1px 5px #000;
+    border-radius: 4px;
+    margin: 5px 20px 50px 0;
+}
+
+.items .cards .card-artist img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px
+}
+
+.items .cards .card-artist .text {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.items .cards .card-artist .text h5 {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* style card-playlist */
+.items .cards .card-playlist {
+    width: 195px;
+    height: 195px;
+    background: #fff;
+    box-shadow: 1px 1px 5px #000;
+    border-radius: 4px;
+    margin: 5px 20px 50px 0;
+}
+
+.items .cards .card-playlist .cover {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items .cards .card-playlist .cover .img {
+    width: 50%;
+    height: 50%;
+}
+
+.items .cards .card-playlist .cover .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px
+}
+
+.items .cards .card-playlist .text {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.items .cards .card-playlist .text h5 {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* style login */
+.login-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login-container .text {
+    width: 250px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 0 60px 0;
+    margin: 0 10px 0 350px;
+}
+
+.login-container .text p {
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+.login form {
+    font-family: 'Nunito', sans-serif;
+    width: 250px;
+    height: 320px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 5px #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.login p {
+    text-align: center;
+}
+
+.login form p:nth-child(1) {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 700;
+}
+
+.login form span {
+    display: block;
+}
+
+.login form input {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-family: 'Nunito', sans-serif;
+    margin: 0 0 10px 0;
+}
+
+.login form button {
+    width: 100%;
+    padding: 10px 20px;
+    background: #05c46b;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin: 0 0 10px 0;
+}
+
+.login-container .login label {
+    font-size: 13px;
+    width: 100%;
+    display: flex;
+}
+
+.login-container .login label span {
+    margin: 0 5px 0 0;
+}
+
+.login-container .login form p:nth-child(2) {
+    text-align: center;
+}
+
+.login-container .login form .g-sign {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 5px 10px;
+}
+
+.login-container .login form .g-sign p {
+    color: #000;
+    font-size: 11px;
+}
+
+.login-container .login form .g-sign .g-logo {
+    width: 10%;
+    height: 100%;
+}
+
+.login-container .login form .g-sign .g-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.login a {
+    color: #fff;
+}
+
+#navigation {
+    background: #0a0a0a;
+    box-shadow: none;
+}
+
+#back {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    transition: 500ms;
+}
+
+#back:hover {
+    font-weight: 700;
+}
+
+
+/* style daftar */
+.register-container {
+    background: #0a0a0a;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.register-container .register-box:nth-child(1) {
+    box-shadow: 1px 1px 5px #fff;
+    width: 30%;
+    padding: 10px 20px;
+}
+
+.register-container .register-box:nth-child(1) .register-hint h1 {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.register-container .register-box:nth-child(1) .register-hint p {
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+
+.register-container .register-box:nth-child(1) .register-logo h2 {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px 0 50px 0;
+}
+
+.register-box:nth-child(1) .register-back {
+    margin: 270px 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    text-align: center;
+    transition: 500ms;
+}
+
+.register-box:nth-child(1) .register-back:hover {
+    padding: 11px 20px;
+}
+
+.register-box:nth-child(1) .register-back a:hover {
+    font-weight: 700;
+}
+
+.register-box:nth-child(1) .register-back a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    transition: 500ms;
+}
+
+.register-container .register-box:nth-child(2) {
+    width: 70%;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    color: #2b2e4a;
+}
+
+.register-container .register-box:nth-child(2) form {
+    width: 80%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.register-container .register-box:nth-child(2) form h2 {
+    margin: 0 0 30px 0;
+}
+
+.register-container .register-box:nth-child(2) form .sessions {
+    width: 100%;
+    display: flex;
+    margin: 0 0 20px;
+}
+
+.register-container .register-box:nth-child(2) form .sessions .session {
+    width: 40%;
+    margin: 0 10px 0 0;
+}
+
+.register-container .register-box:nth-child(2) form .sessions .session span {
+    display: block;
+    padding: 0 0 10px 0;
+}
+
+.register-container .register-box:nth-child(2) form .sessions .session input {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+.register-container .register-box:nth-child(2) form .sessions .session select {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.register-container .register-box:nth-child(2) form .sessions .session select option {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.register-container .register-box:nth-child(2) form .sessions button {
+    width: 100%;
+    padding: 10px 20px;
+    background: royalblue;
+    color: #fff;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    transition: 500ms;
+}
+
+.register-container .register-box:nth-child(2) form .sessions button:hover {
+    font-weight: 700;
+    cursor: pointer;
+    padding: 11px 20px;
+}
