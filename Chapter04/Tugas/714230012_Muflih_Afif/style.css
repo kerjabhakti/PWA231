@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+.containter-fluid
+{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(https://cdn.vectorstock.com/i/1000x1000/62/68/african-safari-animals-silhouette-background-vector-21366268.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container
+{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 5px #000;
+    padding: 0px 25px ;
+}
+.container h2
+{
+    font-family: arial;
+    font-size: 30px;
+    color: #ff9900;
+    cursor: pointer;
+    margin: 10px 50px;
+}
+.container ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container ul li
+{
+    font-family: Arial;
+    color: #fff;
+    list-style: none;
+    margin-right: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0,5s;
+}
+.container ul li:first-child
+{
+    color: rgb(250, 195, 76);
+}
+.container ul li:hover
+{
+    color: rgb(250, 195, 76);
+}
+.container ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.container ul li a:hover
+{
+    color: rgb(250, 195, 76)
+}
+.container .btn
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: rgb(30, 255, 0);
+    transition: 0,5s;  
+}
+.container .btn:hover
+{
+    background-color: rgb(30, 255, 0);
+    color: #fff;
+}
+.content
+{
+    width: 1200px;
+    height: 100vh;
+    margin: auto;
+}
+.content h1
+{
+    font-family: arial;
+    font-weight: bold;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 100px;
+}
+.content p
+{
+    font-family: arial;
+    font-weight: bold;
+    font-size: #000;
+    line-height: 30px;
+    padding-top: 30px;
+    color: #fff;
+}
+.content .btn
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+    transition: 0,5s;
+    margin-top: 30px;  
+}
+.content .btn:hover
+{
+    background-color:  rgb(250, 195, 76);
+    color: rgb(250, 195, 76);
+}
+.coloring-btn
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+footer 
+{
+    background-color: rgb(194, 151, 59);
+    color: #000000;
+    padding: 5px 2px; /* Mengurangi padding */
+
+}
+.footer-content {
+    display: flex;
+    justify-content: flex-end; /* Menggeser konten ke kanan */
+    align-items: center;
+}
+.footer-links 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-links ul, .right-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.left-links ul li, .right-links ul li {
+    margin: 20px  100px; /* Memberi jarak antar tautan */
+}
+
+.left-links a, .right-links a {
+    text-decoration: none;
+    color: #000000;
+    font-family: fantasy ;
+}
+.buttom-content
+{
+    margin-top: 50px;
+}
+.copy-content
+{
+    justify-content: center;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+.copy-content p
+{
+    color: white;
+}
