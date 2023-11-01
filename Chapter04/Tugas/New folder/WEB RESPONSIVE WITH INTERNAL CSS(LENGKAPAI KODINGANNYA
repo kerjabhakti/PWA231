@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <>
+        body {
+                font-family: arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: rgb(240, 248, 255);
+            }
+             header {
+                background-color: hwb(208 94% 0%);
+                color: #000000;
+                text-align: center;
+                padding: 10px;
+             }
+             nav {
+                ddisplay: flkex;
+                justify-content: center;
+                background-color: #ffe4c4;
+             }
+             .container {
+                max-width: max-content;
+                margin: auto 20px;
+                padding: 20px;
+                background-color: #f0ffff;
+                border-radius: 5px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+             }
+             .main-conten {
+                flex: 70%;
+             }
+             .sidebar {
+                flex: 30%;
+             }
+    </style>
+</head>
+<body>
+    <!-- HTML DISINI -->
+</<style>
+    </head>
+    <body>
+        <header>
+            <h1>selamat datang di website keren</h1>
+        </header>
+        <nav>
+            <a href="#>beranda</a>"
+            <a href="#">tentang kami</a>
+            <a href="#">layanan</a>
+            <a href="#">kontak<a>
+                </nav>
+                <div class="container">
+                    <div class="main-conten">
+                        <h2>selamat datang di website kami</h2>
+                        <p>
+                            ini adalah contoh tampilan website sederhana yang responsif. anda dapat menambahkan lebih banyak konten di sini.
+                            </p>
+                            </div>
+                            <div class="sidebar">
+                                <h3>bar samping</h3>
+                                <u1>
+                                    <1i>item 1</1i>
+                                    <1i>item 2</1i>
+                                    <1i> item 3</1i> 
+                        
+
+
+</style>>
+
+</>
+    
+</body>
+</html>
