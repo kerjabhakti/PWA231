@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+         body{
+            background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00ODYtYmctMDE5LXguanBn.jpg);
+        }
+        nav{
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            gap: 500px;
+            width: 100%;
+            height: 100px;
+            background-color:bisque
+        }
+        nav.logo{
+            font-size:2rem;
+            color:#fff;
+            font-weight: 700;
+        }
+        ul{
+            text-transform: uppercase;
+            list-style: none;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:0 35px;
+            font-size: 1.2rem;
+        }
+        nav a{
+            color:black;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        nav p{
+            font-size: 2rem;
+        }
+        nav a:hover{
+            border-bottom: 2px solid hsl(0, 60%, 4%);
+            transition: 1s;
+        }
+        .about{
+            color:black;
+            width: 300px;
+        }
+        h2{
+            font-size: 2.4rem;
+        }
+        .about img{
+            width: 30%;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            flex-direction: column;
+        }
+        .content .about img{
+            margin-right: 50px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo"><p>SMARTCOOK</p></div>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="menu.html">menu</a></li>
+            <li><a href="contac.html">contact</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h2>Contact Me</h2>
+        <div class="about">
+            <a href="https://api.whatsapp.com/send/?phone=6282318079929&text&type=phone_number&app_absent=0">
+                <img src="img/WhatsApp_Logo_PNG_Sem_Fundo_Original_Transparente.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/rhmaffn_/">
+                <img src="img/pngwing.com.png" alt="">
+            </a>
+        </div> 
+    </div>
+</body>
+</html>
