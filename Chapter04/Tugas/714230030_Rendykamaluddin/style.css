@@ -1,0 +1,144 @@
+* , html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: red;
+    color: #eaeaea;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+head {
+    margin: 0;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+}
+
+.logo:hover {
+    color: #1A2238;
+    transform: rotate(1deg)
+
+}
+
+.btn {
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    background: #1A2238;
+    color: #eaeaea;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+nav ul{
+    display: flex;
+    padding: 20px;
+}
+
+li{
+    list-style: none;
+    padding: 20px;
+
+}
+li a {
+    transition: all .5s ease 0s;
+}
+
+li a:hover{
+    color:#1A2238 ;
+    transition: .3s ease;
+
+}
+
+a {
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.deskripsi {
+    font-size: 28px;
+    font-weight: bolder;
+}
+.img-foto {
+    max-width: 100%;
+}
+.parallax {
+    background-image: url();
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: red;
+    color: #eaeaea;
+    margin-top: 10px;
+    padding: 20px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+
+.cards {
+    border: #1A2238;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2222;
+    padding: 20px;
+}
+.revo-x {
+    max-width: 100%;
+}
+
+.link {
+    color: blue;
+    
+}
+.imghonda {
+    background-image: url(gambar/Honda-Logo.wine.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
