@@ -1,0 +1,347 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbar {
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.navbar-brand {
+	font-size: 2rem;
+	font-family: "Lobster", cursive;
+}
+
+.nav-link {
+	font-size: 1rem;
+	font-family: "Rubik", sans-serif;
+	font-weight: 700;
+	color: balck;
+}
+
+.nav-link:hover {
+	color: black;
+}
+
+.nav-link::after {
+	content: "";
+	display: block;
+	padding-bottom: 0.2rem;
+	border-bottom: 0.1rem solid rgb(224, 7, 71);
+	transform: scaleX(0);
+	transition: 0.2s linear;
+}
+
+.nav-link:hover::after {
+	transform: scaleX(0.5);
+}
+
+.icon-account,
+.icon-cart {
+	font-size: 1rem;
+	font-family: "Rubik", sans-serif;
+}
+
+.btn-sign-up {
+	height: 40px;
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+	padding: 12px 24px;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	display: flex;
+	margin-right: 5px;
+	font-weight: 700;
+	background-color: rgba(250, 92, 139, 0.15);
+	color: rgb(224, 7, 71);
+}
+
+.btn-login {
+	height: 40px;
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+	padding: 12px 24px;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	display: flex;
+	font-weight: 700;
+	background-color: rgb(224, 7, 71);
+	color: white;
+}
+
+/* End Navbar */
+
+/* Banner */
+
+.banner {
+	background: url(../assets/BERANDA.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+}
+
+.banner .container {
+	margin-top: 180px;
+	padding-top: 47px;
+}
+
+.banner h1 {
+	font-size: 4rem;
+	font-weight: 700;
+	font-family: "Poppins", sans-serif;
+}
+
+.btn1 {
+	font-family: "Poppins", sans-serif;
+	height: 45px;
+	width: 30%;
+	border: none;
+	outline: none;
+	background-color: rgb(224, 7, 71);
+	color: white;
+	font-weight: 700;
+	border-radius: 60px;
+}
+
+.btn1:hover {
+	color: rgb(224, 7, 71);
+	background-color: rgba(250, 92, 139, 0.15);
+	border: 1px solid rgb(105, 105, 105);
+	font-weight: 700;
+}
+
+/* End Banner */
+
+/* Categories */
+.categories h2,
+.products h2,
+.our-team h2,
+.contact h2 {
+	font-family: "Poppins", sans-serif;
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+
+.categories p,
+.products .products-text,
+.our-team .our-team-text,
+.contact .contact-text {
+	font-family: "Poppins", sans-serif;
+	font-size: 0.9rem;
+	color: rgb(224, 7, 71);
+}
+
+.categories .container .card img {
+	height: 210px;
+	border-radius: 10px;
+}
+
+.card .card-body h6 {
+	margin-top: -10px;
+}
+
+.categories img:hover,
+.products img:hover {
+	box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+}
+
+/* End Categories */
+
+/* Search Bar */
+
+.search-bar {
+	width: 50%;
+	height: 35px;
+	font-size: 15px;
+	border: 1px solid rgb(224, 7, 71);
+	outline: none;
+}
+
+.btn2 {
+	height: 35px;
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+	padding: 12px;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	display: flex;
+	font-weight: 700;
+	background-color: rgb(224, 7, 71);
+	color: white;
+}
+
+/* Search Bar End */
+
+/* Products */
+.products .card .card-body h6 {
+	font-weight: 700;
+}
+
+.products .card .card-body i {
+	width: 20px;
+	height: 17px;
+}
+
+.products .card .card-body .product-detail {
+	line-height: 8px;
+}
+
+.products .card .card-body .fa-star,
+.products .card .card-body .fa-star-half-stroke {
+	color: rgb(242, 211, 10);
+}
+
+.btn-product {
+	font-family: "Poppins", sans-serif;
+	height: 30px;
+	width: 50%;
+	border: none;
+	outline: none;
+	background-color: rgb(224, 7, 71);
+	color: white;
+	font-size: 14px;
+	border-radius: 60px;
+	font-weight: 700;
+}
+
+.btn-product:hover {
+	color: rgb(224, 7, 71);
+	background-color: rgba(250, 92, 139, 0.15);
+	border: 1px solid rgb(105, 105, 105);
+}
+
+/* End Products */
+
+/* Our Team */
+
+.our-team .container .card img {
+	height: 200px;
+	width: 200px;
+	border: 4px solid rgba(250, 92, 139, 0.5);
+}
+
+.our-team .card .card-body h6 {
+	font-weight: 700;
+}
+
+.our-team .card .card-body .nim {
+	line-height: 8px;
+}
+
+.btn-our-team {
+	font-family: "Poppins", sans-serif;
+	height: 35px;
+	width: 50%;
+	border: none;
+	outline: none;
+	background-color: rgb(224, 7, 71);
+	color: white;
+	font-size: 14px;
+	border-radius: 60px;
+	font-weight: 700;
+}
+
+.btn-our-team:hover {
+	color: rgb(224, 7, 71);
+	background-color: rgba(250, 92, 139, 0.15);
+	border: 1px solid rgb(105, 105, 105);
+}
+
+/* End Our Team */
+
+/* Contact */
+
+.contact .container .map-row {
+	background-color: rgb(242, 242, 242);
+}
+
+.contact .container .map-row .map {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	margin-left: -13px;
+}
+
+.contact .container .form-label {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.contact .container input {
+	background-color: #f9f9f9dc;
+	border: 1px solid #b9b9b9;
+}
+
+.contact .container .btn-contact {
+	font-family: "Poppins", sans-serif;
+	height: 45px;
+	width: 30%;
+	border: none;
+	outline: none;
+	background-color: rgb(224, 7, 71);
+	color: white;
+	font-weight: 700;
+}
+
+.contact .container .btn-contact:hover {
+	color: rgb(224, 7, 71);
+	background-color: rgba(250, 92, 139, 0.15);
+	border: 1px solid rgb(105, 105, 105);
+}
+
+/* End Contact */
+
+/* Footer */
+footer {
+	background-color: rgb(224, 7, 71);
+	padding: 15px 0;
+}
+
+footer .container .socials {
+	padding: 7px 0;
+	margin-bottom: 7px;
+}
+
+footer .container .socials a {
+	color: #fff;
+	margin: 8px;
+}
+
+footer .container .socials a .fa-instagram,
+footer .container .socials a .fa-facebook,
+footer .container .socials a .fa-twitter {
+	font-size: 23px;
+}
+
+footer .container .socials i {
+	font-size: 15px;
+}
+
+footer .container .socials a:hover,
+footer .container .links a:hover {
+	color: black;
+}
+
+footer .container .links {
+	margin-bottom: 10px;
+}
+
+footer .container .links a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 13px;
+	font-weight: 500;
+}
+
+footer .container .credit p {
+	color: #fff;
+}
+
+/* End Footer */
