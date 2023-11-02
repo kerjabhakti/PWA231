@@ -96,10 +96,10 @@ Deskripsinya : Inputan terakhir itu akan error karena salah menggunakan syntax
 ![image](https://github.com/kerjabhakti/PWA231/assets/15622730/1dce4e34-44f1-4c9d-bf71-f1d581efcb18)
 
 # Tugas Praktikum
-1. Buat Folder NPM_NAMA_JS
-2. Buatkan 1 tampilan website sederhana yang didalamya terdapat
-3. Aritmatik, Syntax, Statement, Image Change, Button, Penggantian Paragraf dari Button
-4. Buatkan Readme.md sesuai Studi kasus masing-masing
+## 1. Buat Folder NPM_NAMA_JS
+## 2. Buatkan 1 tampilan website sederhana yang didalamya terdapat
+## 3. Aritmatik, Syntax, Statement, Image Change, Button, Penggantian Paragraf dari Button
+## 4. Buatkan Readme.md sesuai Studi kasus masing-masing
 
 
 
