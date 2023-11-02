@@ -58,12 +58,26 @@
 ## Lampu Mati
 ![image](https://github.com/kerjabhakti/PWA231/assets/15622730/2a7d5a6b-766e-4f98-9561-5745b4d1af10)
 
+## Memasukan data Aritmatik pada COnsole JavaScript
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/98be1940-3c55-4aa2-acb9-4d816f411144)
+Deskripsinya : Inputan terakhir itu akan error karena salah menggunakan syntax
 
-
-
-
-
-
+## Membuat Variable JavaScript
+``` js
+<!-- Membuat Variable -->
+    <h2>Membuat Variable</h2>
+    <p>ini adalah sebuah variable didalam JavaScript</p>
+    <p>JavaScript dapat melakukan apa saja yang anda perintahkan</p>
+    <p id="variable"></p>
+    <script>
+      x = 10;
+      y = 12;
+      z = x * y;
+      document.getElementById("variable").innerHTML = "isinya adalah = " + z;
+    </script>
+```
+## hasilnya
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/9efdcd15-5dd0-4ac4-b284-9ac930cec0b4)
 
 
 
