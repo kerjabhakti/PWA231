@@ -37,6 +37,10 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | 714230042  | Savana Zahra Humaira | | |
 | 714230043  | Miqdam Syiam Nurrohman | | |
 
+# Data Kelompok
+| Kelompok | Ketua | Anggota | 
+| -------- | -------- | -------- | 
+
 # Progress - Rencana Pembelajaran Semester (RPS) 
 1. Pengenalan ke Logika Pemrograman (Programming Logic 101)
 2. Memulai Dasar Pemrograman untuk Menjadi Pengembang Software
