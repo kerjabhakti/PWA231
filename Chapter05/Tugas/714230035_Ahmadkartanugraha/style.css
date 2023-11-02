@@ -1,0 +1,11 @@
+* {
+    font-family: "poppins", sans-serif;
+  }
+body {
+    font-family: Arial, sans-serif;
+  }
+main {
+    padding: 2rem;
+    background-image: url('ali.jpg');
+    background-repeat: repeat;
+}
