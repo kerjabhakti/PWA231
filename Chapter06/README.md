@@ -58,9 +58,8 @@
 ## Lampu Mati
 ![image](https://github.com/kerjabhakti/PWA231/assets/15622730/2a7d5a6b-766e-4f98-9561-5745b4d1af10)
 
-
-
-
+## Memasukan data Aritmatik pada COnsole JavaScript
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/98be1940-3c55-4aa2-acb9-4d816f411144)
 
 
 
