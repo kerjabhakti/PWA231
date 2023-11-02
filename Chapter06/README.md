@@ -60,8 +60,7 @@
 
 ## Memasukan data Aritmatik pada COnsole JavaScript
 ![image](https://github.com/kerjabhakti/PWA231/assets/15622730/98be1940-3c55-4aa2-acb9-4d816f411144)
-
-
+Deskripsinya : Inputan terakhir itu akan error karena salah menggunakan syntax
 
 
 
