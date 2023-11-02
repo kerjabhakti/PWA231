@@ -79,8 +79,27 @@ Deskripsinya : Inputan terakhir itu akan error karena salah menggunakan syntax
 ## hasilnya
 ![image](https://github.com/kerjabhakti/PWA231/assets/15622730/9efdcd15-5dd0-4ac4-b284-9ac930cec0b4)
 
+## Membuat Let Pada JavaScript
+``` Js
+    <!-- Membuat Let Pada JavaScript -->
+    <h2>Ini Contoh Let</h2>
+    <p id="let"></p>
+    <script>
+      let x = 20;
+      {
+        let x = 2;
+      }
+      document.getElementById("let").innerHTML = x;
+    </script>
+```
+# hasilnya
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/1dce4e34-44f1-4c9d-bf71-f1d581efcb18)
 
-
+# Tugas Praktikum
+1. Buat Folder NPM_NAMA_JS
+2. Buatkan 1 tampilan website sederhana yang didalamya terdapat
+3. Aritmatik, Syntax, Statement, Image Change, Button, Penggantian Paragraf dari Button
+4. Buatkan Readme.md sesuai Studi kasus masing-masing
 
 
 
