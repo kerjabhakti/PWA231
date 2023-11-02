@@ -16,3 +16,17 @@
       Klik Disini
     </button>
 ```
+
+## Menampilkan waktu menggunakan JavaScript
+```Js
+ <!-- Ini codingan button yang kedua -->
+    <button
+      type="button"
+      onclick="document.getElementById('waktu').innerHTML = Date()"
+    >
+      "Klik Disini untuk menampilkan Waktu.
+    </button>
+    <p id="waktu"></p>
+```
+## Hasilnya
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/aa4f68db-c1ac-4c47-a7c9-0e6d4d9db502)
