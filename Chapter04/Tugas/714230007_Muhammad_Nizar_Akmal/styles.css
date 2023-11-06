@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(bgkateg.jpg);
+    background-size: 120%;
+    background-position: center;
+}
+
+header {
+    background-image: url(https://wallpapercave.com/wp/wp9119139.jpg);
+    background-size: 70%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px 400px 40px 400px;
+    margin: 0 auto;
+}
+
+header h1, header p {
+    background-color: rgba(39, 39, 39, 0.671);
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    top: 0;
+    position: sticky;
+    background-color: #26243a;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+    }
+
+    nav a {
+        text-decoration: none;
+        text-decoration: center;
+        color: aliceblue;
+        background-color: rgba(126, 126, 126, 0.637);
+        padding: 20px 40px;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 5px;
+        transition: transform 0.2s;
+    }
+
+    nav a:hover {
+        color: #26243a;
+        background-color: rgb(56, 56, 56);
+        transform: scale(0.8);
+    }
+    .contain {
+        max-width: 1500px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    }
+    .contain img {
+        width: 100px;
+        margin-left: 20px;
+        margin-right: 5px;
+        transition: transform 0.2s;
+    }
+    .contain img:hover {
+        transform: scale(1.2);
+    }
+    .contain h2{
+        margin: 0;
+        color: aliceblue;
+    }
+    .contain a {
+        text-decoration: none;
+    }
+    .contain h2:hover {
+        color: yellow;
+    }
+    .ju {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .judul {
+        text-decoration: underline;
+        text-align: center;
+        border-radius: 20px;
+        margin-top: 40px;
+        background-color: rgba(255, 217, 0, 0.637);
+        width: 20%;
+    }
+    footer {
+        background-image: url(https://wallpapercave.com/wp/wp9119139.jpg);
+        background-size: 120%;
+        color: rgb(229, 255, 0);
+        text-align: center;
+        padding: 10px;
+        justify-content: center;
+    }
