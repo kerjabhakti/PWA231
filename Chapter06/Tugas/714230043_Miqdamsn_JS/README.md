@@ -76,11 +76,12 @@ console.log(notifikasi)
 disini saya menggunakan button saat button di tekan akan memunculkan alert(pemberitahuan) yang berisi "terima kasih silahkan di tunggu updatenya".
 
 ### hasilnya:
-<br>
 sebelum:
+<br>
 ![image](https://github.com/miqdamsyiamn/PWA231/assets/144521842/3ebae991-9761-4893-b80b-d0fc7e564fb9)
 <br>
 sesudah:
+<br>
 ![image](https://github.com/miqdamsyiamn/PWA231/assets/144521842/0f2044f7-6951-48f8-8148-519a2d1a0e76)
 <br>
 ketikan di tekan akan memunculkan pemberitahuan diatasnya
