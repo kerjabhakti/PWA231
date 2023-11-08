@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>top up game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        /* body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: #25003a;
+        }
+        header {
+            background-color: #a200ff;
+            color: #f1aef7;
+            padding: 50px;
+        }
+
+        h1{
+            margin: 0;
+        }
+        
+        
+        .container {
+            max-width: 800%;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fffc57;
+        }
+
+        ul {
+            background-color: #a200ff;
+            padding: 20px;
+            margin: 30px;
+        }
+
+        ul li {
+            background-color: #ff75ed;
+            padding: 20px 200px 20px 200px;
+            margin: 30px;
+        }
+         */ 
+         nav {
+            background-color: rgb(69, 2, 133);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            box-shadow: 1px 1px 5px #000;
+         }
+            nav p {
+                color: rgb(223, 189, 255);
+                font-size: 2rem;
+                font-weight: bold;
+            }
+
+            nav ul li {
+                list-style: none;
+                display: inline-block;
+            }
+
+            nav ul li a {
+                color: rgb(223, 189, 255);
+                padding: 10px 20px;
+                margin-right: 20px;
+            }
+            .isi {
+                width: 100%;
+                height: 100vh;
+            }
+            .isi img {
+                z-index: 1;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+            .isi .item {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                position: absolute;
+            }
+
+            .isi .item a {
+                width: 200px;
+                background-color: rgb(82, 0, 129);
+                text-align: center;
+                color: #fff;
+                padding: 10px 20px;
+                text-decoration: none;
+                border: 1px solid rgb(32, 0, 53);
+            }
+
+            .isi .item .teks {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 400px;
+                z-index: 10;
+               
+            }
+
+            .isi .item .teks .login {
+                color: rgb(223, 189, 255);
+                padding: 10px 20px;
+                width: 250px;
+                height: 220px;
+                background:rgb(32, 0, 53);
+            }
+
+            .isi .item .teks .login p {
+                text-align: center;
+            }
+
+            .isi .item .teks .login a {
+                width: 50%;
+                text-align: center;
+                justify-content: center;
+            }
+
+            .isi .item .teks .login input {
+                width: 100%;
+            }
+
+            .posisi {
+                text-align: center;
+                margin-left: 60px;
+                align-items: center;
+            }
+
+            .warna {
+                font-size: 18px;
+                text-decoration: none;
+            }
+            
+            .warna>li>a:hover {
+                color: blueviolet;
+                transition: .5 ease-in-out;
+            }
+
+    </style>
+</head>
+<body>
+     <nav>
+        <p>Raka Top up</p>
+        <ul class="warna">
+            <li><a href="Tugas web top up game.html">Home</a></li>
+            <li><a href="game.html">Game</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+     </nav>
+
+     <div class="isi">
+        <img src="https://img.freepik.com/free-vector/space-background-with-landscape-alien-planet_107791-1125.jpg" alt="">
+        <div class="item">
+            <div class="teks">
+                <div class="login">
+                    <form action="">
+                        <p>Login</p>
+                        <span>Username</span>
+                        <input type="text" placeholder="Masukkan username" >
+                        <span>Password</span>
+                        <input type="password" placeholder="Masukkan username">
+                        <br>
+                        <br>
+                        <a href="game.html" class="posisi">LOGIN</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+     </div>
+</body>
+</html>
