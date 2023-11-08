@@ -56,6 +56,7 @@ setelah mengklik tombol ganti gambar gambar akan terganti.
 ### hasilnya:
 sebelum:
 ![image](https://github.com/miqdamsyiamn/PWA231/assets/144521842/576c216a-5d1f-48d3-a28d-05c1c5a4fc8d)
+<br>
 sesudah:
 ![image](https://github.com/miqdamsyiamn/PWA231/assets/144521842/a76de43a-45e0-42f6-883b-a814f98ebc52)
 <br>
@@ -76,6 +77,7 @@ disini saya menggunakan button saat button di tekan akan memunculkan alert(pembe
 ### hasilnya:
 sebelum:
 ![image](https://github.com/miqdamsyiamn/PWA231/assets/144521842/3ebae991-9761-4893-b80b-d0fc7e564fb9)
+<br>
 sesudah:
 ![image](https://github.com/miqdamsyiamn/PWA231/assets/144521842/0f2044f7-6951-48f8-8148-519a2d1a0e76)
 <br>
