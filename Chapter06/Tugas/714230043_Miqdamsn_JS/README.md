@@ -54,11 +54,12 @@ setelah mengklik tombol ganti gambar gambar akan terganti.
 <button type="button" onclick="document.getElementById('gantiparagraf').innerHTML = 'Website ini merekomendasikan komik komik <br/> terbaru  yang populer dan wajib kalian baca <br/> karena seru dan sangat manjur untuk <br/>penghilang stress.'" class="p-3 bg-sky-800 rounded-md shadow-md shadow-black hover:shadow-lg delay-300 hover:bg-sky-700 hover:ring-2 hover:ring-black">Baca Lebih Lanjut</button>
 ```
 ### hasilnya:
-<br>
 sebelum:
+<br>
 ![image](https://github.com/miqdamsyiamn/PWA231/assets/144521842/576c216a-5d1f-48d3-a28d-05c1c5a4fc8d)
 <br>
 sesudah:
+<br>
 ![image](https://github.com/miqdamsyiamn/PWA231/assets/144521842/a76de43a-45e0-42f6-883b-a814f98ebc52)
 <br>
 setelah menekan tombol baca lebih lanjut paragraf akan terganti.
