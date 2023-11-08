@@ -54,6 +54,7 @@ setelah mengklik tombol ganti gambar gambar akan terganti.
 <button type="button" onclick="document.getElementById('gantiparagraf').innerHTML = 'Website ini merekomendasikan komik komik <br/> terbaru  yang populer dan wajib kalian baca <br/> karena seru dan sangat manjur untuk <br/>penghilang stress.'" class="p-3 bg-sky-800 rounded-md shadow-md shadow-black hover:shadow-lg delay-300 hover:bg-sky-700 hover:ring-2 hover:ring-black">Baca Lebih Lanjut</button>
 ```
 ### hasilnya:
+<br>
 sebelum:
 ![image](https://github.com/miqdamsyiamn/PWA231/assets/144521842/576c216a-5d1f-48d3-a28d-05c1c5a4fc8d)
 <br>
@@ -75,6 +76,7 @@ console.log(notifikasi)
 disini saya menggunakan button saat button di tekan akan memunculkan alert(pemberitahuan) yang berisi "terima kasih silahkan di tunggu updatenya".
 
 ### hasilnya:
+<br>
 sebelum:
 ![image](https://github.com/miqdamsyiamn/PWA231/assets/144521842/3ebae991-9761-4893-b80b-d0fc7e564fb9)
 <br>
