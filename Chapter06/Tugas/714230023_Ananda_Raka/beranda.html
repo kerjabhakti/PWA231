@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubah Gambar dan Paragraf</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-cover bg-center bg-fixed h-screen" style="background-image: url('gambar/bgjs.jpg')">
+    <nav class="bg-gradient-to-r from-blue-500 to-pink-500 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-white text-center text-2xl font-semibold">Halaman Saya</h1>
+            <ul class="flex space-x-4">
+                <li><a href="beranda.html" class="text-white hover:text-blue-500" >Beranda</a></li>
+                <li><a href="success.html" class="text-white hover:text-blue-500">topik</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mx-auto p-4 mt-4"></div>
+
+
+
+    <div class="flex">
+    <div class="container mx-auto p-4 mt-4">
+        <h2 class="text-3xl text-white font-bold mb-4">aplikasi menonton film!</h2>
+        <div class="flex">
+        <img id="image1" class="w-64 h-64 object-cover rounded mb-4" src="/PWA231/Chapter06/Tugas/714230023_Ananda_Raka/gambar/logo.png" alt="Gambar Default">
+        <p id="content" class="text-white text-3xl font-bold mt-4">klik tombol du bawah untuk melihat aplikasi aplikasinya</p>
+    </div>
+        <button id="changeContent" class="bg-blue-500 text-white px-4 py-2 mt-4">TEKAN DISINI!!</button>
+    </div>
+    
+
+        </div>
+    <script>
+        const imageElement = document.getElementById('image1');
+        const contentParagraph = document.getElementById('content');
+        const changeContentBtn = document.getElementById('changeContent');
+        
+        const imageOptions = [
+            "/PWA231/Chapter06/Tugas/714230023_Ananda_Raka/gambar/netflix.png",
+            "/PWA231/Chapter06/Tugas/714230023_Ananda_Raka/gambar/disney+.jpg",
+            "/PWA231/Chapter06/Tugas/714230023_Ananda_Raka/gambar/Iqiyi.png",
+            "/PWA231/Chapter06/Tugas/714230023_Ananda_Raka/gambar/wetv.jpg"
+        ];
+
+        let imageIndex = 0;
+
+        
+
+        const contentOptions = [
+            "Netflix adalah platform streaming video yang menyediakan film, serial TV, dan konten lain kepada pelanggan berlangganan melalui internet. Itu juga menghasilkan konten asli dan tersedia di berbagai perangkat.",
+            "Disney+ Hotstar adalah tempat streaming tayangan favoritmu dan masih banyak lagi. Dengan film & serial dari Disney, Pixar, Marvel, Star Wars, National Geographic dan Star. Dari pemenang penghargaan Hollywood hingga konten Asia, temukan tayangan favorit baru di Disney+ Hotstar.",
+            "iQIYI memudahkan Anda menemukan variety show, drama TV, animasi, dan film terpopuler! Subtitle multi bahasa membantu Anda lebih memahami konten video, mendukung cache offline dan proyeksi TV, pengalaman menonton layar besar yang lebih baik!",
+            "WeTV merupakan aplikasi layanan streaming video yang menghadirkan beragam dari konten drama, film, anime, dan variety show terbaik dari berbagai negara di Asia, mulai dari series original Indonesia, drama Tiongkok, drama Korea, drama Jepang atau j-dorama, dan lainnya dengan subtitle Indonesia yang resmi."
+        ];
+
+        let contentIndex = 0;
+
+
+        function changeContent() {
+            imageElement.src = imageOptions[imageIndex];
+            imageIndex = (imageIndex + 1) % imageOptions.length;
+            contentParagraph.textContent = contentOptions[contentIndex];
+            contentIndex = (contentIndex + 1) % contentOptions.length;
+        }
+
+        changeContentBtn.addEventListener('click', changeContent);
+    </script>
+
+<script>
+   
+</script>
+
+</body>
+</html>
