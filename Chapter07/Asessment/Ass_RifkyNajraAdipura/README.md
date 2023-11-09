@@ -123,6 +123,7 @@ jika di klik akan menampilkan harga sewa permalam
 ![alt text](https://github.com/rifkyadipura/Ass_RifkyNajraAdipura/blob/main/ImgForReadme/cek-harga-barang.JPG?raw=true)
 
 ## 4. Ganti Gambar Tenda & Sepatu
+Jika diklik Akan Mengganti gambar Tenda & Sepatu
 ``` js
 <!-- ganti gambar tenda -->
 <img src="img/tenda1.jpg" alt="fototenda" class="mb-4 rounded-lg" id="fototenda">
@@ -144,6 +145,7 @@ jika di klik akan menampilkan harga sewa permalam
 ![alt text](https://github.com/rifkyadipura/Ass_RifkyNajraAdipura/blob/main/ImgForReadme/ganti-gambar-barang.JPG?raw=true)
 
 ## 5. Hubungi Penjual
+Untuk Hubungi Penjual akan di alihkan ke dalam Whatsapp pemilik penyedia alat barang untuk camping
 ``` js
 <!-- Button -->
                 <button onclick="penjualtenda()" class="my-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Hubungi Penjual</button>
