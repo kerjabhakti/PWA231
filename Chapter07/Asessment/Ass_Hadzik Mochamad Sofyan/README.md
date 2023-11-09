@@ -1,6 +1,6 @@
 # E-Commerce
 Pada website ini saya membuat website penjualan yang menjual sepatu, website ini bernama 'shoes' yang diambil dari kata bahasa inggris yang artinya sepatu. 
-[Link Text](https://www.example.com](https://hadzikk.github.io/ass_hadzikmochammadsofyan.github.io)
+[Github Pages disini](https://hadzikk.github.io/ass_hadzikmochammadsofyan.github.io)
 
 
 ![Gambar Card Default](images/Screenshot(184).png)
