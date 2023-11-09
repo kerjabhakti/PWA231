@@ -1,33 +1,37 @@
-# Aseesment Praktikum 1
+# Aseesment Praktikum 1 (Tailwind Css & JavaScript)
 ## Pilih Studi Kasusnya
 
-Proyek 1
-Proyek 2
-Proyek 3
-Intership 1
-Intership 2
-Tugas Akhir
-DHS
-Jadwal Kuliah
-Undangan Rapat
-Surat Menyurat
-Kuisoner
-Helpdesk
-Profile
-Point of Sales Kantin
-Presensi
-Perwalian
-Monitoring Orang Tua
-Tagihan
-Penerimaan Mahasiswa Baru
-Nilai
-BAP
-Penelitian
-Pengabdian Masyarakat
-Pengembangan Bahan Ajar
-Penggajihan dan Honor
-Kemahasiswaan
-elearning
-kurikulum RPS
-Luaran Dosen
-Laminfokom
+1. Jadwal Kuliah
+2. Undangan Rapat
+3. Surat Menyurat
+4. Kuisoner
+5. Helpdesk
+6. Profile
+7. Point of Sales Kantin
+8. Presensi
+9. Perwalian
+10. Monitoring Orang Tua
+11. Tagihan Listrik
+12. Penerimaan Mahasiswa Baru
+13. Nilai Mahasiswa
+14. BAP (Berita Acara Perkuliahan)
+15. Penelitian Dosen dan Mahasiswa
+16. Pengabdian Masyarakat
+17. Pengembangan Bahan Ajar
+18. Penggajihan dan Honor
+19. Kemahasiswaan
+20. elearning
+21. kurikulum RPS
+22. Luaran Dosen
+23. Kursus Bahasa
+24. Rental Mobil
+25. Perpustakaan
+26. Toko Buku, Kelontongan, Mainan dll
+27. Rumah Sakit
+28. E-Commerce
+29. Penyewaan
+
+## HTML dan CSS Standar [20]
+## Gunakan Tailwind [Bobot 30]
+## Gubakab JavaScript [Bobot 30]
+## CI/CD Github Pages [Bobot 20]
