@@ -1,4 +1,4 @@
-# Aseesment Praktikum 1
+# Aseesment Praktikum 1 (Tailwind Css & JavaScript)
 ## Pilih Studi Kasusnya
 
 1. Jadwal Kuliah
