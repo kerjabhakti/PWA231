@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pin | Jadwalkuliah</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet"></link>
+        <style>
+           
+        </style>
+    </head>
+    <body style="background-image: url(gambarjadwal/ulbi5.jpg);" class="bg-cover bg-center bg-fixed">
+
+    
+
+<div class="mx-auto mt-8 p-4">
+    <div class="max-w-md mx-auto bg-opacity-50 bg-blue-300 p-4 mt-24 rounded-lg shadow-md">
+        <h1 class="text-2xl text-white font-semibold mb-4">Masukan Jurusan Anda</h1>
+        <div class="mb-4">
+            <label for="pin" class="block text-white mb-2">ex: informatika</label>
+            <input type="password" id="pin" class="w-full border border-gray-300 p-2">
+        </div>
+        <div class="mb-4 pl-40">
+            <button id="verify" class="bg-blue-500 text-white py-2 px-4 rounded">Verifikasi</button>
+        </div>
+    </div>
+
+    <div><h2 class="text-center font-semibold text-2xl text-white"></h2></div>
+
+    <script>document.getElementById("verify").addEventListener("click", function() {
+        const enteredPin = document.getElementById("pin").value;
+        const correctPin = "informatika";
+
+        if (enteredPin === correctPin) {
+            window.location.href = "jadwalkuliah.html";
+        } else {
+            alert("PIN yang Anda masukkan salah. Coba lagi.");
+        }
+    });</script>    
+
+</body>
+</html>
