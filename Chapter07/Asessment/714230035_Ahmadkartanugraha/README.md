@@ -1,32 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="1.css">
-    <link rel="stylesheet" href="2.css">
-    <script src="https://cdn.tailwindcss.com/"></script>
-</head>
-<body class="bg-gray-800 min-h-screen">
-    <header class="bg-gray-700 text-white text-center p-5 relative">
+## Tampilan awal
+https://akhrf.github.io/Ass_AhmadKartaNugraha/
 
-        <h1 class="text-gray-900 font-extrabold text-3xl leading-6 underline">Toko mainan AKHRF</h1><br>
+```js
+    <nav class="bg-black mt-52 mr-72 ml-72 mb-52">
+    <form class="text-center bg-gray-500 p-20 rounded-lg" name="login" action="hal2.html" method="post">
 
-        <img src="img/z.jpg" class="w-20 float-right xl:w-1/2 xl:absolute bottom-0 right-20">
+        <label for="Email" class="text-black">Email Kang : </label> <br>
 
-        <img src="img/z.jpg" class="w-20 float-left xl:w-1/2 xl:absolute bottom-0 right-20">
+        <input type="email" name="email" id="email"> <br>
 
-            <nav class="bg-gray-500 text-center flex-1 py-9 px-9 rounded-lg">
+        <label for="Password" class="text-black">Password : </label> <br>
 
-                <a href="#" class="underline text-blue-300 font-semibold px-20 py-3">Home</a>
-                <a href="#" class="underline text-blue-300 font-semibold px-24 py-3">List</a>
-                <a href="#" class="underline text-blue-300 font-semibold px-24 py-3">Help</a>
-                <a href="#" class="underline text-blue-300 font-semibold px-24 py-3">Contact</a>
-                <button class="bg-black rounded-lg p-2 py-1 hover:text-gray-400" type="button"><a href="toko.html">Back</button>
-            </nav>
-    </header>
+        <input type="password" name="password" id="password"> <br>
 
+        <a class="underline" href="list.html"><button type="button" class="bg-black text-white rounded-lg p-1 mt-2">Login</button></a>
+
+        <input class="underline" type="Reset" value="Hapus"/>
+    </form>
+    </nav>
+```
+## Hasilnya
+![Image](https://github.com/akhrf/Ass_AhmadKartaNugraha/blob/main/img/1.png)
+disini saya membuat form untuk masuk ke tampilan list barang
+## Tampilan Kedua
+https://akhrf.github.io/Ass_AhmadKartaNugraha/list.html
+
+```js
     <div>
     <section class="container mx-auto my-8 p-8 bg-white shadow-lg rounded-lg">
         <h2 class="text-3xl font-bold mb-8">Harga terbaru mobil aki dan Mobil dan mobil remote</h2>
@@ -105,5 +104,7 @@
             </div>
         </div>
     </section>
-</body>
-</html>
+```
+## Hasilnya
+![Image](https://github.com/akhrf/Ass_AhmadKartaNugraha/blob/main/img/2.png)
+jika saya scroll kebawah akan menampilkan nama barang,list barang,dan button untuk melihat harga
