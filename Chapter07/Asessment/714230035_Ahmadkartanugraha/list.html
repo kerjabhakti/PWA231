@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="2.css">
+    <script src="https://cdn.tailwindcss.com/"></script>
+</head>
+<body class="bg-gray-800 min-h-screen">
+    <header class="bg-gray-700 text-white text-center p-5 relative">
+
+        <h1 class="text-gray-900 font-extrabold text-3xl leading-6 underline">Toko mainan AKHRF</h1><br>
+
+        <img src="img/z.jpg" class="w-20 float-right xl:w-1/2 xl:absolute bottom-0 right-20">
+
+        <img src="img/z.jpg" class="w-20 float-left xl:w-1/2 xl:absolute bottom-0 right-20">
+
+            <nav class="bg-gray-500 text-center flex-1 py-9 px-9 rounded-lg">
+
+                <a href="#" class="underline text-blue-300 font-semibold px-20 py-3">Home</a>
+                <a href="#" class="underline text-blue-300 font-semibold px-24 py-3">List</a>
+                <a href="#" class="underline text-blue-300 font-semibold px-24 py-3">Help</a>
+                <a href="#" class="underline text-blue-300 font-semibold px-24 py-3">Contact</a>
+                <button class="bg-black rounded-lg p-2 py-1 hover:text-gray-400" type="button"><a href="toko.html">Back</button>
+            </nav>
+    </header>
+
+    <div>
+    <section class="container mx-auto my-8 p-8 bg-white shadow-lg rounded-lg">
+        <h2 class="text-3xl font-bold mb-8">Harga terbaru mobil aki dan Mobil dan mobil remote</h2>
+    </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <!-- Table -->
+                        <div class="bg-gray-300 p-6 rounded-lg">
+                            <h1 class="text-xl font-bold mb-2">List nama,tipe dan harga : </h1>
+                            <p class="text-gray-700 mb-4">Berikut adalah list dari mobil remote dan mobil aki terbaru</p>
+                            
+                            <table border="2">
+                    
+                                <tr>
+                                    
+                                   <th>NAMA</th>
+                       
+                                   <th class="text-black">TIPE</th>
+                       
+                                   <th>HARGA</th>
+                       
+                                 </tr>
+                       
+                                 <tr>
+                    
+                                   <td>Jeep Rubicon OFF ROAD</td>
+                       
+                                   <td>PMB</td>
+                       
+                                   <td>Rp1.130.000 - Rp1.220.000</td>
+                       
+                                 </tr>
+                                
+                                 <tr class="text-green-600">
+                       
+                                   <td>Remote Control Offroad Alloy Climbing Car</td>
+                       
+                                   <td>C05</td>
+                       
+                                   <td>Rp220.000 - Rp299.000</td>
+                       
+                                 </tr>
+                       
+                                 <tr>
+                    
+                                   <td>REMOTE CONTROL BATMOBILE</td>
+                       
+                                   <td>VEHICLEM</td>
+                       
+                                   <td>Rp90.000</td>
+                       
+                           </table>
+                        </div>
+            <!-- Item 1 -->
+            <div class="bg-gray-300 p-6 rounded-lg">
+                <img src="img/0.jpeg" alt="Foto David" class="mb-4 rounded-lg">
+                <h3 class="text-xl font-bold mb-2">Jeep Rubicon OFF ROAD</h3>
+                <p id="harga" class="text-gray-700 mb-4">Klik untuk mengetahui harganya</p>
+                <button type="button"
+                        onclick="document.getElementById('harga').innerHTML= 'Rp1.130.000 - Rp1.220.000'">Click</button>
+            </div>
+            <!-- Item 2 -->
+            <div class="bg-gray-300 p-6 rounded-lg">
+                <img src="img/00.jpeg" alt="Foto Ciro" class="mb-4 rounded-lg">
+                <h3 class="text-xl font-bold mb-7">Remote Control Offroad Alloy Climbing Car</h3>
+                <p id="hrg" class="text-gray-700 mb-4">Klik untuk mengetahui harganya</p>
+                <button type="button"
+                        onclick="document.getElementById('hrg').innerHTML= 'Rp220.000 - Rp299.000'">Click</button>
+            </div>
+            <!-- Item 3 -->
+            <div class="bg-gray-300 p-6 rounded-lg">
+                <img src="img/000.jpeg" alt="Foto Ciro" class="mb-4 rounded-lg">
+                <h3 class="text-xl font-bold mb-7">Remote Control BATMOBILE</h3>
+                <p id="hrga" class="text-gray-700 mb-4">Klik untuk mengetahui harganya</p>
+                <button type="button"
+                        onclick="document.getElementById('hrga').innerHTML= 'Rp90.000'">Click</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
