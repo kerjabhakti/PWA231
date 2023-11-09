@@ -5,7 +5,7 @@ Website ini berisi tentang Fashion internasional sekaligus jual beli baju. Di da
 
 Website fashion ini saya beri nama Fashion House yang hanya berisikan satu halaman. Terdapat navbar yang berisikan Home, Product, About Us, shop dan contact. Jika user meng-klik home akan tetap berada di halaman home, lalu jika user meng-klik Produck akan dialihkan ke 4 katalog produk.
 
-![Gambar](product.png)
+![Gambar](catalog.png)
 
 # About Us
 kemudian jika meng-klik About Us website akan meng-scroll kebawah disana terdapat teks yang menjelaskan tentang website fashion kami disana juga user bisa meng-klik button more untuk mengetahui alasan mengapa harus membeli fashion di web kami.
