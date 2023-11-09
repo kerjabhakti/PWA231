@@ -1,4 +1,4 @@
-# Aseesment Praktikum 1 (Tailwind Css & JavaScript)
+# Aseesment Praktikum 1 MicroFrontend (Tailwind Css & JavaScript)
 ## Pilih Studi Kasusnya
 
 1. Jadwal Kuliah
@@ -31,7 +31,9 @@
 28. E-Commerce
 29. Penyewaan
 
-## HTML dan CSS Standar [20]
-## Gunakan Tailwind [Bobot 30]
-## Gubakab JavaScript [Bobot 30]
-## CI/CD Github Pages [Bobot 20]
+## Penilaian
+1. HTML dan CSS Standar [10]
+2. Gunakan Tailwind [Bobot 20] - Eksternal/Internal 
+3. Gubakan JavaScript [Bobot 20] - Elsternal/Internal
+4. CI/CD Github Pages [Bobot 20]
+5. Deskripsikan pada README.md [Bobot 20]
