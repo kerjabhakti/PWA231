@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat website dengan Thailwind</title>
+    <!-- jangan lupa tambahkan koneksi HTML Ke Tailwind -->
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!--membuat class container dan ukurannya disini-->
+    <!--menambahkan backround images-->
+    <!--menambah posisi gambar agar ketengah-->
+    <!--mengatur posisi ukurannya-->
+    <div class="contrainer bg-repeat min-h-screen bg-[url('images/treasurelogo.jpg')] bg-center bg-cover px-28 py-5">
+        <!--membuat class name flex pada nav-->
+        <!-- bagian menu -->
+         <nav class="flex item-center">
+            <img
+                src="images/Treasure_Logo_(2023).jpg"
+                alt="logonyaini"
+                class="w-40 cursor-pointer"
+            />
+             <ul class="flex-1 text-center">
+                 <!--atur warna text agar jadi putih dan tanpa underline-->
+                 <li class="list-none inline-block px-5">
+                    <a href="index.html" class="no-underline text-white px-2">home</a>
+                </li>
+                 <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">about</a></li>
+                 <li class="list-none inline-block px-5"><a href="member.html" class="no-underline text-white px-2">members</a></li>
+                 <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">contact</a></li>
+             </ul>
+             <img src="images/treasure_maker.png" alt="treasure maker"class="w-40 cursor-pointer"/>
+         </nav>
+         <!-- akhir menu -->
+         <!-- bagian konten -->
+         <div class="grid grid-cols-5 gap-4 min-h-screen items-center justify-center text-white mt-2">
+            <div class="flex items-center justify-between h-20 text-white bg-purple-600 rounded-lg shadow-md">
+                <div class="hero max-w-screen-lg mx-auto">
+                    <img src="images/hyunsuk.jpg" alt="treasure maker"class="w-20 cursor-pointer"/>
+                </div>
+                <label class="hero max-w-screen-lg mx-auto">CHOI HYUNSUK</label>
+            </div>
+            <div class="flex items-center justify-between h-20 text-white bg-purple-600 rounded-lg shadow-md">
+                <div class="hero max-w-screen-lg mx-auto ">
+                    <img src="images/PARK JIHOON.jpg" alt="treasure maker"class="w-20 cursor-pointer"/>
+                </div>
+                <label class="hero max-w-screen-lg mx-auto">PARK JIHOON</label>
+            </div>
+            <div class="flex items-center justify-between h-20 text-white bg-purple-600 rounded-lg shadow-md">
+                <div class="hero max-w-screen-lg mx-auto ">
+                    <img src="images/yoshi.jpg" alt="treasure maker"class="w-20 cursor-pointer"/>
+                </div>
+                <label class="hero max-w-screen-lg mx-auto">KANEMOTO YOSHINORI</label>
+            </div>
+            <div class="flex items-center justify-between h-20 text-white bg-purple-600 rounded-lg shadow-md">
+                <div class="hero max-w-screen-lg mx-auto">
+                    <img src="images/JUNKYU.jpg" alt="treasure maker"class="w-20 cursor-pointer"/>
+                </div>
+                <label class="hero max-w-screen-lg mx-auto">KIM JUNKYU</label>
+            </div>
+            <div class="flex items-center justify-between h-20 text-white bg-purple-600 rounded-lg shadow-md">
+                <div class="hero max-w-screen-lg mx-auto">
+                    <img src="images/jaehyuk.jpg" alt="treasure maker"class="w-20 cursor-pointer"/>
+                </div>
+                <label class="hero max-w-screen-lg mx-auto">YOON JAEHYUK</label>
+            </div>
+            <div class="flex items-center justify-between h-20 text-white bg-purple-600 rounded-lg shadow-md">
+                <div class="hero max-w-screen-lg mx-auto">
+                    <img src="images/asahi.jpg" alt="treasure maker"class="w-20 cursor-pointer"/>
+                </div>
+                <label class="hero max-w-screen-lg mx-auto">ASAHI</label>
+            </div>
+            <div class="flex items-center justify-between h-20 text-white bg-purple-600 rounded-lg shadow-md">
+                <div class="hero max-w-screen-lg mx-auto ">
+                    <img src="images/Kim Doyoung.jpg" alt="treasure maker"class="w-20 cursor-pointer"/>
+                </div>
+                <label class="hero max-w-screen-lg mx-auto">KIM DOYOUNG</label>
+            </div>
+            <div class="flex items-center justify-between h-20 text-white bg-purple-600 rounded-lg shadow-md">
+                <div class="hero max-w-screen-lg mx-auto ">
+                    <img src="images/HARUTO.jpg" alt="treasure maker"class="w-20 cursor-pointer"/>
+                </div>
+                <label class="hero max-w-screen-lg mx-auto">WATANABE HARUTO</label>
+            </div>
+            <div class="flex items-center justify-between h-20 text-white bg-purple-600 rounded-lg shadow-md">
+                <div class="hero max-w-screen-lg mx-auto">
+                    <img src="images/PARK JEONGWOO.jpg" alt="treasure maker"class="w-20 cursor-pointer"/>
+                </div>
+                <label class="hero max-w-screen-lg mx-auto">PARK JEONGWO</label>
+            </div>
+            <div class="flex items-center justify-between h-20 text-white bg-purple-600 rounded-lg shadow-md">
+                <div class="hero max-w-screen-lg mx-auto">
+                    <img src="images/junghwan.jpg" alt="treasure maker"class="w-20 cursor-pointer"/>
+                </div>
+                <label class="hero max-w-screen-lg mx-auto">SO JUNGHWAN</label>
+            </div>
+            <!-- <div class="hero container max-w-screen-lg mx-auto pb-10"><img src="images/grocery-image.png" alt="treasure maker"class="w-20 cursor-pointer"/></div>
+                <div class="hero container max-w-screen-lg mx-auto pb-10"><img src="images/grocery-image.png" alt="treasure maker"class="w-20 cursor-pointer"/></div>
+                <div class="hero container max-w-screen-lg mx-auto pb-10"><img src="images/grocery-image.png" alt="treasure maker"class="w-20 cursor-pointer"/></div>
+                <div class="hero container max-w-screen-lg mx-auto pb-10"><img src="images/grocery-image.png" alt="treasure maker"class="w-20 cursor-pointer"/></div> -->
+            </div>
+               
+            
+            <!-- <h1 class="text-6xl font-semibold leading-normal">
+                Mengenali boy band treasure 
+                <br/>
+                Serta para member-member treasure
+            </h1>
+            <p>
+                Treasure merupakan salah grup boy band berasal dari agensi YG Entertaiment
+                yang berisikan 10 anggota member, awal mula memiliki 12 anggota namun keluar 2 anggota.
+                selain itu treasure memiliki fansite yang bernama teume, teume singkatan dari treasure maker.
+            </p>
+            <div class="mt-10">
+                <a
+                  href="#"
+                  class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                  >Mari Belajar</a
+                >
+                <a href="#">Download Modulnya <span class="text-lg inline-block rotate-90">&#10148</span></a>
+              </div> -->
+        </div>
+        <div class="grid grid-cols-[repeat(auto-fit,_16.666666%)] m-auto p-24 justify-center bg-slate-500">
+            <div class="w-full p-8 col-span-2 justify-center justify-self-center mx-auto bg-slate-900 text-white text-center text-lg">
+              2 cols, should be centered
+            </div>
+        </div>
+        <!-- Akhir konten -->
+     </div>
+   
+</body>
+</html>
