@@ -1,4 +1,4 @@
-# Aseesment Praktikum 1
+# Aseesment Praktikum 1 MicroFrontend (Tailwind Css & JavaScript)
 ## Pilih Studi Kasusnya
 
 1. Jadwal Kuliah
@@ -11,11 +11,11 @@
 8. Presensi
 9. Perwalian
 10. Monitoring Orang Tua
-11. Tagihan
+11. Tagihan Listrik
 12. Penerimaan Mahasiswa Baru
-13. Nilai
+13. Nilai Mahasiswa
 14. BAP (Berita Acara Perkuliahan)
-15. Penelitian
+15. Penelitian Dosen dan Mahasiswa
 16. Pengabdian Masyarakat
 17. Pengembangan Bahan Ajar
 18. Penggajihan dan Honor
@@ -26,6 +26,14 @@
 23. Kursus Bahasa
 24. Rental Mobil
 25. Perpustakaan
-26. Rumah Sakit
-27. E-Commerce
-28. Penyewaan 
+26. Toko Buku, Kelontongan, Mainan dll
+27. Rumah Sakit
+28. E-Commerce
+29. Penyewaan
+
+## Penilaian
+1. HTML dan CSS Standar [10]
+2. Gunakan Tailwind [Bobot 20] - Eksternal/Internal 
+3. Gubakan JavaScript [Bobot 20] - Elsternal/Internal
+4. CI/CD Github Pages [Bobot 20]
+5. Deskripsikan pada README.md [Bobot 20]
