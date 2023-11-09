@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.tailwindcss.com/"></script>
+</head>
+<body class="bg-gray-800 min-h-screen">
+    <header class="bg-gray-700 text-white text-center p-5">
+
+        <h1 class="text-gray-900 font-extrabold text-3xl leading-6 underline">Aritmatik</h1><br>
+
+        <img src="img/z.jpg" class="w-20 float-right xl:w-1/2 xl:absolute bottom-0 right-20">
+
+        <img src="img/z.jpg" class="w-20 float-left xl:w-1/2 xl:absolute bottom-0 right-20">
+
+            <nav class="bg-gray-500 text-center flex py-9 px-9 rounded-lg">
+
+                <a href="button.html" class="underline text-blue-300 font-semibold px-20 py-3">Button</a>
+                <a href="ImgChange&Paragraf.html" class="underline text-blue-300 font-semibold px-24 py-3">ImgChange</a>
+                <a href="syntax.html" class="underline text-blue-300 font-semibold px-24 py-3">Syntax</a>
+                <a href="statement.html" class="underline text-blue-300 font-semibold px-24 py-3">Statement</a>
+            </nav>
+    </header>
+<section class="bg-white border mt-20 ml-72 mr-72 rounded-lg">
+    <div class="bg-gray-700 text-center rounded-lg">
+        <h1 class="text-3xl text-white">Aritmatika</h1>
+        <p class="text-white text-2xl" id="art"></p>
+        <script>
+            let x = 20;
+            let y = 15;
+            let z = x * y
+            {document.getElementById('art').innerHTML = z}
+        </script>
+    </div>
+</section>
+</body>
+</html>
