@@ -32,7 +32,8 @@
 29. Penyewaan
 
 ## Penilaian
-1. HTML dan CSS Standar [20]
-2. Gunakan Tailwind [Bobot 30] - Eksternal/Internal 
-3. Gubakan JavaScript [Bobot 30] - Elsternal/Internal
+1. HTML dan CSS Standar [10]
+2. Gunakan Tailwind [Bobot 20] - Eksternal/Internal 
+3. Gubakan JavaScript [Bobot 20] - Elsternal/Internal
 4. CI/CD Github Pages [Bobot 20]
+5. Deskripsikan pada README.md [Bobot 20]
