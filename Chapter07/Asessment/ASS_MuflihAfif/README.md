@@ -2,6 +2,8 @@
 saya membuat website ini untuk mengenalkan profil chanel youtube saya dengan berbentuk web.
 untuk sistem matis yang saya gunakan ada beberpa hal:
 
+untuk link page bisa
+[KlLIK DISINI](https://muflihafif004.github.io/ASS_MuflihAfif/)
 ## NavBar
 ``` js
 <body class="bg-no-repeat bg-center bg-cover min-h-screen" style="background-image: url('image/background.jpg');">
