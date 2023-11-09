@@ -97,7 +97,7 @@ jika di scroll ke bawah akan langsung menampilkan barang
 ## Hasilnya
 ![alt text](https://github.com/rifkyadipura/Ass_RifkyNajraAdipura/blob/main/ImgForReadme/macam-barang.JPG?raw=true)
 
-## 3. cek harga Barang
+## 3. Cek harga Barang
 jika di klik akan menampilkan harga sewa permalam
 ``` js
 <!-- cek harga tenda -->
