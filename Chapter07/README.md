@@ -29,4 +29,9 @@
 26. Toko Buku, Kelontongan, Mainan dll
 27. Rumah Sakit
 28. E-Commerce
-29. Penyewaan 
+29. Penyewaan
+
+## HTML dan CSS Standar [20]
+## Gunakan Tailwind [Bobot 30]
+## Gubakab JavaScript [Bobot 30]
+## CI/CD Github Pages [Bobot 20]
