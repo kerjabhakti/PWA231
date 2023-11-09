@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pin | RENZONE</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet"></link>
+        <style>
+            body {
+                background-image: url('gambar/backround3.jpg');
+                background-size: cover;
+                background-repeat: repeat;
+                background-attachment: fixed;
+            
+            }
+        </style>
+    </head>
+    <body>
+        
+<header class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-opacity-30 backdrop-blur p-6">
+    <div class="container mx-auto">
+        <nav class="flex items-center justify-between">
+            <img src="gambar/hoyo.png" alt="logo" class="w-28 cursor-pointer">
+            
+        </nav>
+    </div>
+</header>       
+
+<div class="mx-auto mt-8 p-4">
+    <div class="max-w-md mx-auto bg-opacity-80 bg-purple-600 p-4 rounded-lg shadow-md">
+        <h1 class="text-2xl text-white font-semibold mb-4">Verifikasi PIN</h1>
+        <div class="mb-4">
+            <label for="pin" class="block text-white mb-2">Masukkan PIN: 1234</label>
+            <input type="password" id="pin" class="w-full border border-gray-300 p-2">
+        </div>
+        <div class="mb-4 pl-40">
+            <button id="verify" class="bg-blue-500 text-white py-2 px-4 rounded">Verifikasi</button>
+        </div>
+    </div>
+
+    <div><h2 class="text-center font-semibold text-2xl text-white"></h2></div>
+
+    <script>document.getElementById("verify").addEventListener("click", function() {
+        const enteredPin = document.getElementById("pin").value;
+        const correctPin = "1234";
+
+        if (enteredPin === correctPin) {
+            window.location.href = "beranda.html";
+        } else {
+            alert("PIN yang Anda masukkan salah. Coba lagi.");
+        }
+    });</script>    
+
+</body>
+</html>
