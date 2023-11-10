@@ -18,3 +18,6 @@ Dan berikut ini adalah awal halaman website saya sebelum melakukan event dari bu
 Lalu ketika button di klik maka akan merubah gambar saya menjadi card yang mendeskripsikan saya.
 
 ![Alt text](image-4.png)
+
+link CI/CD
+https://zarruu.github.io/AssHadiMYsf/
