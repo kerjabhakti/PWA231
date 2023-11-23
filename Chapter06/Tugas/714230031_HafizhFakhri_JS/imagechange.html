@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageChange</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <body class="min-h-screen bg-white">
+        <style>
+            @media only screen and (min-width: 768px) {
+                .parent:hover .child {
+                    opacity: 1;
+                    height: auto;
+                    overflow: none;
+                    transform: translateY(0);
+                }
+                
+                .child {
+                    opacity: 0;
+                    height: 0;
+                    overflow: hidden;
+                    transform: translateY(-10%);
+                }
+            }
+        </style>
+
+        <!-- Navbar -->
+        <nav class="flex px-4 border-b md:shadow-lg item-center relative">
+            <div class="text-lg font-bold py-4 pl-6">
+                Edell<span class="text-blue-500">Weiss</span>
+            </div>
+            <ul class="md:px-2 ml-auto md:flex md:space-x-2 absolute md:relative top-full left-0 right-0">
+                <li>
+                    <a href="index.html" class="flex md:inline-flex p-4 items-center hover:bg-gray-50">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="aritmatik.html" class="flex md:inline-flex p-4 items-center hover:bg-gray-50">
+                        <span>Aritmatik</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="syntax.html" class="flex md:inline-flex p-4 items-center hover:bg-gray-50">
+                        <span>Syntax</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="statement.html" class="flex md:inline-flex p-4 items-center hover:bg-gray-50">
+                        <span>Statement</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="imagechange.html" class="flex md:inline-flex p-4 items-center hover:bg-gray-50">
+                        <span>Image Change</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="button.html" class="flex md:inline-flex p-4 items-center hover:bg-gray-50">
+                        <span>Button</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="paragraf.html" class="flex md:inline-flex p-4 items-center hover:bg-gray-50">
+                        <span>Paragraf</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="ml-auto md:hidden text-gray-500 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/></svg>
+            </div>
+        </nav>
+        <!-- Body 1 -->
+        <div class="min-h-screen bg-[url('background/philipp.jpg')] bg-center bg-cover bg-no-repeat px-28 py-5 relative">
+            <div class="text-white mt-48 text-center">
+                <h1 class="text-6xl font-semibold leading-normal">
+                    Image Change JavaScript <br />
+                </h1>
+                <p>
+                    <span class="text-4xl"> Hafizh Fakhri Muharram </span> <br />
+                </p>
+            </div>
+        </div>
+    </body>
+
+    <!-- Content -->
+    <section class="min-h-screen bg-white dark:bg-gray-900">
+        <div class="container px-6 py-10 mx-auto">
+            <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">JavaScript</h1>
+            
+            <div class="grid-center grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
+                <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+                    <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Image Change</h1>
+
+                    <p class="mt-2 text-gay-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+                        Onclick Gambar
+                    </p>
+                    <br />
+                    <button class="center" onclick='document.getElementById("gambar").src="https://raw.githubusercontent.com/kerjabhakti/PWA231/main/Chapter06/pic_bulbon.gif"'>
+                        Nyalakan Lampu
+                    </button>
+                
+                    <img class="center"
+                    id="gambar"
+                    src="https://raw.githubusercontent.com/kerjabhakti/PWA231/main/Chapter06/pic_bulbon.gif"
+                    alt=""
+                    />
+                
+                    <button class="center" onclick='document.getElementById("gambar").src="https://raw.githubusercontent.com/kerjabhakti/PWA231/main/Chapter06/pic_bulboff.gif"'>
+                        Matikan Lampu
+                    </button>        
+                </div>
+            </div>
+
+    </section>
+</body>
+</html>
