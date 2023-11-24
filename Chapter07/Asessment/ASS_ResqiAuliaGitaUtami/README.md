@@ -1,4 +1,6 @@
 # ass_Gita
+## CI/CD Pages
+https://gitautami.github.io/ass_ResqiAuliaGitaUtami/
 ## asesment1 jadwal kuliah
 ### Codingannya
 ``` js
