@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Dasar Banget</title>
+</head>
+    <body>
+        <h2>Membuat JavaScript bisa membaca halaman dari</h2>
+        <p id="coba">Isi akan berubah setelah kita klik button KLIK DISINI</p>
+        <p>Menampilkan Waktu</p>
+
+        <!-- ini codingan button 1 -->
+        <button type="button" onclick='document.getElementById("coba").innerHTML = "Hello World Selamat Datang di JavaScript" '>Klik Disini!</button>
+
+        <!-- ini codingan button 2 -->
+        <button type="button" onclick="document.getElementById('waktu').innerHTML = Date()">Klik Disini untuk menampilkan Waktu!</button>
+        <p id="waktu"></p>
+
+        <!-- Menyalakan Lampu Source Asli dari W33School -->
+        <button onclick="document.getElementById('gambar').src='https://raw.githubusercontent.com/Sam9100/PWA231/main/Chapter06/pic_bulbon.gif'">Nyalakan Lampunya!</button>
+
+        <img id="gambar" src="https://raw.githubusercontent.com/Sam9100/PWA231/main/Chapter06/pic_bulboff.gif" alt="" />
+
+        <button onclick="document.getElementById('gambar').src='https://raw.githubusercontent.com/Sam9100/PWA231/main/Chapter06/pic_bulboff.gif'">Matikan Lampunya!</button>
+        
+
+        <!-- Membuat Variable JavaScript -->
+        <h2>Membuat Variable JavaScript</h2>
+        <p>Ini adalah sebuah variable didalam JavaScript</p>
+        <p>JavaScript dapat melakukan apa saja yang anda perintahkan</p>
+        <p id="variable"></p>
+        <script>
+            x=10;
+            y=12;
+            z=x * y;
+            document.getElementById('variable').innerHTML = "Isinya adalah = " + z;
+        </script>
+
+
+        <!-- Membuat Let Pada JavaScript -->
+        <h2>Membuat Let di JavaScript</h2>
+        <p id="let"></p>
+        <script>
+            let x = 20;
+            {
+                let x = 2;
+            }
+            document.getElementById('let').innerHTML = x;
+        </script>
+    </body>
+</html>

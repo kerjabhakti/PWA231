@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSIB BANDUNG</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="bg-blue-700 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">PERSIB</a>
+            <ul class="flex space-x-4">
+                <li><a href="https://persib.co.id/media" class="hover:underline">Berita</a></li>
+                <li><a href="https://persib.co.id/club-players" class="hover:underline">Pemain</a></li>
+                <li><a href="https://persib.co.id/standing" class="hover:underline">Klasemen</a></li>
+                <li><a href="https://persib.co.id/upcomingAllEvents?slug=persib&season=2023-2024&competition=liga-1-2023-2024&pageSize=5&competitionId=19" class="hover:underline">Jadwal</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="h-screen flex items-center justify-center bg-[url('img/persib.jpg')] bg-cover bg-center bg-repeat text-white">
+        <div>
+            <div class="container mx-auto text-center">
+                <h1 class="text-5xl font-bold mb-4 my-20">Selamat Datang Di Website PERSIB</h1>
+                <p class="text-lg" id="text">Temukan berita terbaru, informasi pemain, jadwal pertandingan, dan klasemen liga.</p>
+
+                <!-- Penggantian Paragraf dari Button -->
+                <button class="my-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" 
+                type="button" onclick='document.getElementById("text").innerHTML = "Bandung Belongs To Us"'>
+                    Ganti Text
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Berita -->
+    <section class="container mx-auto my-8 p-8 bg-white shadow-lg rounded-lg">
+        <h2 class="text-3xl font-bold mb-8">Berita PERSIB</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Berita ke 1 -->
+            <div class="bg-gray-200 p-6 rounded-lg">
+                <img src="img/david.jpg" alt="Foto David" class="mb-4 rounded-lg" id="fotodavid">
+                <h3 class="text-xl font-bold mb-2">David Da Silva Pencetak Gol Terbanyak PERSIB Sejak Era Liga Indonesia</h3>
+
+                <!-- Aritmatik -->
+                <p id="totalgoal"></p>
+                <script>
+                    let d = 11;
+                    let f = 17;
+                    let g = d + f
+                    document.getElementById("totalgoal").innerHTML = "Total Semua Goal =" + g;
+                </script>
+
+                <!-- Syntax -->
+                <p class="text-gray-700" id="ratingdavid"></p>
+                <script>
+                var x, y;
+                    x = 80 + 80;
+                    y = x / 2;
+                    document.getElementById("ratingdavid").innerHTML = "Rating = "+ y;
+                </script>
+
+                <!-- Statement -->
+                <p class="text-gray-700 mb-4" id="goldavid"></p>
+                <script>
+                    let a, b, c; // Statement 1
+                    a = 5;       // Statement 2
+                    b = 6;       // Statement 3
+                    c = a + b;   // Statement 4
+                    document.getElementById("goldavid").innerHTML = "Jumlah Gol Musim Ini = " + c;
+                </script>
+
+                <p class="text-gray-700 mb-4">30 Oktober 2023 09:01 WIB</p>
+
+                <!-- Image Change -->
+                <button class="my-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" onclick="document.getElementById('fotodavid').src='https://persib-app-production.s3.ap-southeast-1.amazonaws.com/david_borneo_21102023_barly_68a6d7d4a9.jpg'">
+                    Ganti Foto
+                </button>
+                
+                <!-- Button -->
+                <button onclick="FunctionDavid()" class="my-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Baca Selengkapnya</button>
+                <script>
+                    function FunctionDavid() {
+                        alert("Yakin Untuk Lihat Selengkapnya?");
+                        window.open("https://persib.co.id/article-details/david-da-silva-pencetak-gol-terbanyak-persib-sejak-era-liga-indonesia");
+                    }
+                </script>
+            </div>
+            <!-- Berita ke 2 -->
+            <div class="bg-gray-200 p-6 rounded-lg">
+                <img src="img/ciro.jpg" alt="Foto Ciro" class="mb-4 rounded-lg" id="fotociro">
+                <h3 class="text-xl font-bold mb-7">Ciro Alves Siap Kerja Keras Di Kandang Madura United</h3>
+                <p class="text-gray-700 mb-4">30 Oktober 2023 06:08 WIB</p>
+
+                <!-- Image Change -->
+                <button class="my-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" 
+                type="button" onclick="document.getElementById('fotociro').src='https://persib-app-production.s3.ap-southeast-1.amazonaws.com/ciro_madura_01112023_sut_cec605da38.jpg'">
+                    Ganti Foto
+                </button>
+
+                <!-- Button -->
+                <button onclick="FunctionCiro()" class="my-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Baca Selengkapnya</button>
+                <script>
+                    function FunctionCiro() {
+                        alert("Yakin Untuk Lihat Selengkapnya?");
+                        window.open("https://persib.co.id/article-details/ciro-alves-siap-kerja-keras-di-kandang-madura-united");
+                    }
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-blue-700 text-center text-white py-4">
+        <p>&copy; 2023 Rifky Najra Adipura</p>
+    </footer>
+</body>
+</html>
