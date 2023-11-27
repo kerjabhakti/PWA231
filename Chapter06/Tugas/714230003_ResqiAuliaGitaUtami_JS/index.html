@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWT Store</title>
+    <!-- jangan lupa tambahkan koneksi html -->
+    <link rel="styleshheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<h2>
+    <!-- Membuat class container dan ukurannya disini -->
+    <!-- Menambahkan backround Images -->
+    <!-- Menambah posisi gambar agar ketengah -->
+    <!-- Mengatur posisi ukurannya -->
+    <h2 class="container min-h-screen bg-[url('images/background.jpg')] bg-center bg-cover px-28 py-5 relative">
+        <!-- membuat class name flex pada nav -->
+        <nav class="flex items-center">
+            <img src="images/logo/PWT Store.png" alt="logoPWT" class="w-40 cursor-pointer py-5 px-5 " />
+            <ul class="flex-1 text-center">
+                <!-- Atur posisi text menjadi sejajar -->
+                <li class="list-none inline-block px-5"><a href="index.html" 
+                    class="no-underline text-black bg-pink-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparant">Home</a></li>
+                <li class="list-none inline-block px-5"><a href="#" 
+                    class="no-underline text-black bg-pink-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparant">About</a></li>
+                <li class="list-none inline-block px-5"><a href="product.html" 
+                    class="no-underline text-black bg-pink-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparant">Product</a></li>
+                <li class="list-none inline-block px-5"><a href="#" 
+                    class="no-underline text-black bg-pink-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparant">Contact</a></li>
+            </ul>
+            <img src="images/cart.png" alt="cart" class="w-12 cursor-pointer" />
+        </nav>
+        <div class="text-white mt-48">
+            <h1 class="text-6xl font-semibold leading-normal">
+                Laptop <br />
+                Harga Murah dan Terjangkau Bagi Mahasiswa...!
+                <span class="font-light"></span>
+            </h1>
+            <p id="promo" >
+                Promosi hanya di bulan ini saja, diskon sampai dengan 60% untuk pelajar dan mahasiswa!!!
+            </p>
+        </div>
+        <div class="mt-10">
+            <a
+            href="#"
+            class="bg-pink-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparant">Beli Sekarang!</a>
+            <a href="#" class="bg-pink-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparant" 
+            type="button" onclick="document.getElementById('promo').innerHTML = '<b>Promo Khusus Untuk Anda Hari ini, HP Omen Victus 15 Hanya Rp.11.999.000</b>'">Cek Harga Laptop Terbaru!</a>
+        </div>
+    </h2><b>PROMO!!!</b></h2>
+    <p>Buruan jangan sampai ketinggalan <b>PROMO BULAN INI!</b></p>
+<p id="demo"></p>
+<script>
+    let x,y,z;
+    x = 30;
+    y = 40;
+    z = x + y;
+    document.getElementById("demo").innerHTML ="<b>PROMO SAMPAI DENGAN</b> " + z + "<b>%</b>" + "."; 
+</script>
+    </div>
+    <footer class="bg-pink-300 text-black text-center h-6 font-semibold">
+        <p>2023, &copy; All Right Reserved. By:Resqi Aulia Gita Utami</p>
+    </footer>
+</body>
+</html>

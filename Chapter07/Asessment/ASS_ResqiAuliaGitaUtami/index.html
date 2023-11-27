@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Kuliah</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-red-300 to-red-300">
+    <header class="py-4 px-4 bg-black p-4 text-white">
+        <div class="container mx-auto flex items-center justify-between">
+          <h1 class="text-2xl font-semibold ">JADWAL KULIAH D4-TEKNIK INFORMATIKA 1A</h1> 
+        </div>
+    </header>
+    <div class="mx-auto mt-8 p-4">
+      <div class="max-w-md mx-auto p-5 mt-30 rounded-lg shadow-md">
+          <h1 class="text-3xl text-black font-semibold ">Please Enter Your ID</h1>
+          <br>
+          <form>
+            <label class="font-semibold" for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password" style="display: none;">Password:</label>
+            <input type="password" id="password" name="password" style="display: none;">
+            <br><br>
+            <button id="benar" class="bg-black text-white py-2 px-4 rounded">Login</button>
+          </form>
+      </div>
+      <script>document.getElementById("benar").addEventListener("click", function() {
+        const enteredPin = document.getElementById("password").value;
+        const correctPin = "123";
+
+        if (enteredPin === correctPin) {
+            window.location.href = "jadwal.html";
+        } else {
+          window.location.href = "jadwal.html";
+        }
+    });</script>
+    <footer class="bg-pink-300 text-black text-center h-6 font-semibold ">  
+      <div class="container mx-auto text-center">
+        <p>2023, &copy; All Right Reserved. By:Resqi Aulia Gita Utami</p>
+      </div>
+    </footer>
+</body>
