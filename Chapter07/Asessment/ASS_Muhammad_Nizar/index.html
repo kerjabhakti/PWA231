@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Garage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="flex items-center bg-gradient-to-r from-purple-700 to-blue-700">
+        <h2 class="text-blue-400 cursor-pointer pl-5 text-2xl">Dream <span class="text-purple-400">Garage</span></h2>
+        <a href="gambar/logonav.png"><img src="gambar/logonav.png" alt="" class="transition ease-in-out delay-80 ml-5 hover:opacity-20"></a>
+            <ul class="flex-1 text-right mt-5 mr-20 mb-5">
+                <li class="list-none inline-block px-5"><a href="#" class="transition ease-in-out delay-80 no-underline text-purple-400 hover:text-purple-600">Home</a></li>
+                <li class="list-none inline-block px-5"><a href="#" class="transition ease-in-out delay-80 no-underline text-purple-400 hover:text-purple-600">Kategori</a></li>
+            </ul>
+    </nav>
+    <div class="min-h-screen bg-[url('https://imgcdn.oto.com/large/gallery/exterior/3/42/bmw-m3-sedan-front-angle-low-view-563796.jpg')] bg-center bg-cover px-28 py-5 relative">
+        <div class="text-white mt-20 bg-black bg-opacity-50 rounded-xl pl-5">
+            <h1 class="text-6xl font-semibold leading-normal">
+                Mau rental mobil biar keliatan <span class="italic">hedon</span> ? <br>
+                <span class="font-light">Dream garage tempatnya</span>
+            </h1>
+        <button class="bg-blue-400 hover:bg-white-400 relative rounded-lg p-2 hover:bg-blue-700" onclick="refresh()">cek status</button>
+        <script>
+            function refresh() {
+                alert("checking status....")
+                            var p = document.getElementById('parag');
+                            var p1 = document.getElementById('parag1');
+                            var p2 = document.getElementById('parag2');
+                            var p3 = document.getElementById('parag3');
+
+                            var currentText = p.innerHTML;
+                            var newText = "Bisa di rental"
+                            var oldText = "Sedang dipakai"
+
+                            if (currentText === newText) {
+                                p.innerHTML = 
+                                "";
+                            } else {
+                                p.innerHTML = newText
+                            }
+
+                            if (currentText === oldText) {
+                                p1.innerHTML = 
+                                "";
+                            } else {
+                                p1.innerHTML = oldText
+                            }
+                            
+                            if (currentText === newText) {
+                                p3.innerHTML = 
+                                "";
+                            } else {
+                                p3.innerHTML = newText
+                            }
+
+                            if (currentText === oldText) {
+                                p2.innerHTML = 
+                                "";
+                            } else {
+                                p2.innerHTML = oldText
+                            }
+            }
+        </script>
+    <section class="container mx-auto mt-8 p-4">
+        <h2 class="text-2xl font-semibold mb-4">Yang sedang ramai</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="bg-white rounded-lg p-4 shadow-md">
+                <a href="https://www.olx.co.id/item/vw-volkswagen-scirocco-14-tsi-r-line-coupe-facelift-at-20182019-iid-901364955" target="_blank" link="rel"><img src="https://img.okezone.com/content/2016/10/11/15/1511828/150-unit-edisi-terakhir-vw-scirocco-meluncur-bulan-depan-TF66su1FVA.jpg" alt="VW scirocco" class="w-full h-48 object-cover mb-4 rounded-lg hover:opacity-70 transition ease-in-out delay-80"></a>
+                <h3 class="text-lg text-gray-700 font-semibold">Volkswagen Scirocco</h3>
+                <p id="parag" class="text-green-700"></p>
+            </div>
+            <div class="bg-white rounded-lg p-4 shadow-md mt-10">
+                <a href="https://www.oto.com/mobil-baru/honda/civic-type-r" target="_blank" link="rel"><img src="https://imgcdn.oto.com/large/gallery/exterior/14/524/honda-civic-type-r-front-angle-low-view-881050.jpg" alt="civic-type-r" class="w-full h-48 object-cover mb-4 rounded-lg hover:opacity-70 transition ease-in-out delay-80"></a>
+                <h3 class="text-lg text-gray-700 font-semibold">Civic Type-R</h3>
+                <p id="parag1" class="text-red-700"></p>
+            </div>
+            <div class="bg-white rounded-lg p-4 shadow-md">
+                <a href="https://www.oto.com/mobil-baru/mercedes-benz/g-class" target="_blank" link="rel"><img src="https://imgcdn.oto.com/large/gallery/exterior/25/211/mercedes-benz-g-class-front-angle-low-view-672434.jpg" alt="Mercedez G-Class" class="w-full h-48 object-cover mb-4 rounded-lg hover:opacity-70 transition ease-in-out delay-80"></a>
+                <h3 class="text-lg text-gray-700 font-semibold">Mercedez G-Class</h3>
+                <p id="parag2" class="text-red-700"></p>
+            </div>
+            <div class="bg-white rounded-lg p-4 shadow-md mt-10">
+                <a href="https://www.oto.com/mobil-baru/subaru/wrx" target="_blank" link="rel"><img src="https://imgcdn.oto.com/large/gallery/exterior/36/318/subaru-wrx-front-angle-low-view-802046.jpg" alt="subaru wrx" class="w-full h-48 object-cover mb-4 rounded-lg hover:opacity-70 transition ease-in-out delay-80"></a>
+                <h3 class="text-lg text-gray-700 font-semibold">Subaru WRX</h3>
+                <p id="parag3" class="text-green-700"></p>
+            </div>
+        </div>       
+    </div>
+
+    <div class="min-h-screen bg-black bg-opacity-70 rounded-xl bg-center bg-cover mt-2 pt-20 pl-7 relative">
+        <h2 class="text-white text-2xl">Kenapa harus kami? <br><span>Kami menawarkan mobil-mobil sporty dan berkelas dengan harga terjangkau <br>dan persyaratan yang lebih mudah</span></h2>
+    </div>
+        <footer class="flex items-center mt-2">
+            <p class="flex-1 text-center text-white">©Copyright Muhammad Nizar Akmal</p>
+        </footer>
+</body>
+</html>

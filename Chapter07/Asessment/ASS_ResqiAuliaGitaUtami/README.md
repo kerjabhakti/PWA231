@@ -1,0 +1,99 @@
+# ass_Gita
+## CI/CD Pages
+https://gitautami.github.io/ass_ResqiAuliaGitaUtami/
+## asesment1 jadwal kuliah
+### Codingannya
+``` js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Kuliah</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-red-300 to-red-300">
+    <header class="py-4 px-4 bg-black p-4 text-white">
+        <div class="container mx-auto flex items-center justify-between">
+            <h1 class="text-2xl font-semibold ">JADWAL KULIAH D4-TEKNIK INFORMATIKA 1A</h1>
+            
+        </div>
+    </header>
+    <main class="container mx-auto flex-grow p-4">
+    </main>
+        <h2 class="text-xl font-semibold mb-4">Jangan sampai salah jadwal teman!</h2>
+    </div>
+        <!-- Menyalakan Lampu Source Asli dari W3Scholl -->
+    <h2>Hallo Kelas 1A</h2>
+    <button
+      onclick="document.getElementById('gambar').src='https://i.ytimg.com/vi/8kgpDekYfho/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEggVChlMA8=&rs=AOn4CLB0i1DjhBXOYjfzXNjfJk17FjYxgg'"
+    >
+      Perhatikan Jadwalnya Yaaa...
+    </button>
+    <img
+      id="gambar"
+      src="https://i.ytimg.com/vi/8kgpDekYfho/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEggVChlMA8=&rs=AOn4CLB0i1DjhBXOYjfzXNjfJk17FjYxgg"
+      alt=""
+    />
+    <button
+      onclick="document.getElementById('gambar').src=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYS-zG-0UGMvIo2U7nK0cilU-aspdOfodB7oT43Is9y_vSSRj9O69Vkf6rSEeMzEhXcE0PyPVLEKPzmOCFCFvJLJTu6P4hny3_KmfvtYiH759Fv3HmuEZu65UwAy4XIbGKmSz2ZEUeo9TBzIGJ4oi-esYqvyOz5Dzzv8UXxeHAh0GxIyzsvc7t7cuQcQ/w0/Gedung%20Rektorat.jpg'">
+      Semangatttttt!!!!!
+    </button> 
+    <table class="table-auto w-full">
+        <thead>
+            <tr>
+                <th class="border px-4 py-2">Hari</th>
+                <th class="border px-4 py-2">Mata Kuliah</th>
+                <th class="border px-4 py-2">Waktu</th>
+            </tr>
+        </thead>
+    <tr>
+        <td class="border px-4 py-2 underline">Senin</td>
+        <td class="border px-4 py-2 underline">Bahasa Inggris</td>
+        <td class="border px-4 py-2 underline">08:00 - 12:00</td>
+      </tr>
+      <tr>
+        <td class="border px-4 py-2 underline">Senin</td>
+        <td class="border px-4 py-2 underline">Literasi Teknologi</td>
+        <td class="border px-4 py-2 underline">13:00 - 16:20</td>
+      </tr>  
+      <tr>
+        <td class="border px-4 py-2 underline">Selasa</td>
+        <td class="border px-4 py-2 underline">Bahasa Indonesia</td>
+        <td class="border px-4 py-2 underline">08:40 - 10:20</td>
+      </tr>
+      <tr>
+        <td class="border px-4 py-2 underline">Selasa</td>
+        <td class="border px-4 py-2 underline">Matematika</td>
+        <td class="border px-4 py-2 underline">13:00 - 16:00</td>
+      </tr>
+      <tr>
+        <td class="border px-4 py-2 underline">Rabu</td>
+        <td class="border px-4 py-2 underline">Pendidikan Pancasila</td>
+        <td class="border px-4 py-2 underline">08:40 - 10:20</td>
+      </tr>
+      <tr>
+        <td class="border px-4 py-2 underline">Kamis</td>
+        <td class="border px-4 py-2 underline">Pemrograman I</td>
+        <td class="border px-4 py-2 underline">08:00-11:00</td>
+      </tr>
+      <tr>
+        <td class="border px-4 py-2 underline">Kamis</td>
+        <td class="border px-4 py-2 underline">Algoritma dan Struktur Data I</td>
+        <td class="border px-4 py-2 underline">13:00 - 16:00</td>
+      </tr>
+      <tr>
+        <td class="border px-4 py-2 underline">Jumat</td>
+        <td class="border px-4 py-2 underline">Pendidikan Agama</td>
+        <td class="border px-4 py-2 underline">07:50 - 09:30</td>
+      </tr>
+    </table>
+    <footer class="bg-pink-300 text-black text-center h-6 font-semibold">
+      <p>2023, &copy; All Right Reserved. By:Resqi Aulia Gita Utami</p>
+    </footer>
+</body>
+```
+### Hasilnya 
+![image](https://github.com/gitautami/ass_Gita/assets/147012438/2e0896f1-ee19-41df-af97-0df54bfac980)
+![image](https://github.com/gitautami/ass_Gita/assets/147012438/3a56d493-adf3-4315-ae41-a09c92a8857d)
+
