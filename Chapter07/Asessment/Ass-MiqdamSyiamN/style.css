@@ -1,0 +1,152 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --logo: #112d4e;
+  --bg: #f9f7f7;
+  --tbl-biru: #3f72af;
+  --hover: #dbe2ef;
+  --merah: #ff2e63;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "open sans", sans-serif;
+}
+
+.navigasibar {
+  width: 100%;
+  position: relative;
+  padding: 10px;
+  box-shadow: 1px 1px 5px #000;
+}
+
+.logo a {
+  font-size: 65px;
+  font-weight: 800px;
+  float: left;
+  font-family: "roboto", open sans, sans-serif;
+  color: var(--logo);
+  margin-left: 30px;
+}
+span {
+  color: var(--tbl-biru);
+}
+
+.menu {
+  float: right;
+  margin-right: 20px;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 70px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: var(--bg);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  transition: 0.3s ease;
+  transition-delay: 0.2s;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.kolom {
+  margin-top: 130px;
+  margin-bottom: 50px;
+  position: sticky;
+}
+
+.kolom .deskripsi {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "roboto", sans-serif;
+  color: var(--logo);
+}
+
+h2 {
+  font-family: "roboto", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: var(--logo);
+  width: 100%;
+  line-height: 80px;
+}
+
+.font {
+  font-size: 25px;
+  font-family: "roboto", sans-serif;
+}
+
+a.tbl-biru {
+  background: var(--tbl-biru);
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: black;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+a.tbl-biru:hover {
+  background: #ff2e63;
+  text-decoration: dotted;
+  transition: 0.5s ease;
+  transition-delay: 0.3s;
+}
+
+a.tbl-pesan {
+  background: var(--tbl-biru);
+  border-radius: 15px;
+  margin-bottom: 25px;
+  padding: 10px 15px 10px 15px;
+  font-size: 20px;
+  font-family: "roboto", sans-serif;
+  color: black;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #000;
+}
+a.tbl-pesan:hover {
+  background: var(--merah);
+  text-decoration: dotted;
+  transition: 0.50s ease;
+  transition-delay: 0.3s;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
