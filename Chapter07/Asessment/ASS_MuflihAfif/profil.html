@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil zakaruna</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <body class="bg-no-repeat bg-center bg-cover min-h-screen" style="background-image: url('image/background_opik.jpg');">
+        <header>
+            <nav class="relative p-3 mx-auto bg-gray-950 bg-opacity-80 shadow-2xl shadow-blue-300">
+                <div class="relative max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">       
+                    <h1 class="text-white text-3xl font-bold"><span class="text-blue-500">ZAKA</span>RUNA</h1>
+    
+                    <ul class="flex items-center gap-5">
+                        <li class="list-none inline-block px-5 text-[20px] font-bold ">
+                            <a href="index.html" class="text-white px-2 hover:text-blue-900">Beranda</a>
+                        </li>
+    
+                        <li class="list-none inline-block px-5 text-[20px] font-bold ">
+                            <a href="Topik.html" class="text-white px-2 hover:text-blue-900">Topik</a>
+                        </li>
+    
+                        <li class="list-none inline-block px-5 text-[20px] font-bold ">
+                            <a href="profil.html" class="text-blue-500 md:text-blue-500 hover:text-blue-300">Profil</a>
+                        </li>
+    
+                        <li class="list-none inline-block px-5 text-[20px] font-bold ">
+                            <a href="https://www.instagram.com/apip_zakaruna/" class="text-white px-2 hover:text-blue-900">Kontak</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="mx-auto mt-20">
+            <div class="max-w-md mx-auto bg-gray-300 bg-opacity-30 rounded-md border-4 shadow-md ">
+                <img class=" mx-auto mt-4 w-20  h-20 object-cover rounded-full" src="image/profil_youtube.jpg" alt="Gambar">
+                <div class="">
+                    <h2 class="text-2xl font-bold mb-4 text-center text-white">
+                        <span class="text-[#00ffff]">ZAKA</span>RUNA</h2>
+                    <p class="text-white text-center">
+                        Channel ini dibuat pada 26 desember 2016
+                        <br>
+                        Dan channel ini dibuat untuk memberikan konten
+                        <br>
+                        yang sesuai umur seperti 7+
+                    </p>
+                    <p id="variable" class="text-center font-semibold text-blue-300"></p>
+                    <script>
+                    x=100;
+                    y=71;
+                    z=x+y;
+                    document.getElementById("variable").innerHTML = "Subscriber =" + z;
+                    console.log (variable)
+                    </script>
+                    <div class="mt-4 flex justify-center">
+                        <button class="bg-red-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                            <a href="https://www.youtube.com/@zakaruna8496">Subscribe</a></button>
+                    </div>
+    </body>
+    </html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWT Store</title>
+    <!-- jangan lupa tambahkan koneksi html -->
+    <link rel="styleshheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body> 
+    <nav class="flex items-center bg-black w-full">
+        <img src="images/logo/PWT Store.png" alt="logoPWT" class="w-40 cursor-pointer py-5 px-5 " />
+        <ul class="flex-1 text-center">
+            <li class="list-none inline-block px-5"><a href="index.html" 
+                class="no-underline text-black bg-pink-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparant">Home</a></li>
+            <li class="list-none inline-block px-5"><a href="#" 
+                class="no-underline text-black bg-pink-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparant">About</a></li>
+            <li class="list-none inline-block px-5"><a href="product.html" 
+                class="no-underline text-black bg-pink-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparant">Product</a></li>
+            <li class="list-none inline-block px-5"><a href="#" 
+                class="no-underline text-black bg-pink-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparant">Contact</a></li>
+        </ul>
+        <img src="images/cart.png" alt="cart" class="w-12 cursor-pointer" />
+    </nav>
+        
+    <div class="bg-black w-full">
+        <h2 class="text-3xl font-semibold leading-normal">HP Omen Victus 14</h2>
+        <img id="gambar" src="/Chapter06/Tugas/714230003_ResqiAuliaGitaUtami_JS/images/Victus Open.png" alt="" />
+        <button class="bg-pink-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparant"
+            onclick="document.getElementById('gambar').src='/Chapter06/Tugas/714230003_ResqiAuliaGitaUtami_JS/images/Victus Open.png'" >
+            Kembali
+        </button>  
+        <button class="bg-pink-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparant"
+        onclick="document.getElementById('gambar').src='/Chapter06/Tugas/714230003_ResqiAuliaGitaUtami_JS/images/Victus Close.png'" >
+        Selanjutnya
+        </button>
+    </div>
+    <footer class="bg-pink-300 text-black text-center h-6 font-semibold">
+        <p>2023, &copy; All Right Reserved. By:Resqi Aulia Gita Utami</p>
+    </footer>
+</body>
+</html>

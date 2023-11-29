@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+
+        .contrainer{
+            min-width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+    <title>kursus bahasa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-cover bg-center h-screen" style="background-image: url('images/kursus.avif')">
+    <nav class="w-full py-3 px-5 bg-black flex justify-between shadow">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-xl font-bold">HANGEUL</a>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="text-white">login</a></li>
+                <li><a href="#" class="text-white">daftar</a></li>
+                <li><a href="#" class="text-white">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class=" container mt-48">
+       <h1 class="text-4xl font-bold">Selamat datang di kursus bahasa Korea</h1>
+       <p class="text-xl">Pelajari bahasa dengan mudah dan cepat</p>
+        </div>
+    </div>
+    <div class="mt-10">
+        <button id="belajarButton">
+    <a
+     href="#"
+     class="bg-blue-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant
+      hover:border-blue-300 hover: text-white duration-300 hover:border border border-transparent">mari belajar</a>
+        </button>
+    </div>
+
+    <section id="hurufHijaiyah" style="display: none;">
+        <div class="container min-w-full h-screen flex justify-center items-center">
+            <div class="box w-full bg-white shadow p-5 rounded">
+                <p class="text-3xl font-bold mb-4">Huruf Hangeul</p>
+                <div class="grid grid-cols-4 gap-4">
+                    <div class="bg-gray-200 text-center py-4 rounded">ㄴ(nieun)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ㄹ (rieul)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ㄱ (giyeok)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ㄷ (digeut)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ㅁ (mieum)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ㅂ (bieup)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ㅈ (jieut)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ㅎ (hieut)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ㅅ (shiot)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ㅌ (thieut)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ㅇ (ieung)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ㅋ (khieuk)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ㅊ(chieut)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ㅍ(phieup)</div>
+                </div>
+                <button id="tutupButton" class="w-full py-3 px-5 bg-red-500 text-white rounded-2xl mt-4">Tutup</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const belajarButton = document.getElementById("belajarButton");
+        const hurufHijaiyahSection = document.getElementById("hurufHijaiyah");
+
+        belajarButton.addEventListener("click", function () {
+            hurufHijaiyahSection.style.display = "block";
+        });
+
+        const tutupButton = document.getElementById("tutupButton");
+
+        tutupButton.addEventListener("click", function () {
+            hurufHijaiyahSection.style.display = "none";
+        });
+    </script>
+</body>
+</html>
