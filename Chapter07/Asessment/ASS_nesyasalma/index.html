@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="min-w-full flex shadow justify-between items-center py-3 px-5 bg-pink-300">
+        <h1 class="text-pink-900">Fashion House</h1>
+            <ul>
+                <li class="inline-block"><a class="px-5 text-pink-900" href="#home">Home</a></li>
+                <li class="inline-block"><a class="px-5 text-pink-900" href="#featured">Products</a></li>
+                <li class="inline-block"><a class="px-5 text-pink-900" href="#about">About Us</a></li>
+                <li id="Shop" class="inline-block"><a  class="px-5 text-pink-900" href="https://shopee.co.id/">Shop</a></li>
+                <li class="inline-block"><a class="px-5 text-pink-900" href="https://wa.me/6285694749240">Contact</a></li>
+            </ul>
+
+            <script>
+                document.getElementById("Shop").addEventListener("click", function () {
+    const result = confirm("Do you want to buy our produck?");
+    if (result === true) {
+        window.location.href = "https://youtu.be/luE0mPVhK9k?si=TQ_a95_tHf_d_RTI";
+        console.log("yay")
+    } else {
+        alert("why?")
+        console.log("ugh")
+    }
+    })
+            </script>
+    </header>
+    
+    <div class="container min-w-full min-h-full bg-[url('https://img.freepik.com/free-photo/fast-fashion-concept-with-full-clothing-store_23-2150871360.jpg?t=st=1699500921~exp=1699504521~hmac=898c038830f26508a54fa1690e27e08b5d8809fc941728e6272e91e635277edf&w=826')] bg-cover">
+        <section class="featured text-pink-600"  id="featured">
+            <h2 class="text-center text-2xl pt-9">Featured Products</h2>
+            <br>
+            <div class="container min-w-full flex justify-center mt-9">
+                <div class="product px-7 w-64 h-96">
+                    <img src="https://img.freepik.com/free-photo/young-woman-wearing-clothes-2000-s-fashion-style_23-2149870048.jpg?w=360&t=st=1698208263~exp=1698208863~hmac=291f92dbe8e60ac9d12d33160a310f80e31e131a22b28feb4c2553888a393a3e" alt="Elegant Dress">
+                    <div class="text">
+                        <h3 class="text-white">Y2k Fashion</h3>
+                        <p class="text-white">Perfect for any special occasion.</p>
+                        <span class="text-red-200">$99.99</span>
+                    </div>
+                </div>
+                <div class="product px-7 w-64 h-96">
+                    <img src="https://img.freepik.com/free-photo/natural-model-holding-flower_23-2148442525.jpg?size=626&amp;ext=jpg&amp;ga=GA1.1.986962543.1698063350&amp;semt=ais" alt="Stylish Shoes">
+                    <div class="text">
+                        <h3 class="text-white">Cottagecore Fashion</h3>
+                        <p class="text-white">Stay fashinable and comfortable.</p>
+                        <span class="text-red-200">$49.99</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="container1 min-w-full flex justify-center mt-9">
+                <div class="product px-7 w-64 h-96">
+                    <img src="https://img.freepik.com/premium-photo/relaxed-man-plaid-jacket-white-turtleneck-trousers-sits-street_105609-6668.jpg?w=360" alt="Elegant Dress">
+                    <div class="text">
+                        <h3 class="text-white">Y2k Fashion</h3>
+                        <p class="text-white">Perfect for any situation.</p>
+                        <span class="text-red-200">$87.99</span>
+                    </div>
+                </div>
+                <div class="product px-7 w-64 h-96">
+                    <img src="https://img.freepik.com/free-photo/young-man-portrait_23-2148830384.jpg?w=360&amp;t=st=1698120386~exp=1698120986~hmac=4cfc96f17423b8e7a6cbe575b6e110c5c4f32dbb16f1c6ca807391e48c6e0d4f" alt="Stylish Shoes">
+                    <div class="text">
+                        <h3 class="text-white">Cottagecore Fashion</h3>
+                        <p class="text-white">Stay fashionable.</p>
+                        <span class="text-red-200">$68.99</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    
+    <section class="about bg-pink-300 " id="about">
+        <h2 class="text-pink-900"><strong>About Us</strong></h2>
+        <br>
+        <p id="demo" class="text-pink-600" id="demo">Welcome to Fashion House, your one-stop destination for the newest fashion trends. Our mission is to provide you with high-quality products that make you look and feel fabulous. Explore our collection of dresses, shoes, and accessories. Find your unique fashion style at fashion house and let your style shine. </p>
+
+        <script>
+            function myFunction() {
+    document.getElementById("demo").innerHTML = "The reason you should buy on our website is because our website is trusted and of high quality, the fashion you are looking for is also on our website.";
+    }
+        </script>
+            <button class="bg-pink-900 hover:bg-pink-600 font-bold py- 2 px-4 rounded" type="button" onclick="myFunction()">More</button>
+        </section>
+    <footer>
+        <p class="bg-pink-900 text-pink-300 flex justify-center">© 2023 Fashion House. All rights reserved.</p>
+    </footer>
+</body>
+</html>
