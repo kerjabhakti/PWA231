@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Efendi Sugiantoro Book Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+</head>
+
+<body class="bg-gray-100 bg-center bg-repeat" style="background-image: url('buku1.png');">
+
+    <!-- header -->
+    <div class="bg-blue-500 p-2">
+        <div class="container mx-auto flex justify-end">
+            <ul>
+                <li><a href="about.html"><i class="fab fa-facebook text-white"></i></a></li>
+                <li><a href="contact.html"><i class="fab fa-instagram text-white"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube text-white"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <header class="bg-blue-700 text-white">
+        <div class="container mx-auto p-4">
+            <h1 class="text-3xl">
+                <a href="index.html">EFD BOOK STORE SHOP</a>
+            </h1>
+            <ul class="flex space-x-4">
+                <li class="active"><a href="index.html">HOME</a></li>
+                <li><a href="about.html">PRODUCTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- banner -->
+    <section class="bg-blue-900 text-white py-10">
+        <div class="container mx-auto">
+            <h2 class="text-4xl text-center">Selamat Datang di Website Kami</h2>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="py-10">
+        <div class="container mx-auto text-white">
+            <h3 class="text-2xl">ABOUT</h3>
+            <p id="about-paragraph">
+                "Toko buku Efendi adalah destinasi utama bagi para pecinta buku, dengan koleksi yang luas dan beragam yang mencakup fiksi, non-fiksi, buku anak-anak, dan banyak lagi."
+            </p>
+            <button onclick="performArithmetic()">Hitung</button>
+            <button onclick="changeImage()">Ubah Gambar</button>
+            <button onclick="changeText()">Ubah Paragraf</button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-blue-500 text-white fixed inset-x-0 bottom-0 p-2">
+        <div class="container mx-auto">
+            <small>&copy; 2023 - Efendi Sugiantoro, All Rights Reserved.</small>
+        </div>
+    </footer>
+
+    <script>
+        function performArithmetic() {
+            // Operasi aritmatika sederhana
+            const result1 = 10 + 5;
+            console.log("Hasil operasi aritmatika sederhana: " + result1);
+
+            // Operasi aritmatika yang lebih sulit
+            const result2 = (7 * 3) - (4 / 2) + (Math.pow(2, 3));
+            console.log("Hasil operasi aritmatika yang sulit: " + result2);
+        }
+
+        function changeImage() {
+            // Ganti gambar latar belakang dengan gambar yang berbeda
+            const body = document.body;
+            body.style.backgroundImage = "url('buku2.png')";
+        }
+
+        function changeText() {
+            // Ubah isi paragraf dengan innerHTML
+            const paragraph = document.getElementById('about-paragraph');
+            paragraph.innerHTML = "Ini adalah toko buku Efendi Sugiantoro, kami memiliki koleksi buku terbaik untuk Anda!";
+        }
+
+        // Tampilkan sesuatu di konsol yang berhubungan dengan website
+        console.log("Website Efendi Sugiantoro Book Store telah dimuat.");
+    </script>
+
+</body>
+
+</html>

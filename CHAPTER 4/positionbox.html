@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width-device-width, initial-scale-1.0" />
+        <title>contoh css position,box shadow, dan animation</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-image: url(baground.jpg);
+                background-size: cover;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            .container {
+                position: relative;
+                width: 300px;
+                height: 200px;
+                background-color: blueviolet;
+                margin:100px auto;
+                box-shadow: inset 5px 5px 10px;
+            }
+            .box {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                background-color: cadetblue;
+                top: 50px;
+                left: 50px;
+                transform: translate(-50%, -50%);
+                transition: transform 0,5;
+            }
+            .box:hover {
+                transform: translate( -50%,-50%)rotate(45deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box"></div>
+        </div>
+    </body>
+</html>
