@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Perpustakaan Efendi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2px;
+            padding: 2px;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin: 0;
+        }
+        
+        nav {
+            background-color: #555;
+            text-align: center;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        
+        nav a:hover {
+            background-color: #777;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid #ccc;
+        }
+        
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+        
+        form {
+            margin: 20px 0;
+        }
+        
+        label {
+            display: block;
+        }
+        
+        select,
+        input[type="text"] {
+            width: 100%;
+            padding: 5px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Perpustakaan Efendi</h1>
+    </header>
+    <nav>
+        <a href="index2.html">Beranda</a>
+        <a href="#">Katalog Buku</a>
+        <a href="peminjaman2.html">Peminjaman</a>
+        <a href="kontak2.html">Kontak</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="komen.html">Komentar</a>
+    </nav>
+    <div class="container">
+        <h2>Katalog Buku</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Judul Buku</th>
+                    <th>Pengarang</th>
+                    <th>Tahun Terbit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Harry Potter and the Sorcerer's Stone</td>
+                    <td>J.K. Rowling</td>
+                    <td>1997</td>
+                </tr>
+                <tr>
+                    <td>To Kill a Mockingbird</td>
+                    <td>Harper Lee</td>
+                    <td>1960</td>
+                </tr>
+                <tr>
+                    <td>Melampaui Batas Dirimu</td>
+                    <td>Surya Ardana A.P Kom</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>Dari Orang Biasa Jadilah Pahlawan</td>
+                    <td>Efendi Sugiantoro A.P Kom</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>Essays in Humanism</td>
+                    <td>Albert Einstein</td>
+                    <td>1950</td>
+                </tr>
+
+
+            </tbody>
+        </table>
+        <h2>Cari Buku</h2>
+        <form>
+            <label for="judul">Judul Buku:</label>
+            <input type="text" id="judul" name="judul" placeholder="Masukkan judul buku...">
+            <label for="kategori">Kategori:</label>
+            <select id="kategori" name="kategori">
+                <option value="fiksi">Fiksi</option>
+                <option value="nonfiksi">Non-Fiksi</option>
+                <option value="sains">Sains</option>
+                <option value="sejarah">Sejarah</option>
+            </select>
+            <input type="submit" value="Cari">
+        </form>
+    </div>
+</body>
+
+</html>
