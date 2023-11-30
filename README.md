@@ -21,8 +21,8 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | 714230012  | Muflih Afif Mukhtalif | | | 100|
 | 714230015  | Dilla Yusira Putri | | | |
 | 714230018  | Efendi Sugiantoro | | | |
-| 714230019  | Hadi Muhammad Yusuf | | | |
-| 714230021  | Muhammad Haitsam Izzuddin Azman | | | |
+| 714230019  | Hadi Muhammad Yusuf | | |100 |
+| 714230021  | Muhammad Haitsam Izzuddin Azman | | |100 |
 | 714230022  | Nurfanis Rosman | | | |
 | 714230023  | Ananda Raka Aditya Wilangga | | | 100 |
 | 714230025  | Rifky Najra Adipura | | | 100 |
