@@ -28,7 +28,7 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | 714230025  | Rifky Najra Adipura | | | 100 |
 | 714230026  | Afifah Naufal Rahmani | | | |
 | 714230028  | Nesya Salma Ramadhani | | |95|
-| 714230030  | Rendy Kamaluddin | | | |
+| 714230030  | Rendy Kamaluddin | | |90 |
 | 714230031  | Hafizh Fakhri Muharram | | | 100|
 | 714230032  | Ode Andi Alamsyah | | | |
 | 714230035  | Ahmad Karta Nugraha | | |100 |
