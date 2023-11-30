@@ -1,0 +1,106 @@
+# Ini Tugas Assesment 1
+
+## CI/CD
+https://indahdivagracia.github.io/ass_indahdiva/
+
+## Penagihan 
+``` js
+<body class="bg-ground bg-pink-500">
+
+<div class="bg-white">
+    <div class="container mx-auto flex items-center justify-between">
+        <a href="#" class="text-2xl font-bold text-white">Logo</a>
+
+
+    </div>
+</div>
+<div class="flex">
+    <!-- Sidebar -->
+    <aside class="w-1/5 bg-gray-800 h-screen p-4">
+        <ul class="text-white space-y-4">
+            <li class="text-lg font-bold">Menu</li>
+            <li><a href="#" class="hover:text-blue-400">Beranda</a></li>
+            <li><a href="#" class="hover:text-blue-400">Tentang Kami</a></li>
+            <li><a href="#" class="hover:text-blue-400">Layanan</a></li>
+            <li><a href="#" class="hover:text-blue-400">Kontak</a></li>
+        </ul>
+    </aside>
+
+    <!-- Konten Utama -->
+    <main class="w-4/5 p-4">
+        <h1 class="text-2xl font-bold mb-4">Konten Utama</h1>
+        <p>Isi konten utama Anda di sini...</p>
+
+        <body class="bg-gray-100">
+            <div class="max-w-md mx-auto mt-10 bg-white p-8 rounded shadow-lg">
+                <h1 class="text-2xl font-bold mb-4">Tagihan Uang</h1>
+
+                <div class="mb-4">
+                    <p class="text-gray-600">Nomor bendahara:</p>
+                    <p class="text-black font-semibold">082272293973</p>
+                </div>
+
+                <div class="mb-4">
+                    <p class="text-gray-600">Nama Pelanggan:</p>
+                    <p class="text-black font-semibold">kelas 1A informatika</p>
+                </div>
+
+                <div class="mb-4">
+                    <p class="text-gray-600">Tanggal Tagihan:</p>
+                    <p class="text-black font-semibold">11 november2023</p>
+                </div>
+
+                <div class="mb-4">
+                    <p class="text-gray-600">Total Tagihan:</p>
+                    <p class="text-red-600 text-xl font-semibold">20.000</p>
+                </div>
+
+                <div class="mt-8">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        Bayar Tagihan
+                    </button>
+                </div>
+            </div>
+    </main>
+</div>
+
+
+        <div class="container mx-auto p-8">
+            <h1 class="text-2xl font-bold mb-4">Pembayaran Uang Kas</h1>
+
+            <div class="bg-white p-6 rounded shadow-lg">
+                <div class="mb-4">
+                    <label for="jumlah" class="text-gray-600">Jumlah yang harus dibayarkan:</label>
+                    <input type="text" id="jumlah" class="border w-full p-2" placeholder="Masukkan jumlah pembayaran">
+                </div>
+
+                <div class="mb-4">
+                    <label for="deskripsi" class="text-gray-600">Deskripsi Pembayaran:</label>
+                    <textarea id="deskripsi" class="border w-full p-2" placeholder="Masukkan deskripsi pembayaran"></textarea>
+                </div>
+
+                <button id="bayarButton" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    Bayar
+                </button>
+            </div>
+        </div>
+
+        <script>
+            // JavaScript untuk menangani pembayaran
+            const bayarButton = document.getElementById('bayarButton');
+            bayarButton.addEventListener('click', () => {
+                const jumlah = document.getElementById('jumlah').value;
+                const deskripsi = document.getElementById('deskripsi').value;
+
+                // Lakukan sesuatu dengan jumlah dan deskripsi, misalnya, kirim data ke server
+                console.log('Mengirim pembayaran sebesar ' + jumlah + ' dengan deskripsi: ' + deskripsi);
+            });
+        </script>
+
+
+</body>
+```
+
+## Hasilnya
+<img width="911" alt="image" src="https://github.com/kerjabhakti/PWA231/assets/147012569/8db53b1e-9a55-41c5-ab80-cb0442dfc70a">
+<img width="912" alt="image" src="https://github.com/kerjabhakti/PWA231/assets/147012569/598916d5-1215-4716-8ff7-176e4b4122e4">
