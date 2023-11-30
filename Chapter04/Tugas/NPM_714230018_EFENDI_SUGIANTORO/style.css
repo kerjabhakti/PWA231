@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

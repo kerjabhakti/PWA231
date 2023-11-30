@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan Efendi - Pencarian</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        
+        nav a:hover {
+            background-color: #555;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+        
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        h2 {
+            animation: colorChange 3s infinite;
+        }
+        
+        @keyframes colorChange {
+            0% {
+                color: #333;
+            }
+            50% {
+                color: #ff5500;
+            }
+            100% {
+                color: #333;
+            }
+        }
+        
+        form {
+            margin: 20px 0;
+        }
+        
+        label {
+            display: block;
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="submit"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        
+        textarea {
+            height: 100px;
+        }
+        
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+        
+        .search-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        input[type="search"] {
+            padding: 10px;
+        }
+        
+        input[type="search"]::placeholder {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Perpustakaan Efendi - Pencarian</h1>
+        <nav>
+            <a href="index2.html">Beranda</a>
+            <a href="katalog2.html">Koleksi Buku</a>
+            <a href="tentangkami2.html">Tentang</a>
+            <a href="komen.html">Komentar</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Pencarian Buku</h2>
+        <p>Cari buku di perpustakaan kami dengan menggunakan mesin pencarian di bawah.</p>
+        <div class="search-container">
+            <form>
+                <input type="search" id="search" name="search" placeholder="Cari buku...">
+                <input type="submit" value="Cari">
+            </form>
+        </div>
+
+        <h2>Hasil Pencarian</h2>
+        <table>
+
+        </table>
+    </div>
+</body>
+
+</html>

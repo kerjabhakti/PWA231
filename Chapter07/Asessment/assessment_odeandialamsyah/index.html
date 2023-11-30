@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>ASEESMENT E-LEARNING</title>
+</head>
+<body>
+    <div class="container inline">
+        <nav class="flex py-7 px-3 bg-blue-500 w-full h-20">
+            <ul class="flex-1">
+                <li class="inline-block hover:underline">
+                    <a href="">Call us : +62 813-0000-0000</a>
+                </li>
+                <li class="list-none inline-block hover:underline">
+                    <a href="">E-mail : baak@ulbi.ac.id</a>
+                </li>
+            </ul>
+            <ul class="list-none inline-block hover:underline"> 
+                <li>
+                    <a href="">Log In</a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="flex  py-7 px-3 bg-white w-full h-20">
+            <ul class="flex-1">
+                <li class="inline-block ">
+                    <a href="#" class="">
+                        <img class="w-48 h-16" src="image/LOGO_ELEARNING_ULBI_2-removebg-preview (1).png" alt="Elearning ULBI">
+                    </a>
+                </li>
+            </ul>
+            <ul class="shadow-xl mt-6">
+                <li class="inline-block hover:underline">
+                    <a href="#" class="text-orange-400">
+                        HOME
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="bg-white flex-col mt-10 mb-10">
+            <img id="Elearning" src="image/asx.jpg" class="h-96 w-full px-72">
+            <div class="w-full flex justify-center">
+                <button class="text-white w-20 mr-4 bg-gray-400 hover:bg-gray-500 p-3 rounded-xl font-semibold" onclick="document.getElementById('Elearning').src='image/asx.jpg'"> < </button>
+                <button class="text-white w-20 mr-4 bg-gray-400 hover:bg-gray-500 p-3 rounded-xl font-semibold" onclick="document.getElementById('Elearning').src='image/lbi.jpg'"> > </button>
+            </div>
+        </div>
+
+        <div class="bg-gray-300">
+            <h2 class="w-full py-20 pl-24 text-5xl underline"> Site announcements</h2>
+            <p class=" mr-20 ml-20 pt-5 pl-3 bg-blue-300 rounded-xl h-16">There are no discussion topics yet in this forum</p>
+        </div>
+
+        <div class="bg-gray-300 h-96">
+            <h2 class="w-full py-20 pl-24 text-5xl underline">Course categories</h2>
+            <ol class="mr-20 ml-20 pt-5 pl-3 bg-white rounded-xl h-16">
+                <li>
+                    <a href="#" class="text-orange-400">2023 Semester Ganjil TA 2023/2024</href>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="flex-col text-white text-center h-11 ">
+        <div class="bg-gray-800">
+            <div class="m-0 pb-3 pt-3">
+                <h3 class="underline text-black font-bold">E-learning</h3>
+                <ul>
+                    <li><a href="#" class="text-white cursor-pointer hover:text-orange-400">Sekolah Vokasi</a></li>
+                    <li><a href="#" class="text-white cursor-pointer hover:text-orange-400">FLTB</a></li>
+               </ul>
+            </div>
+            <div class="bg-black text-orange-400 h-6">
+                <p>Copyright 2023 E-Learning ULBI. All right reserved </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
