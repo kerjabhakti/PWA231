@@ -19,7 +19,7 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | 714230007  | Muhammad Nizar Akmal | | | 100 |
 | 714230011  | Marselinus Naisau | | | |
 | 714230012  | Muflih Afif Mukhtalif | | | 100|
-| 714230015  | Dilla Yusira Putri | | | |
+| 714230015  | Dilla Yusira Putri | | |85|
 | 714230018  | Efendi Sugiantoro | | | |
 | 714230019  | Hadi Muhammad Yusuf | | |100 |
 | 714230021  | Muhammad Haitsam Izzuddin Azman | | |100 |
