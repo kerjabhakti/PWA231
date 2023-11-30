@@ -31,7 +31,7 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | 714230030  | Rendy Kamaluddin | | | |
 | 714230031  | Hafizh Fakhri Muharram | | | 100|
 | 714230032  | Ode Andi Alamsyah | | | |
-| 714230035  | Ahmad Karta Nugraha | | | |
+| 714230035  | Ahmad Karta Nugraha | | |100 |
 | 714230039  | Indah Diva Gracia | | | |
 | 714230040  | Hadzik Mochamad Sofyan | | | 100 |
 | 714230041  | Muhamad Adi Apriansyah | | | |
