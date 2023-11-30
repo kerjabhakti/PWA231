@@ -17,7 +17,7 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | 714230003 | Resqi Aulia Gita Utami | | |100 |
 | 714230005  | Reva Andini Busra| | |90 |
 | 714230007  | Muhammad Nizar Akmal | | | 100 |
-| 714230011  | Marselinus Naisau | | | |
+| 714230011  | Marselinus Naisau | | | 65|
 | 714230012  | Muflih Afif Mukhtalif | | | 100|
 | 714230015  | Dilla Yusira Putri | | |85|
 | 714230018  | Efendi Sugiantoro | | | |
