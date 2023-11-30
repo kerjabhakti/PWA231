@@ -15,11 +15,11 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | NPM | Nama | Tugas 1 | Tugas 2| Assesment 1|
 | -------- | -------- | -------- | -------- |-------- |
 | 714230003 | Resqi Aulia Gita Utami | | |100 |
-| 714230005  | Reva Andini Busra| | | |
+| 714230005  | Reva Andini Busra| | |90 |
 | 714230007  | Muhammad Nizar Akmal | | | 100 |
 | 714230011  | Marselinus Naisau | | | |
 | 714230012  | Muflih Afif Mukhtalif | | | 100|
-| 714230015  | Dilla Yusira Putri | | | |
+| 714230015  | Dilla Yusira Putri | | |85|
 | 714230018  | Efendi Sugiantoro | | | |
 | 714230019  | Hadi Muhammad Yusuf | | |100 |
 | 714230021  | Muhammad Haitsam Izzuddin Azman | | |100 |
@@ -28,7 +28,7 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | 714230025  | Rifky Najra Adipura | | | 100 |
 | 714230026  | Afifah Naufal Rahmani | | | |
 | 714230028  | Nesya Salma Ramadhani | | |95|
-| 714230030  | Rendy Kamaluddin | | | |
+| 714230030  | Rendy Kamaluddin | | |90 |
 | 714230031  | Hafizh Fakhri Muharram | | | 100|
 | 714230032  | Ode Andi Alamsyah | | | |
 | 714230035  | Ahmad Karta Nugraha | | |100 |
