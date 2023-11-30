@@ -35,7 +35,7 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | 714230039  | Indah Diva Gracia | | | 65|
 | 714230040  | Hadzik Mochamad Sofyan | | | 100 |
 | 714230041  | Muhamad Adi Apriansyah | | |60 |
-| 714230042  | Savana Zahra Humaira | | | |
+| 714230042  | Savana Zahra Humaira | | |60 |
 | 714230043  | Miqdam Syiam Nurrohman | | | 100 |
 
 # Data Kelompok
