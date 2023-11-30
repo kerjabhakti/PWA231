@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toko Pakaian/Clothes</title>
+    <!-- Jangan lupa tambahkan koneksi HTML ke CSS/Tailwind  -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Membuat class container dan ukurannya disini -->
+    <!-- Menambahkan background Images -->
+    <!-- Menambah posisi gambar agar ketengah -->
+    <!-- Mengatur posisi ukurannya -->
+    <div>
+  <body background="foto/background.jpg">
+    <h1>
+    </h1>
+     <!-- membuat class name flex pada nav-->
+      <nav class="no-underline text-whitek flex items-center w-full bg-black ">
+        <img
+          src="foto/logo.png"
+          alt="logo"
+          class="w-40 cursor-pointer"/>
+        <!-- Atur posisi logo kiri, 
+            menu tengan dan 
+            card icon di sebelah kanan  -->
+        <ul class="flex-1 text-center">
+          <!-- atur warna text agar jadi putih dan tanpa underline-->
+          <!-- ATur posisi text menjadi sejajar -->
+          <!-- Atur margin setelah inline-block dan padding setelah text-white-->
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-black bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent">Home</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-black bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent">product</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-black bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent">Features</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-black bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Membuat Text  -->
+      <!-- Rubah text menjadi putih -->
+      <!-- Atur jarak text atas bawah dan ukuran text judul h1 -->
+      <div>
+        <h1 class="text-6xl text-white font-semibold leading-normal">
+          Belanja Pakaian cepat<br>
+           <span class="font-light text-white">kualitas barang terjamin</span>
+        </h1>
+        <p class="text-white" id="baju">
+         pakaian dengan kualitas tinggi <br>di buat dengan kualitas terbaik,dengan bahan yang terjamin berkualitas,dengan bahan pilihan
+        </p>
+        <div class="text-white mt-48">
+          <img id="gambar" src="/Chapter06/Tugas/714230041_MuhamadAdiApriansyah_JS/foto/klik here.jpg">
+          <button class="bg-yellow-300 rounded-3xl py-3 px-8
+          font-medium inline-block mr-4 
+          hover:bg-transparent hover:border-yellow-300
+          hover:text-white duration-300 hover:border
+          border border-transparent" onclick="document.getElementById('gambar').src='/Chapter06/Tugas/714230041_MuhamadAdiApriansyah_JS/foto/klik here.jpg'"> < </button>
+          <button class="bg-yellow-300 rounded-3xl py-3 px-8
+          font-medium inline-block mr-4
+          hover:bg-transparent hover:border-yellow-300
+          hover:text-white duration-300 hover:border
+          border border-transparent" onclick="document.getElementById('gambar').src='/Chapter06/Tugas/714230041_MuhamadAdiApriansyah_JS/foto/contoh karpet.jpg'"> > </button>
+          <p id="baju"></p>
+
+        <script>
+          let x, y, z;
+          x = 20;
+          y = 40;
+          z = x + y;
+          document. getElementById("baju").innerHTML="Dapatkan diskon hanya hari ini " + x +" + " + y + " = " + z + "<b>%</b>" + ".";
+        </script>
+
+        <div class="mt-10">
+          <a
+            href="#"
+            class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+            type="botton" onclick="document.getElementById('baju').innerHTML='ONSALE ONLY Rp.40.000/Item!!!'">BUY</a>
+          <a href="#" class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+          type="botton" onclick="document.getElementById('baju').innerHTML='WE BUY YOUR ITEM FOR NEGOTIABLE PRICE!!!'"
+          >SELL <span class="text-lg inline-block rotate-90">&#10148</span></a>
+        </div>
+
+      </div>
+     
+    </div>
+  </body>
+</html>

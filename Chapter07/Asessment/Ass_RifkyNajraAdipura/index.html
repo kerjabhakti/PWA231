@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penyewaan alat camping</title>
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="bg-purple-700 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">Mountain</a>
+            <ul class="flex space-x-4">
+                <li><a href="https://api.whatsapp.com/send?phone=089657140789" class="hover:underline">Hubungi</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="h-screen flex items-center justify-center bg-[url('img/Gunung.jpeg')] bg-cover bg-center bg-repeat text-white">
+        <div>
+            <div class="container mx-auto text-center">
+                <h1 class="text-5xl font-bold mb-4 my-10">Selamat Datang Di Website Penyewaan Tenda alat Camping</h1>
+                <p class="text-lg" id="text">Temukan Barang Yang Ingin anda gunakan.</p>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Alat -->
+    <section class="container mx-auto my-8 p-8 bg-white shadow-lg rounded-lg">
+        <h2 class="text-3xl font-bold mb-8">Macam-Macam Barang</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Barang ke 1 -->
+            <div class="bg-gray-200 p-6 rounded-lg">
+                <img src="img/tenda1.jpg" alt="fototenda" class="mb-4 rounded-lg" id="fototenda">
+                <h3 class="text-xl font-bold mb-2">Tenda</h3>
+                <p class="text-gray-700 mb-4">Tenda kapasitas 6 orang</p><br>
+                <p class="text-gray-700 mb-4" id="cekhargatenda"></p>
+
+                <!-- Penggantian Paragraf dari Button -->
+                <button class="my-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" 
+                type="button" onclick='document.getElementById("cekhargatenda").innerHTML = "Harga Tenda ke 1 400k/hari <br> Harga Tenda Ke 2 600k/hari"'>
+                    Cek Harga
+                </button>
+
+                <!-- Image Change -->
+                <button class="my-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" onclick="document.getElementById('fototenda').src='img/tenda2.jpeg'">
+                    Ganti Tenda
+                </button>
+                
+                <!-- Button -->
+                <button onclick="penjualtenda()" class="my-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Hubungi Penjual</button>
+                    <script>
+                        function penjualtenda() {
+                            alert("Hubungi Pemilik");
+                            window.open("https://api.whatsapp.com/send?phone=089657140789");
+                        }
+                    </script>
+            </div>
+            <!-- Alat ke 2 -->
+            <div class="bg-gray-200 p-6 rounded-lg">
+                <img src="img/sepatu1.jpg" alt="Foto Ciro" class="mb-4 rounded-lg" id="fotosepatu">
+                <h3 class="text-xl font-bold mb-7">Sepatu</h3>
+                <p class="text-gray-700 mb-4">Sepatu Gunung Terbaik</p>
+                <p class="text-gray-700 mb-4" id="cekhargasepatu"></p>
+
+                <!-- Penggantian Paragraf dari Button -->
+                <button class="my-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" 
+                type="button" onclick='document.getElementById("cekhargasepatu").innerHTML = "Harga Sepatu ke 1 200k/hari <br> Harga Tenda Ke 2 300k/hari"'>
+                    Cek Harga
+                </button>
+                <!-- Image Change -->
+                <button class="my-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" 
+                type="button" onclick="document.getElementById('fotosepatu').src='img/sepatu2.jpeg'">
+                    Ganti Sepatu
+                </button>
+
+                <!-- Button -->
+                <button onclick="penjualsepatu()" class="my-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Baca Selengkapnya</button>
+                    <script>
+                        function penjualsepatu() {
+                            alert("Hubungi Pemilik");
+                            window.open("https://api.whatsapp.com/send?phone=089657140789");
+                        }
+                    </script>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-blue-700 text-center text-white py-4">
+        <p>&copy; 2023 Rifky Najra Adipura</p>
+    </footer>
+</body>
+</html>
