@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <title>Belajar mengaji</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[url('images/hijab.png')] bg-repeat">
+    <div class="w-full py-3 px-5 bg-black flex justify-between shadow fixed">
+        <p class="text-white text-xl font-bold">Muslimah Smart</p>
+        <div class="btn">
+            <a href="login.html" class="py-3 px-5 text-white">login</a>
+            <a href="daftar.html" class="py-3 px-5 text-white">daftar</a>
+            <a id="hitung" class="py-3 px-5 text-white cursor-pointer">hitung</a>
+        </div>
+    </div>
+
+    <div class="container min-w-full h-screen flex justify-center items-center">
+        <div class="box w-96 bg-white shadow p-5 rounded">
+            <p class=" text-6xl font-bold mb-4">Al-Quran</p>
+            <p id="paragraf">Kamu tidak bisa membaca Al-quran? kamu kesulitan menghafal? ingin bisa? ini solusi untuk kalian yang
+                ingin belajar membaca al-quran serta mendalami ilmu tajwid. Belajar bersama kami akan lebih mudah dan
+                cepat.</p>
+            <button id="belajarButton" class="w-full py-3 px-5 bg-blue text-white bg-cyan-500 rounded-2xl mt-4"><a
+                    href="#hurufHijaiyah">belajar</a></button>
+        </div>
+    </div>
+
+    <section id="hurufHijaiyah" style="display: none;">
+        <div class="container min-w-full h-screen flex justify-center items-center">
+            <div class="box w-full bg-white shadow p-5 rounded">
+                <p class="text-3xl font-bold mb-4">Huruf Hijaiyah</p>
+                <div class="grid grid-cols-4 gap-4">
+                    <div class="bg-gray-200 text-center py-4 rounded">ا (Alif)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ب (Ba)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ت (Ta)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ث (Tha)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ج (Jim)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ح (Ha)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">خ (Kha)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">د (Dal)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ذ (Dzal)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ر (Ra)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ز (Za)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">س (Sin)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ش (Syin)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ص (Shad)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ض (Dhad)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ط (Tha)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ظ (Dzha)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ع (Ain)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">غ (Ghain)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ف (Fa)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ق (Qaf)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ك (Kaf)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ل (Lam)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">م (Mim)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ن (Nun)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ه (Ha)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">و (Waw)</div>
+                    <div class="bg-gray-200 text-center py-4 rounded">ي (Ya)</div>
+                </div>
+                <button id="tutupButton" class="w-full py-3 px-5 bg-red-500 text-white rounded-2xl mt-4">Tutup</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const belajarButton = document.getElementById("belajarButton");
+        const hurufHijaiyahSection = document.getElementById("hurufHijaiyah");
+
+        belajarButton.addEventListener("click", function () {
+            hurufHijaiyahSection.style.display = "block";
+        });
+
+        const tutupButton = document.getElementById("tutupButton");
+
+        tutupButton.addEventListener("click", function () {
+            hurufHijaiyahSection.style.display = "none";
+        });
+
+        document.getElementById("hitung").addEventListener("click", function(){
+            x = 12
+            y = 3
+            z = x + y
+            console.log(z)
+        })
+    </script>
+</body>
+</html>

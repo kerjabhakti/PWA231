@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">Paragraf Button</h1>
+
+                    <p class="mt-2 text-gay-500 capitalize dark:text-gray-300 group-hover:text-gray-300" id="arit">
+                        <p class="center" id="paragraf">
+                            Tahukah kamu, rekor menari terlama tercatat di Miami pada 1988
+                        </p>
+                        <br>
+                        <button onclick="ubahParagraf()">Selanjutnya</button>
+                        
+                        
+                    <script>  
+                        let paragraf = document.getElementById("paragraf");
+                        let teksAwal = "Breakdance adalah sarana unjuk kebolehan antara orang kulit hitam dan putih pada 1970.";
+                        let teksBaru = "Area dance floor pertama ada di Club Watt.";
+
+                        function ubahParagraf() {
+                            if (paragraf.innerHTML === teksAwal) {
+                            paragraf.innerHTML = teksBaru;
+                         }    
+                            else {
+                            paragraf.innerHTML = teksAwal;
+                            }
+                        }   
+                    </script>
+</body>
+</html>
