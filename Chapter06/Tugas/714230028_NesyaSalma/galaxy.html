@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <title>Galaxies</title>
+</head>
+
+<body class="bg-gray-900 text-white" style="background-image: url('images/space.png');">
+    <div class="flex sticky justify-center w-full">
+        <div class="container">
+            <nav class="bg-gray-900 p-4">
+                <div class="max-w-screen-x1 flex flex-wrap items-center justify- mx-auto p-4">
+                    <img src="images/logonasa1.png" alt="nasa" class="w-10 cursor-pointer" />
+                    <span class="text-white text-2xl font-semibold">The Galaxies</span>
+
+                    <div class="mr-10 mx-auto flex justify-between items-center">
+                        <div class="space-x-4">
+                            <a href="#home" class="text-white hover:text-gray-300">Home</a>
+                            <a href="#about" id="about" class="text-white hover:text-gray-300">About</a>
+                            <a id="watch" class="text-white hover:text-gray-300 cursor-pointer">More</a>
+                            <a id="hitung" class="text-white hover:text-gray-300 cursor-pointer">hitung</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <header class="parallax h-64 flex items-center bg-repeat">
+                <div class="container mx-auto text-center text-white">
+                    <h1 class="text-4xl font-semibold mb-4">Exploring the Galaxies</h1>
+                    <p class="text-lg">Unveiling the Mysteries of the Universe</p>
+                </div>
+            </header>
+
+            <div class="container mx-auto p-4">
+                <div class="container mx-auto p-4">
+                    <h2 class="text-3xl font-semibold mb-4">A Glimpse into the Universe</h2>
+                    <p class="text-gray-300 mb-8" id="demo">
+                        A galaxy is a vast, gravitationally bound system of stars, stellar remnants, interstellar gas,
+                        dust, and dark matter that exists in space. Galaxies come in various shapes and sizes, and they
+                        are the building blocks of the universe. They are the largest structures in the cosmos and can
+                        contain billions to trillions of stars.
+                    </p>
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="button" onclick="myFunction()">Click Here</button>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                        <div class="bg-purple-900 text-white p-6 rounded-lg shadow-lg">
+                            <h3 class="text-2xl font-semibold mb-2">Stars</h3>
+                            <p class="text-white">
+                                Galaxies are primarily composed of stars. These stars are bound together by gravity and
+                                orbit a common center of mass within the galaxy.
+                            </p>
+                        </div>
+
+                        <div class="bg-purple-900 text-white p-6 rounded-lg shadow-lg">
+                            <h3 class="text-2xl font-semibold mb-2">Stellar Remnants</h3>
+                            <p class="text-white">
+                                In addition to active stars, galaxies also contain stellar remnants such as white
+                                dwarfs, neutron stars, and black holes. These objects are the remnants of stars that
+                                have gone through their life cycles.
+                            </p>
+                        </div>
+
+                        <div class="bg-purple-900 text-white p-6 rounded-lg shadow-lg">
+                            <h3 class="text-2xl font-semibold mb-2">Interstellar Medium</h3>
+                            <p class="text-white">
+                                Galaxies contain interstellar gas and dust that play a crucial role in the formation of
+                                new stars. The gas consists mainly of hydrogen and helium, while dust particles can
+                                consist of various elements and compounds.
+                            </p>
+                        </div>
+
+                        <div class="bg-purple-900 text-white p-6 rounded-lg shadow-lg">
+                            <h3 class="text-2xl font-semibold mb-2">Dark Matter</h3>
+                            <p class="text-white">
+                                GA significant portion of a galaxy's mass is believed to be dark matter, which does not
+                                emit, absorb, or reflect light and is detected through its gravitational influence on
+                                visible matter. Dark matter helps to explain the observed gravitational dynamics within
+                                galaxies.
+                            </p>
+                        </div>
+
+                        <div class="bg-purple-900 text-white p-6 rounded-lg shadow-lg">
+                            <h3 class="text-2xl font-semibold mb-2">Spiral, Elliptical, and Irregular Galaxies</h3>
+                            <p class="text-white">
+                                Galaxies come in different shapes and structures. The three main types are spiral
+                                galaxies (such as the Milky Way), which have a flattened, rotating disk with spiral
+                                arms; elliptical galaxies, which are more spherical or ellipsoidal in shape; and
+                                irregular galaxies, which lack a distinct, regular shape.
+                            </p>
+                        </div>
+
+                        <div class="bg-purple-900 text-white p-6 rounded-lg shadow-lg">
+                            <h3 class="text-2xl font-semibold mb-2">Clusters and Groups</h3>
+                            <p class="text-white">
+                                Galaxies are often found in groups or clusters, where multiple galaxies are bound
+                                together by gravity. The Milky Way, for example, is part of the Local Group, which
+                                contains several other galaxies.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="container mx-auto p-4">
+                        <h1 class="text-3xl font-semibold mb-4">Galaxies Information</h1>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <div class="bg-purple-900 max-w-sm rounded overflow-hidden shadow-lg">
+                                <img src="https://imengine.prod.srp.navigacloud.com/?uuid=ff3d86e5-8310-5b5d-a1bb-56cf54908261&type=primary&q=72&function=cropresize&crop_w=0.83375&crop_h=0.99999&x=0.08375&y=1.0E-5&width=1200&height=800"
+                                    alt="Galaxy Name" class="w-full">
+                                <div class="px-6 py-4">
+                                    <div class="font-bold text-xl mb-2">Milky Way Galaxy</div>
+                                    <p class="text-gray-300">
+                                        This is the galaxy that contains our solar system and is familiar to us as the
+                                        home of Earth and its neighboring celestial objects.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="bg-purple-900 max-w-sm rounded overflow-hidden shadow-lg">
+                                <img src="https://cdn.britannica.com/39/155239-050-674BBCE2/Image-Andromeda-Galaxy-NASA-Wide-field-Infrared-Survey.jpg"
+                                    alt="Andromeda Galaxy" class="w-full">
+                                <div class="px-6 py-4">
+                                    <div class="font-bold text-xl mb-2">Andromeda Galaxy</div>
+                                    <p class="text-gray-300">
+                                        The Andromeda Galaxy is the nearest spiral galaxy to the Milky Way and is on a
+                                        collision course with our galaxy, which is expected to occur in several billion
+                                        years.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="bg-purple-900 max-w-sm rounded overflow-hidden shadow-lg">
+                                <img src="https://static.vecteezy.com/system/resources/previews/024/352/345/large_2x/using-advanced-imaging-techniques-to-capture-the-detailed-structure-of-the-sombrero-galaxy-a-spiral-galaxy-located-in-the-constellation-virgo-generate-ai-free-photo.jpg"
+                                    alt="Galaxy Name" class="w-full">
+                                <div class="px-6 py-4">
+                                    <div class="font-bold text-xl mb-2">Sombrero Galaxy</div>
+                                    <p class="text-gray-300">
+                                        The Sombrero Galaxy is an example of an edge-on lenticular galaxy. It is known
+                                        for its distinctive appearance, resembling a sombrero hat due to a prominent
+                                        dust lane around its central bulge.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="bg-purple-900 max-w-sm rounded overflow-hidden shadow-lg">
+                                <img src="https://www.nasa.gov/wp-content/uploads/2023/03/archives_m33_0.jpg?w=1041"
+                                    alt="Galaxy Name" class="w-full">
+                                <div class="px-6 py-4">
+                                    <div class="font-bold text-xl mb-2">Triangulum Galaxy</div>
+                                    <p class="text-gray-300">
+                                        The Triangulum Galaxy is another nearby spiral galaxy, and it is part of the
+                                        Local Group of galaxies, which also includes the Milky Way and the Andromeda
+                                        Galaxy. It can be seen in the constellation Triangulum.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="parallax container mx-auto p-4"
+                        style="background-image: url('https://www.youcanseethemilkyway.com/wp-content/uploads/2023/01/Massive_Black_Hole_at_the_Center_of_the_Milky_Way.jpg');"
+                        id="about">
+                        <h1 class="text-3xl font-semibold mb-4">About the Universe</h1>
+                        <p class="text-gray-200">
+                            The universe is a vast and mysterious expanse that includes everything that exists, from
+                            galaxies and stars to planets and living organisms. It is estimated to be approximately 13.8
+                            billion years old and continues to expand.
+                        </p>
+                        <p class="text-gray-200">
+                            The universe is governed by the laws of physics and contains countless celestial objects and
+                            phenomena. It is a subject of great fascination for scientists, astronomers, and
+                            philosophers, as it raises questions about the origins of the cosmos, the nature of dark
+                            matter and dark energy, and the possibility of extraterrestrial life.
+                        </p>
+                        <p class="text-gray-200">
+                            Exploring the universe is an ongoing endeavor, and space missions and telescopes provide
+                            valuable insights into its composition and history. The study of the universe has deepened
+                            our understanding of the cosmos and our place within it.
+                        </p>
+                    </div>
+
+                    <div
+                        class="dark-mode-switcher cursor-pointer shadow-md fixed bottom-0 right-0 box dark:bg-dark-2 border rounded-full w-40 h-12 flex items-center justify-center z-50 mb-10 mr-10">
+                        <div class="mr-4 dark:text-gray-300"><a id="buttonD">Dark Mode</a></div>
+                        <div class="dark-mode-switcher__toggle dark-mode-switcher__toggle--active border"></div>
+                    </div>
+                    <script src="script.js">
+
+                    </script>
+                    <!-- <script>
+                        function myFunction() {
+                            document.getElementById("demo").innerHTML = "cek berubah";
+                        }
+                    </script> -->
+
+                </div>
+            </div>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESERVASI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="container inline">
+        <div class="bg-black h-28">
+            <nav class="flex items-center">
+                <image class="w-20 m-3 cursor-pointer" src="image/burung.png" alt="logonya"></image>
+                <ul class="flex-1 text-center mt-9">
+                    <li class="list-none inline-block px-5">
+                        <a class="text-white hover:text-blue-400 font-bold duration-200" href="tentang kami.html">TENTANG KAMI</a>
+                    </li>
+                    <li class="list-none inline-block px-5">
+                        <a class="text-white hover:text-blue-400 font-bold duration-200" href="mikro frontend.html">RESERVASI TIKET</a>
+                    </li>
+                    <li class="list-none inline-block px-5">
+                        <a class="text-white hover:text-blue-400 font-bold duration-200" href="Logistik.html">JASA LOGISTIK</a>
+                    </li>
+                    <li class="list-none inline-block px-5">
+                        <a class="text-white hover:text-blue-400 font-bold duration-200">LAYANAN</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="list-none inline-block px-7 mt-7">
+                        <a href="mikro frontend.html" class="text-white w-20 mr-4 bg-blue-500 hover:bg-blue-600 p-3 rounded-xl font-bold duration-200">Login</a>
+                    </li>
+                </ul>    
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="h-screen bg-[url('image/burung-walet.png')] bg-repeat flex">
+            <div class="flex flex-col align-middle content-center items-center justify-center mt-20 ml-20 mb-20 bg-white mx-auto w-1/4 h-auto p-6 border-b rounded-xl text-center shadow-md">
+                <img src="image/burung.png" alt="logo" class="w-32 h-32 self-center">
+                <span class="font-bold text-3xl mb-4">Walet.ID Login</span>
+                <form action="#" class="mb-4">
+                      <input type="text" placeholder="username" class="mb-4 border-0 border-b-2 p-3 w-full">
+                      <input type="text" placeholder="password" class="mb-4 border-0 border-b-2 p-3 w-full">      
+                </form>
+                <button class="bg-blue-600 hover:bg-blue-800 p-3 rounded-md text-white font-bold duration-200 mb-4">Masuk</button>
+                <span class=" text-xs">Tidak punya akun? Daftar<a href="#"> disini</a></span>
+            </div>
+            
+            <div class="flex-col align-middle content-center items-center justify-center mt-20 mr-20 mb-20 w-3/5 bg-white mx-auto h-5/6 p-6 border-b rounded-xl shadow-md">
+                <h1 class="font-bold text-3xl">RESERVASI TIKET</h1>
+                <form action="#" class="mb-0 mt-3">
+                    <label class="font-semibold">Tujuan Perjalanan</label>
+                    <input type="text" placeholder="pilih tujuan asal anda" id="Tujuan dari" name="Tujuan dari" required class="mb-4 border-0 border-b-2 p-3 shadow-3xl w-full">
+                    <input type="text" placeholder="pilih tujuan tempuh anda" id="Tujuan ke" name="Tujuan ke" required class="mb-4 border-0 border-b-2 p-3 shadow-3xl w-full">
+                    <br/>
+                    <label class="font-semibold">Keberangkatan</label>
+                    <input type="date" placeholder="Bulan Berangkat" id="kalender" name="tanggal" required class="text-gray-400 mb-4 border-0 border-b-2 p-3 shadow-3xl w-full">
+                    <br/>
+                    <label class="font-semibold">Jumlah Tiket</label>
+                    <p class="text-gray-400">Pria
+                        <span>
+                            <select name="Pria" id="Pria">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="4">5</option>
+                                <option value="4">6</option>
+                                <option value="4">7</option>
+                                <option value="4">8</option>
+                                <option value="4">9</option>
+                                <option value="4">10</option>
+                            </select>
+                        </span>
+                        Wanita
+                        <span>
+                            <select name="Wanita" id="Wanita">
+                                <option value="0"></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="4">5</option>
+                                <option value="4">6</option>
+                                <option value="4">7</option>
+                                <option value="4">8</option>
+                                <option value="4">9</option>
+                                <option value="4">10</option>
+                            </select>
+                        </span>
+                        Bayi/Balita
+                        <span>
+                            <select name="Bayi/Balita" id="Bayi/Balita">
+                                <option value="0"></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="4">5</option>
+                                <option value="4">6</option>
+                                <option value="4">7</option>
+                                <option value="4">8</option>
+                                <option value="4">9</option>
+                                <option value="4">10</option>
+                            </select>
+                        </span>
+                    </p>
+                    <br/>
+                    <label class="font-semibold">Kelas Tiket</label>
+                    <input type="text" placeholder="pilih semua kelas" id="kelas" name="kelas" required class="mb-4 border-0 border-b-2 p-3 shadow-3xl w-full">
+                    <br/>
+                    <button class="px-10 py-2 bg-blue-600 hover:bg-blue-800 p-3 rounded-md text-white font-bold duration-200 mb-4">Pesan</button>
+                    <span><a href="#" class="text-gray-400">Cek Pemesanan</a></span> 
+                </form>
+        </div>
+    </main>
+    <footer class="bg-black text-white text-center font-bold">
+        <p>copyright ©2023 PT Walet Indonesia. All right reserved.</p>
+    </footer>
+</body>
+</html>
