@@ -1,6 +1,9 @@
 Disini saya membuat website Profile mengenai "Sanggar Tari Langgeng Sari" ditambahkan dengan salah satu penari terbaik di Indonesia yaitu "Sandrina Azzahra" dengan menggunakan HTML, CSS, Tailwind, dan Java Script.
 Mohon dimaklumi jika kesan codingannya berantakan.
 
+# CI/CD 
+https://dillayusira.github.io/assdillaysr/ 
+
 # 1. HTML
 
 <!DOCTYPE html>
