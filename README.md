@@ -45,16 +45,16 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | -------- | -------- | -------- |-------- |
 | Kelompok 01 | Ahmad Karta Nugraha | Galuh | Website Perfilman |
 | Kelompok 02 | Afifah Naufal Rahmani | Nizar | Kesehatan/RS/Puskes |
-| Kelompok 03 | Haitsam | Resqi | BL |
+| Kelompok 03 | Haitsam | Resqi | Presensi |
 | Kelompok 04 | Rendy | Indah | Skincare Perwatan |
 | Kelompok 05 | Hadzik | Hadi & Nesya | Perpustakaan Digital|
 | Kelompok 06 | Miqdam | Bagus | Rekomendasi Komik Digital|
-| Kelompok 07 | Dilla | Reva | BL |
+| Kelompok 07 | Dilla | Reva | Destinasi Wisata |
 | Kelompok 08 | Raka | Savana | Konsultasi Doktermu Dokterku|
 | Kelompok 09 | Efendi | Ode Andi | Reservasi Tiket Pesawat |
 | Kelompok 10 | Hafizh | Muflih | E-Commerce Penjualan |
 | Kelompok 11 | Rifky | Marselius | PMB |
-| Kelompok 12 | Adi | Nurfanis | BL|
+| Kelompok 12 | Adi | Nurfanis | Rental Mobil|
 
 # Progress - Rencana Pembelajaran Semester (RPS) 
 1. Pengenalan ke Logika Pemrograman (Programming Logic 101)
