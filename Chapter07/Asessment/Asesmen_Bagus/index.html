@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+       <!-- FavIcon -->
+      <link rel="shortcut icon" href="public/assets/icon/nmr.png" type="image/x-icon" />
+      
+       <!-- Font Awesome CDN -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+       <!-- Font Inter -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+       
+       <!-- Jonsuh -->
+      <link rel="stylesheet" href="src/dist/css/hamburgers.css">
+
+       <!-- CSS -->
+      <link rel="stylesheet" href="src/dist/css/output.css" />
+      <title>AbookS | Discover and Understand</title>
+   </head>
+   <body>
+     
+       <!-- Navbar -->
+      <div class="navbar px-4 py-3">
+         <div class="container mx-auto">
+            <div class="navbar-box flex items-center justify-between">
+               <div class="logo flex items-center gap-x-2">
+                  <img src="public/assets/ALogo.png" alt="logo Alogo css" class="md:w-16 w-12">
+                  <h1 class="font-bold md:text-2xl text-xl">AbookS</h1> 
+               </div>
+               <ul class="menu flex gap-x-7 items-center font-bold md:static absolute z-10 top-24 left-0 md:flex-row flex-col md:bg-transparent bg-green-800 md:w-auto w-full">
+                  <li class="py-4 w-full text-center"><a href="#" class="hover:text-green-600">Home</a></li>
+                  <li class="py-4 w-full text-center"><a href="#" class="hover:text-green-600">About</a></li>
+                  <li class="py-4 w-full text-center"><a href="#" class="hover:text-green-600">Services</a></li>
+                  <li class="py-4 w-full text-center"><a href="#" class="hover:text-green-600">Library</a></li>
+                  <li class="py-4 w-full text-center"><a href="#" class="hover:text-green-600">Contact</a></li>
+                  <div class="opacity-50 md:block hidden">|</div>
+                  <i class="fa-brands fa-github text 2xl md:block hidden cursor-pointer hover:text-green-600"></i>
+               </ul>
+
+               <div class="md:hidden block">
+                  <button class="hamburger hamburger--spring" type="button">
+                     <span class="hamburger-box">
+                       <span class="hamburger-inner bg-green-600 before:bg-green-600 after:bg-green-600"></span>
+                     </span>
+                   </button>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Navbar -->
+
+      <!-- Header -->
+      <div class="header min-h-screen flex items-center">
+         <div class="container mx-auto px-4">
+            <div class="header-box flex lg:flex-row flex-col items-center gap-10">
+               <div class="box lg:w-1/2 lg:order-1 order-2 lg:text-left text-center">
+               <h1 class="font-extrabold md:text-4xl sm:text-3xl text-2x1 text-slate-900 mb-4">Search, find, read, and share your opinions with no restrictions on ideas.</h1>
+               <p class="mb-4 text-slate-600 md:text-base sm:text-sm text-xs">At AbookS, a vast world of words and knowledge is at your fingertips. Discover thousands of books from various genres and start your journey of knowledge now. Come, explore the world of literacy with AbookS!</p>
+               <button class="w-48 h-12 bg-green-600 rounded font-bold text-white hover:bg-green-700">Tentang Kami <i class="fa-solid fa-question ml-2"></i></button>
+            </div>
+            <div class="box lg:w-1/2 lg:order-2 order-1 lg:pt-0 pt-0">
+               <img src="public/assets/image/Book.svg" alt="undraw.co" class="xl:w-[500px] lg:w-[400px] md:w-[300px] sm:w-[250px] w-[250px] block ml-auto" />
+            </div>
+         </div>
+      </div>
+   </div>
+   
+       <!-- JS -->
+      <script>
+         const hamburger = document.querySelector(".hamburger");
+         const menu = document.querySelector(".menu");
+
+         hamburger .addEventListener("click",() => {
+         hamburger.classList.toggle("is-active");
+
+         menu.classList.toggle("menu-active")
+         });
+      </script>
+   </body>
+</html>
