@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Belajar CSS grid dan Selector</title>
+        <style>
+            .container {
+                display: grid;
+                grid-template-columns: repeat(4, 2rf);
+                gap: 10px;
+            }
+            .item {
+                background-color: rgba(21, 255, 13, 0.697);
+                color: #fa9600;
+            }
+            .special {
+                background-color: #dffffb;
+            }
+            .unique {
+                background-color: #f0f5fa;
+            }
+            .container p {
+                font-style: arial;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Belajar CSS GRID dan Selector By Efendi</h1>
+        <div class="container">
+            <div class="part">part 1</div>
+            <div class="part">part 2</div>
+            <div class="part special">part special</div>
+            <div class="part">part 3</div>
+            <div class="part">part 4</div>
+        </div>
+        <p>Mesin RPL adalah metode terbaik</p>
+        <p>Membantu Produktivitas</p>
+    </body>
+</html>

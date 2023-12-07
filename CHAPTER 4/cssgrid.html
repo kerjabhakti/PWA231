@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width-device-width, initial-scale-1.0" />
+        <title>CSS Grid dan Selector</title>
+        <style>
+            .container {
+                display: grid;
+                grid-template-columns: repeat(3 , 1fr);
+                gap: 15px;
+            }
+            .item {
+                background-color: coral;
+                color: black;
+                padding: 25px;
+                text-align: center;
+                font-size: 20px;
+            }
+            .special {
+                background-color: aqua;
+            }
+            #unique {
+                background-color: blue;
+            }
+            .container {
+                font-style: oblique;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS Grid dan Selector</h1>
+        <div class="container">
+            <div class="item">item 1</div>
+            <div class="item">item 2</div>
+            <div class="item special">item 3 (special)</div>
+            <div class="item">item 4</div>
+            <div class="item">item 5</div>
+            <div class="item" id="unique">item 6 (unique)</div>
+        </div>
+        <p>ini adalah contoh teks dalam class "container"</p>
+        <p>ini adalah contoh teks di luad class "container"</p>
+    </body>
+</html>

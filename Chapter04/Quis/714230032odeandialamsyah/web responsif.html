@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tampilan Website Responsif</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: blanchedalmond;
+        }
+
+        header {
+            background-color: blueviolet;
+            color: aliceblue;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: aqua;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: aliceblue;
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .main-content {
+            flex: 70%;
+        }
+
+        .sidebar {
+            flex: 30%;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .main-content,
+            .sidebar {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Belajar Pemprograman</h1>
+        <p>Selamat datang di kursus pemprograman saya</p>
+    </header>
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Tentang Kami</a>
+        <a href="#">Kursus</a>
+        <a href="#">Kontak</a>
+    </nav>
+    <div class="container">
+        <div class="main-content">
+            <h2>Selamat Datang di Web Belajar Coding</h2>
+            <p>
+            Disini kita akan mulai belajar dari dasar secara bersama-sama. Jadi ayo kita Have Fun bersama-sama sambil belajar.
+            </p>
+        </div>
+    </div>
+    <div class="sidebar">
+        <h3>Dasar Pemprograman</h3>
+        <ul>
+            <li><a href="BoxShadowandAnimation.html">Belajar Box Shadow</a></li>
+            <li><a href="pading table.html">Belajar Pading</a></li>
+        </ul>
+    </div>
+    <nav>
+        <a href="#">Hak Cipta Dilindungi</a>
+    </nav>
+</body>
+</html>
