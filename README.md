@@ -17,7 +17,7 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | 714230003 | Resqi Aulia Gita Utami | | |100 |
 | 714230005  | Reva Andini Busra| | |90 |
 | 714230007  | Muhammad Nizar Akmal | | | 100 |
-| 714230011  | Marselinus Naisau | | | |
+| 714230011  | Marselinus Naisau | | | 65|
 | 714230012  | Muflih Afif Mukhtalif | | | 100|
 | 714230015  | Dilla Yusira Putri | | |85|
 | 714230018  | Efendi Sugiantoro | | | |
@@ -26,16 +26,16 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | 714230022  | Nurfanis Rosman | | | |
 | 714230023  | Ananda Raka Aditya Wilangga | | | 100 |
 | 714230025  | Rifky Najra Adipura | | | 100 |
-| 714230026  | Afifah Naufal Rahmani | | | |
+| 714230026  | Afifah Naufal Rahmani | | | 80|
 | 714230028  | Nesya Salma Ramadhani | | |95|
 | 714230030  | Rendy Kamaluddin | | |90 |
 | 714230031  | Hafizh Fakhri Muharram | | | 100|
-| 714230032  | Ode Andi Alamsyah | | | |
+| 714230032  | Ode Andi Alamsyah | | | 70|
 | 714230035  | Ahmad Karta Nugraha | | |100 |
-| 714230039  | Indah Diva Gracia | | | |
+| 714230039  | Indah Diva Gracia | | | 65|
 | 714230040  | Hadzik Mochamad Sofyan | | | 100 |
-| 714230041  | Muhamad Adi Apriansyah | | | |
-| 714230042  | Savana Zahra Humaira | | | |
+| 714230041  | Muhamad Adi Apriansyah | | |60 |
+| 714230042  | Savana Zahra Humaira | | |60 |
 | 714230043  | Miqdam Syiam Nurrohman | | | 100 |
 
 # Data Kelompok
