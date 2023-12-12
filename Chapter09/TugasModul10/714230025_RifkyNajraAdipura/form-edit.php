@@ -11,36 +11,8 @@
         $agama          = $data['agama'];
         $sekolah_asal   = $data['sekolah_asal'];
     }
-
-    if (isset($_POST['update'])) {
-        $nama           = $_POST['nama'];
-        $alamat         = $_POST['alamat'];
-        $jenis_kelamin  = $_POST['jenis_kelamin'];
-        $agama          = $_POST['agama'];
-        $sekolah_asal   = $_POST['sekolah_asal'];
-
-        $sql_update = "UPDATE 
-                        pendaftaran 
-                    SET
-                        nama = '$nama',
-                        alamat = '$alamat',
-                        jenis_kelamin = '$jenis_kelamin',
-                        agama = '$agama',
-                        sekolah_asal = '$sekolah_asal'
-                    WHERE
-                        id = '$id'";
-
-        $return = mysqli_query($db, $sql_update);
-        if (!$return) {
-            die("Gagal Edit Mahasiswa Baru!");
-        }
-        echo "<script>
-                alert('Berhasil Edit Mahasiswa Baru');
-                document.location.href = 'list-maba.php';
-            </script>";
-        }
-
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,7 +25,7 @@
         <h3>Edit Pendaftaran Mahasiswa Baru | ULBI</h3>
     </header>
 
-    <form action="" method="post">
+    <form action="proses-edit.php?id=<?=$id ?> " method="post">
         <fieldset>
             <p>
                 <label for="nama">Nama: </label>
@@ -84,6 +56,7 @@
             </p>
             <p>
                 <input type="submit" value="Update" name="update">
+                
             </p>
         </fieldset>
     </form>
