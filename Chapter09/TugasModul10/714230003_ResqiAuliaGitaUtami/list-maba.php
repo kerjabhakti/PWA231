@@ -13,7 +13,7 @@
     </header>
 
     <nav>
-    <a href="fporm-daftar.php">[+] Tambah Data</a>
+    <a href="form-daftar.php">[+] Tambah Data</a>
     </nav>
 
     <br>
@@ -47,7 +47,7 @@
             
             echo "<td>";
             echo "<a href='form-edit.php?id=".$maba['id']."'>Edit</a> | ";
-            echo "<a href='form-edit.php?id=".$maba['id']."'>Hapus</a>";
+            echo "<a href='hapus.php?id=".$maba['id']."'>Hapus</a>";
             echo "</td>";
             echo "</tr>";
         }

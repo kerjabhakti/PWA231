@@ -18,6 +18,12 @@
         <li><a href="list-maba.php">Pendaftaran</a></li>
     </ul>  
 </nav>  
-
+<br>
+<!-- pesan jika data pendaftar berhasil berhasil ditambahkan -->
+<?php
+    if (isset($_GET['status']) == '1') {
+        echo "<b>Pendaftaran Mahasiswa Baru POLTEKPOS Telah Berhasil!</b>";
+    }
+?>
 </body>
 </html>

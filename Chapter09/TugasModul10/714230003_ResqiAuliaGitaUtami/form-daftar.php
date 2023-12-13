@@ -10,11 +10,11 @@
         <h3>Formulir Pendaftaran Mahasiswa Baru | POLTEKPOS</h3>
     </header>
 
-    <form action="proses-pendaftaran.php" method="POST">
+    <form action="proses-daftar.php" method="POST">
         <fieldset>
         <p>
             <label for="nama">Nama: </label>
-            <input type="text" name="nama" placehorder="nama lengkap"/>
+            <input type="text" name="nama" placeholder="nama lengkap"/>
         </p>
         <p>
             <label for="alamat">Alamat: </label>
@@ -37,7 +37,7 @@
         </p>
         <p>
             <label for="sekolah_asal">Sekolah Asal: </label>
-            <input type="text" name="sekolah_asal" placeholder="name sekolah"/>
+            <input type="text" name="sekolah_asal" placeholder="nama sekolah"/>
         </p>
         <p>
             <input type="submit" value="Daftar" name="daftar"/>

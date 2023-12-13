@@ -2,7 +2,7 @@
 include("config.php");
 
 //cek apakah tombol daftar sudah dikilik atau blum?
-if(isset($_POST['DAFTAR'])){
+if(isset($_POST['daftar'])){
 
     //ambil data dari formulir
     $nama = $_POST['nama'];
