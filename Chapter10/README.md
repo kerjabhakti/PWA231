@@ -79,6 +79,6 @@ Copas disini juga bisa
 </html>
 ```
 
-Buka Pada Browser dengan Mengetikan [locakhost](http://localhost/namaprojectnya/)http://localhost/namaprojectnya/
+Buka Pada Browser dengan Mengetikan http://localhost/namaprojectnya/
 ![image](https://github.com/kerjabhakti/PWA231/assets/15622730/32182e97-b535-4d4b-a361-0f5bc3e719f0)
 
