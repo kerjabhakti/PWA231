@@ -19,7 +19,8 @@
    ![image](https://github.com/kerjabhakti/PWA231/assets/15622730/7839ce3f-85ad-40ca-9e15-cca2de98bc28)
 3. Berikut Source Code JSON nya silahkan sesuaikan hasilnya seperti ini
    ![image](https://github.com/kerjabhakti/PWA231/assets/15622730/847ac8e3-8b6d-4ffb-9827-0707456b42bb)
-   ``` php
+
+   ```php
    {
   "workbench.colorTheme": "Default Light Modern",
   "liveServer.settings.donotShowInfoMsg": true,
