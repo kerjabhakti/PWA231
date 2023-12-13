@@ -62,4 +62,23 @@ Copas disini juga bisa
   "php.validate.executablePath": "C:/xampp/php/php.exe"
 }
 ```
+## membuat File Project Hello World!
+```PHP
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php 
+    echo "Hello World!";
+    ?>
+</body>
+</html>
+```
+
+Buka Pada Browser dengan Mengetikan [locakhost](http://localhost/namaprojectnya/)http://localhost/namaprojectnya/
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/32182e97-b535-4d4b-a361-0f5bc3e719f0)
 
