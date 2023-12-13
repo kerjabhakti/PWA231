@@ -1,4 +1,5 @@
-![image](https://github.com/kerjabhakti/PWA231/assets/15622730/7a12ab90-9e07-4382-9fe5-6512391947fb)# PHP MVC (Model View Controller)
+# PHP MVC (Model View Controller)
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/7a12ab90-9e07-4382-9fe5-6512391947fb)
 ## Langkah yang harus dilakukan :
 1. Yang pertama harus dilakukan adalah pastikan sudah instal XAMPP sesuai versi yang dibutuhkan [https://www.apachefriends.org/download.html](XAMPP)
 2. jalankan Xamppnya
