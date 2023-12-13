@@ -19,6 +19,7 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | 714230007  | Muhammad Nizar Akmal | | | 100 |
 | 714230011  | Marselinus Naisau | | | 65|
 | 714230012  | Muflih Afif Mukhtalif | | | 100|
+| 714230014  | I Bagus Arga Ford | | | |
 | 714230015  | Dilla Yusira Putri | | |85|
 | 714230018  | Efendi Sugiantoro | | | |
 | 714230019  | Hadi Muhammad Yusuf | | |100 |
@@ -37,22 +38,23 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | 714230041  | Muhamad Adi Apriansyah | | |60 |
 | 714230042  | Savana Zahra Humaira | | |60 |
 | 714230043  | Miqdam Syiam Nurrohman | | | 100 |
+| 714230067  | Galuh Sanjaya Putra | | |  |
 
 # Data Kelompok
-| Kelompok | Ketua | Anggota | 
-| -------- | -------- | -------- |
-| Kelompok 01 | Ahmad Karta Nugraha | Galuh |
-| Kelompok 02 | Afifah Naufal Rahmani | Nizar |
-| Kelompok 03 | Haitsam | Resqi |
-| Kelompok 04 | Rendy | Indah |
-| Kelompok 05 | Hadzik | Hadi & Nesya |
-| Kelompok 06 | Miqdam | Bagus |
-| Kelompok 07 | Dilla | Reva |
-| Kelompok 08 | Raka | Savana |
-| Kelompok 09 | Efendi | Nurfanis |
-| Kelompok 10 | Hafizh | Muflih |
-| Kelompok 11 | Rifky | Marselius |
-| Kelompok 12 | Adi | Ode Andi |
+| Kelompok | Ketua | Anggota |  Judul | 
+| -------- | -------- | -------- |-------- |
+| Kelompok 01 | Ahmad Karta Nugraha | Galuh | Website Perfilman |
+| Kelompok 02 | Afifah Naufal Rahmani | Nizar | Kesehatan/RS/Puskes |
+| Kelompok 03 | Haitsam | Resqi | Presensi |
+| Kelompok 04 | Rendy | Indah | Skincare Perwatan |
+| Kelompok 05 | Hadzik | Hadi & Nesya | Perpustakaan Digital|
+| Kelompok 06 | Miqdam | Bagus | Rekomendasi Komik Digital|
+| Kelompok 07 | Dilla | Reva | Destinasi Wisata |
+| Kelompok 08 | Raka | Savana | Konsultasi Doktermu Dokterku|
+| Kelompok 09 | Efendi | Ode Andi | Reservasi Tiket Pesawat |
+| Kelompok 10 | Hafizh | Muflih | E-Commerce Penjualan |
+| Kelompok 11 | Rifky | Marselius | PMB |
+| Kelompok 12 | Adi | Nurfanis | Rental Mobil|
 
 # Progress - Rencana Pembelajaran Semester (RPS) 
 1. Pengenalan ke Logika Pemrograman (Programming Logic 101)
