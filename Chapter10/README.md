@@ -40,4 +40,26 @@
 }
 ```
 
-   
+Tambahkan Routesnya buka XAMPP-PHP
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/ac428cdd-16b0-48a5-8a00-a3facbe8efcd)
+Copas disini juga bisa 
+```json
+{
+  "workbench.colorTheme": "Default Light Modern",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.fontFamily": "Hack, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.fontWeight": "normal",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "window.zoomLevel": 1,
+  "php.validate.executablePath": "C:/xampp/php/php.exe"
+}
+```
+
