@@ -63,4 +63,9 @@ maaf jika web saya berantakan atau terlalu sederhana karna saya masih belajar.
         }
     </style>
 
+
+# ini CI/CD nya
+
+https://afifahnaufal.github.io/assafna/
+
 ## Terimakasih

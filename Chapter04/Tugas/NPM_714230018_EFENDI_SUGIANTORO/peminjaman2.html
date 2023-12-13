@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan Efendi - Peminjaman</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        
+        nav a:hover {
+            background-color: #555;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+        
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        form {
+            margin: 20px 0;
+        }
+        
+        label {
+            display: block;
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="submit"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        
+        textarea {
+            height: 100px;
+        }
+        
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Perpustakaan Efendi - Peminjaman</h1>
+        <nav>
+            <a href="index2.html">Beranda</a>
+            <a href="katalog2.html">Koleksi Buku</a>
+            <a href="#"></a>
+            <a href="pencarian2.html">Pencarian</a>
+            <a href="komen.html">Komentar</a>
+            <a href="tentangkami2.html">Tentang</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Formulir Peminjaman Buku</h2>
+        <form>
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Masukkan alamat email Anda" required>
+
+            <label for="buku">Buku yang ingin dipinjam:</label>
+            <input type="text" id="buku" name="buku" placeholder="Masukkan judul buku" required>
+
+            <label for="tanggal">Tanggal Peminjaman:</label>
+            <input type="text" id="tanggal" name="tanggal" placeholder="Tanggal peminjaman" required>
+
+            <label for="gambar">Upload Gambar Identitas (KTP/Kartu Pelajar):</label>
+            <input type="file" id="gambar" name="gambar" accept="image/*" required>
+
+            <input type="submit" value="Ajukan Peminjaman">
+        </form>
+
+        <h2>Daftar Peminjaman</h2>
+        <table>
+            <tr>
+                <th>Nama Peminjam</th>
+                <th>Email</th>
+                <th>Buku</th>
+                <th>Tanggal Peminjaman</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>johndoe@example.com</td>
+                <td>The Great Gatsby</td>
+                <td>2023-10-30</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>janesmith@example.com</td>
+                <td>Dari Orang Biasa Jadilah Pahlawan</td>
+                <td>2023-11-05</td>
+            </tr>
+        </table>
+
+        <h2>Gambar Peminjam</h2>
+        <a href="#"><img src="link_gambar.jpg" alt="Gambar Peminjam"></a>
+    </div>
+</body>
+
+</html>
