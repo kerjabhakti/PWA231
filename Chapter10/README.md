@@ -1,4 +1,4 @@
-![image](https://github.com/kerjabhakti/PWA231/assets/15622730/7a12ab90-9e07-4382-9fe5-6512391947fb)# PHP MVC (Model View Controller)
+# PHP MVC (Model View Controller)
 ## Langkah yang harus dilakukan :
 1. Yang pertama harus dilakukan adalah pastikan sudah instal XAMPP sesuai versi yang dibutuhkan [https://www.apachefriends.org/download.html](XAMPP)
 2. jalankan Xamppnya
@@ -81,4 +81,29 @@ Copas disini juga bisa
 
 Buka Pada Browser dengan Mengetikan http://localhost/namaprojectnya/
 ![image](https://github.com/kerjabhakti/PWA231/assets/15622730/32182e97-b535-4d4b-a361-0f5bc3e719f0)
+
+# Object Oriented Programming
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/e0257666-bdb7-4cbe-abcc-c972a687ee47)
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/49619c0f-2f97-4923-89a9-6e30c26e7f06)
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/2dc56445-d1bb-4c2a-ad77-b74ee69d82eb)
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/1d5024e9-13cf-4d4b-8921-f1bec8b99c99)
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/46ed3c3a-ff47-42a1-a2bc-fe1d8930d7fa)
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/c7d205a3-612b-43f2-beeb-3b80a9d76157)
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/7aff860b-5d2e-4e12-83bc-f3f3dac1b797)
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/a22aebaf-1db1-413f-8acb-d41a4d01ba02)
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/09ca55f8-0417-46d7-ac0f-1b521ff83ab9)
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/4d8e4dfa-05e0-4bc4-bcc0-af813fe4ee4c)
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/3fbfe97e-a516-4854-8d9d-f868c3ea7404)
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/d488a9c5-83a5-4285-8553-00b170af7321)
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/bc8c8e19-dfb7-461d-99bb-ac6757b35e83)
+![image](https://github.com/kerjabhakti/PWA231/assets/15622730/07efe811-6afe-49b1-87aa-560e326c8404)
+
+
+
+
+
+
+
+
+
 
