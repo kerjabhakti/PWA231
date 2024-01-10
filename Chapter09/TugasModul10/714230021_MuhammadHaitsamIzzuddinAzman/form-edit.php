@@ -1,4 +1,4 @@
-[18.07, 13/12/2023] Rajif: <?php
+<?php
 include "config.php";
 $id = $_GET['id'];
 $sql = "SELECT * FROM pendaftaran WHERE id=$id";
