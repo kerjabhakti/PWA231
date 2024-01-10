@@ -43,7 +43,7 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 # Data Kelompok
 | Kelompok | Ketua | Anggota |  Judul | 
 | -------- | -------- | -------- |-------- |
-| Kelompok 01 | Ahmad Karta Nugraha | Galuh | Website Perfilman |
+| Kelompok 01 | Ahmad Karta Nugraha | Galuh | Nilai Mahasiswa |
 | Kelompok 02 | Afifah Naufal Rahmani | Nizar | Kesehatan/RS/Puskes |
 | Kelompok 03 | Haitsam | Resqi | Presensi |
 | Kelompok 04 | Rendy | Indah | Skincare Perwatan |
