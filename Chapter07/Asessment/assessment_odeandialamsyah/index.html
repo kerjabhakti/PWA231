@@ -8,24 +8,35 @@
     <title>ASEESMENT E-LEARNING</title>
 </head>
 <body>
+    <script>
+        function myFunction() {
+          alert("Saya adalah kotak peringatan!");
+        }
+    </script>
+    <script>
+        alert("Hello\nHow are you?");
+    </script>
+<div>
+   <nav class="flex top-0 sticky ml-3 text-xl font-semibold pt-12 px-3 bg-blue-500 w-full h-32">
+        <ul class="flex-1">
+            <li class="inline-block pl-3 text-white hover:underline">
+                <a href="">Call us : +62 813-0000-0000</a>
+            </li>
+            <li class="list-none inline-block text-white hover:underline">
+                <a href="">E-mail : baak@ulbi.ac.id</a>
+            </li>
+        </ul>
+        <ul class="flex list-none inline-block hover:underline"> 
+            <li>
+                <a class="ml-3" href="">Menu</a>
+            </li>
+            <li>
+                <button href="" onclick="myFunction(selamat_datang)" class="text-white pr-3">Log In</button>
+            </li>
+        </ul>
+    </nav>
     <div class="container inline">
-        <nav class="flex py-7 px-3 bg-blue-500 w-full h-20">
-            <ul class="flex-1">
-                <li class="inline-block hover:underline">
-                    <a href="">Call us : +62 813-0000-0000</a>
-                </li>
-                <li class="list-none inline-block hover:underline">
-                    <a href="">E-mail : baak@ulbi.ac.id</a>
-                </li>
-            </ul>
-            <ul class="list-none inline-block hover:underline"> 
-                <li>
-                    <a href="">Log In</a>
-                </li>
-            </ul>
-        </nav>
-
-        <nav class="flex  py-7 px-3 bg-white w-full h-20">
+        <nav class="flex  py-7 px-3 mb-10 bg-white w-full h-20">
             <ul class="flex-1">
                 <li class="inline-block ">
                     <a href="#" class="">
@@ -42,7 +53,7 @@
             </ul>
         </nav>
 
-        <div class="bg-white flex-col mt-10 mb-10">
+        <div class="bg-white flex-col pt-5 mb-10">
             <img id="Elearning" src="image/asx.jpg" class="h-96 w-full px-72">
             <div class="w-full flex justify-center">
                 <button class="text-white w-20 mr-4 bg-gray-400 hover:bg-gray-500 p-3 rounded-xl font-semibold" onclick="document.getElementById('Elearning').src='image/asx.jpg'"> < </button>
@@ -64,19 +75,29 @@
             </ul>
         </div>
     </div>
-
-    <footer class="flex-col text-white text-center h-11 ">
-        <div class="bg-gray-800">
-            <div class="m-0 pb-3 pt-3">
+</div>
+<div>
+    
+</div>
+    <footer class="text-white text-center h-11 ">
+        <div class="flex justify-center shadow-xl bg-gray-700">
+            <div class="mx-3 pb-16 pt-16">
                 <h3 class="underline text-black font-bold">E-learning</h3>
                 <ul>
                     <li><a href="#" class="text-white cursor-pointer hover:text-orange-400">Sekolah Vokasi</a></li>
                     <li><a href="#" class="text-white cursor-pointer hover:text-orange-400">FLTB</a></li>
                </ul>
             </div>
-            <div class="bg-black text-orange-400 h-6">
-                <p>Copyright 2023 E-Learning ULBI. All right reserved </p>
+            <div class="mx-3 pb-16 pt-16">
+                <h3 class="underline text-black font-bold">E-learning</h3>
+                <ul>
+                    <li><a href="#" class="text-white cursor-pointer hover:text-orange-400">Sekolah Vokasi</a></li>
+                    <li><a href="#" class="text-white cursor-pointer hover:text-orange-400">FLTB</a></li>
+               </ul>
             </div>
+        </div>
+        <div class="bg-zinc-800 pt-10 pb-12 text-orange-400">
+            <p>Copyright 2023 E-Learning ULBI. All right reserved </p>
         </div>
     </footer>
 </body>
