@@ -208,13 +208,20 @@
             </tr>
         </tbody>     
     </table>
+    <p id="tabelPresensi" class="font-semibold text-lg">Total Hadir: <span id="totalHadir">0</span></p>
+    <p id="tabelPresensi" class="font-semibold text-lg">Total Alpa: <span id="totalAlpa">0</span></p>
+    <p id="tabelPresensi" class="font-semibold text-lg">Total Izin: <span id="totalIzin">0</span></p>
     <script>
+        var totalHadir = 0;
+        var totalAlpa = 0;
+        var totalIzin = 0;
         function setHadir(row) {
             var table = document.getElementById('tabelPresensi');
             var rowElement = table.rows[row];
             rowElement.classList.remove('alpa');
             rowElement.classList.remove('izin');
             rowElement.classList.add('hadir');
+            updateCount();
         }
         function setAlpa(row) {
             var table = document.getElementById('tabelPresensi');
@@ -222,6 +229,7 @@
             rowElement.classList.remove('hadir');
             rowElement.classList.remove('izin');
             rowElement.classList.add('alpa');
+            updateCount();
         }
         function setIzin(row) {
             var table = document.getElementById('tabelPresensi');
@@ -229,6 +237,15 @@
             rowElement.classList.remove('hadir');
             rowElement.classList.remove('alpa');
             rowElement.classList.add('izin');
+            updateCount();
+        }
+        function updateCount() {
+            totalHadir = document.querySelectorAll('.hadir').length;
+            totalAlpa = document.querySelectorAll('.alpa').length;
+            totalIzin = document.querySelectorAll('.izin').length;
+            document.getElementById('totalHadir').innerText = totalHadir;
+            document.getElementById('totalAlpa').innerText = totalAlpa;
+            document.getElementById('totalIzin').innerText = totalIzin;
         }
     </script>
     <footer class="bg-black text-white text-center h-6 font-bold opacity-60">
