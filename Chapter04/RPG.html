@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum Game Terraria</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            overflow: hidden;
+            background:
+url('https://i.pinimg.com/736x/da/d2/93/dad2930523d2bf840655d863286930fc.jpg')
+no-repeat center center fixed;
+            background-size: cover;
+        }
+
+         .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(22, 9, 29, 0.349);
+            pointer-events: none;
+        }
+
+         header {
+            position: relative;
+            text-align: center;
+            padding: 20px 0;
+            color: #fff;
+        }
+
+        hl {
+           font-size: 36px;
+           font-weight: bold;
+           margin: 0; 
+        }
+         nav {
+            text-align: center;
+            margin-top:  20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            background-color: #007BFF;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: 500;
+            margin: 5px 10px;
+            transition: background-color 0.3s;
+            position: relative;
+        }
+        
+        nav a:hover {
+            background-color: #0056b3;
+        }
+
+        nav a::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(22, 9, 29, 0.349);
+            border-radius: 5px;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0,3s;
+        }
+
+        nav a:hover::after {
+            opacity: 1;
+        }
+
+        .main-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 10px;
+        }
+
+        .description {
+            background-color: #ffffffa1;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .lore-terraria {
+            background-color: #ffffffa1;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .tips-trik-terraria {
+            background-color: #ffffffa1;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        .scroll-container {
+            height: 100vh;
+            overflow-y: auto;
+        }
+
+        .about-container {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .sticky-header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(22, 9, 29, 0.8);
+        }
+
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            z-index: 101;
+        }
+
+        .sticky-title {
+            position: sticky;
+            top: 0;
+            z-index: 102;
+            background: rgba(22, 9, 29, 0.8);
+            text-align: center;
+            padding: 10px 0;
+            font-size: 28px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay" ></div>
+
+    <header class="sticky-header">
+        <h1>Forum Game Terraria</h1>
+    </header>
+    
+    <nav class="sticky-nav">
+        <a href="BERANDA.html">Beranda</a>
+        <a href="MASUK.html">Masuk</a>
+        <a href="RESGISTRASI.html">Registrasi</a>
+        <a href="KONTAK.html">Kontak</a>
+    </nav>
+    <br>
+    <br>
+    <div class="scroll-container">
+        <div class="main-container">
+             <section class="lore-terraria about-container">
+                <h2>Informasi tentang Terraria</h2>
+                <p>
+                    Dalam permainan Terraria, Anda akan memulai petualangan di dunia yang penuh misteri. Beberapa elemen lore yang mungkin Anda temui dalam permainan ini termasuk asal-usul karakter pemain, cerita NPC, latar belakang bos, penghuni Dungeon, biome khusus, petunjuk visual, dan petunjuk tertentu.
+                    Lore Terraria memungkinkan pemain untuk menjelajahi dan membuat narasi mereka sendiri dalam dunia yang luas dan penuh tantangan ini.
+                </p>
+                <p>
+                    Pembukaan Portal: Permainan dimulai dengan karakter pemain yang tiba di dunia Terraria melalui portal misterius yang membawa mereka ke tempat tersebut. Ini adalah satu-satunya informasi yang diberikan tentang asal-usul karakter Anda.
+                </p>
+                <p>
+                    NPCs dan Desa: NPC (Non-Player Characters) dalam permainan memiliki cerita-cerita kecil tentang diri mereka sendiri. Misalnya, Guide adalah salah satu NPC pertama yang Anda temui, dan dia memberikan informasi tentang dunia Terraria. NPC lainnya seperti Demolitionist, Arms Dealer, dan Nurse juga memiliki cerita latar belakang mereka sendiri.
+                </p>
+                <p>
+                    Bos: Beberapa bos dalam permainan memiliki sedikit latar belakang cerita, seperti Eye of Cthulhu, yang terkait dengan entitas jahat dalam dunia Terraria. Wall of Flesh adalah makhluk besar yang memiliki latar belakang kultus yang kuat.
+                </p>
+                <p>
+                    Penghuni Dungeon: Dungeon adalah tempat yang penuh misteri di dunia Terraria, dihuni oleh Skeletron, yang merupakan bos pelindungnya. Skeletron tampaknya memiliki hubungan dengan karakter-karakter lain di dunia.
+                </p>
+                <p>
+                    Biome Khusus: Setiap biome di Terraria memiliki nuansa dan elemen cerita tersendiri. Misalnya, Corruption adalah biome yang dipengaruhi oleh kekuatan gelap, sementara Hallow adalah biome yang dipenuhi dengan energi suci.
+                </p>
+                <p>
+                    Bukti-bukti Visual: Anda dapat menemukan petunjuk tentang cerita dunia dalam elemen visual, seperti gambar di latar belakang, struktur, dan seni seni.
+                </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+             </section>
+             <section class="tips-trik-terraria about-container">
+                <h2>Tips & Trik Bermain Terraria</h2>
+                <ul>
+                    <li><strong>Mulailah dengan Membangun Rumah:</strong> Setelah Anda tiba di dunia Terraria, langkah pertama adalah membangun rumah sederhana. Rumah ini akan melindungi Anda dari monster dan menyediakan tempat tinggal untuk NPC (Non-Player Characters).</li>
+                    <li><strong>Eksplorasi Awal:</strong> Jelajahi dunia dengan teliti sejak awal. Kumpulkan sumber daya seperti kayu, batu, dan bijih. Ini akan berguna untuk membangun, membuat peralatan, dan membuat senjata.</li>
+                    <li><strong>Bangun Ruangan Terpisah untuk NPC:</strong> Setiap NPC memerlukan rumah yang cukup besar dengan peralatan dasar. Pastikan Anda membangun ruangan yang cukup untuk menarik NPC ke dunia Anda.</li>
+                    <li><strong>Perbaiki dan Tingkatkan Peralatan Anda:</strong> Gunakan tempa dan stasiun kerajinan untuk memperbaiki dan meningkatkan peralatan Anda. Senjata dan peralatan yang kuat akan membantu Anda dalam pertempuran melawan bos dan monster.</li>
+                    <li><strong>Eksplorasi Dungeon dan Caves:</strong> Dungeon menyediakan banyak harta dan peluang untuk meningkatkan karakter Anda. Juga, menjelajahi gua akan membantu Anda menemukan bijih, harta, dan sumber daya berharga.</li>
+                    <li><strong>Bertani dan Kebun Bawah Tanah:</strong> Anda bisa membuat kebun bawah tanah yang akan memberikan Anda sumber daya tanaman yang berharga. Ini juga dapat berguna untuk meracik ramuan dan obat-obatan.</li>
+                    <li><strong>Perbaiki Perlindungan Diri:</strong> Selalu memiliki peralatan pelindung seperti baju besi dan perlengkapan yang sesuai untuk pertempuran. Pastikan Anda juga memiliki persediaan kesehatan yang cukup.</li>
+                    <li><strong>Jelajahi Dunia Malam dan Bawah Tanah:</strong> Malam dan dunia bawah tanah adalah tempat di mana Anda akan menemukan banyak monster dan harta. Persiapkan diri Anda dengan senjata yang kuat, lilin, dan peralatan cahaya.</li>
+                    <li><strong>Hadapi Bos:</strong> Bos adalah tantangan besar dalam Terraria. Hadapi mereka dengan peralatan yang sesuai dan strategi yang baik.</li>
+                    <li><strong>Gunakan Wormholes (Wormhole Potions):</strong> Wormholes adalah cara cepat untuk berpindah antar pemain dalam game multiplayer. Mereka sangat berguna untuk bermain bersama teman-teman Anda.</li>
+                </ul>
+             </section>
+        </div>
+    </div>
+</body>
+</html>

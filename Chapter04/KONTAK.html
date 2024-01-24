@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .video-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        video {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(22, 9, 29, 0.349);
+            pointer-events: none;
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+            padding: 20px 0;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            background-color: #007BFF;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: 500;
+            margin: 5px 10px;
+            transition: background-color 0.3s;
+            position: relative;
+        }
+
+        nav a:hover{
+            background-color: #0056b3;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(22, 9, 29, 0.349);
+            border-radius: 5px;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+        }
+
+        nav a:hover::after {
+            opacity: 1;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 100px);
+        }
+
+        section {
+            background-color: #ffffffa1;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-bg">
+        <video autoplay loop muted>
+            <source src="https://v.ftcdn.net/01/25/34/36/700_F_125343611_0kPrCarU7KU5cdEClVMkkJDTyEPJr9Ji_ST.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="overlay"></div>
+
+    <header>
+        <h1>Kontak Kami</h1>
+    </header>
+
+    <nav>
+        <a href="BERANDA.html">Beranda</a>
+        <a href="MASUK.html">Masuk</a>
+        <a href="RESGISTRASI.html">Registrasi</a>
+        <a href="KONTAK.html">Kontak</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Hubungi Kami</h2>
+            <p>Silahkan hubungi kami jika Anda memiliki pertanyaan, saran, atau kebutuhan lain yang dapat kami bantu.</p>
+
+            <form action="SubmitKontak.php" method="post">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="pesan">Pesan:</label>
+                <textarea name="pesan" id="pesan" required></textarea>
+                <br>
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Informasi Kontak Admin</h2>
+            <p>Anda juga dapat menghubungi Kami langsung dengan menggunakan informasi kontak di bawah ini:</p>
+
+            <address>
+                <p><strong>Alamat:</strong>Kota Bandung, Jl. Cihanjuang, Blok B, No 1</p>
+                <p><strong>Email:</strong>Sezuko2006@gamil.com</p>
+                <p><strong>Telepon:</strong>(+62)821-1961-9162</p>
+            </address>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Forum Game. All rights reserved</p>
+    </footer>
+</body>
+</html>
